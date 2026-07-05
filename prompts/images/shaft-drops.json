@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "vertical mine shaft drop at a hard-rock claim outside French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mine hazard and rescue pressure",
+    "output_path": "regions/images/shaft-drops.png",
+    "paired_page_path": "regions/shaft-drops.md",
+    "issue_title": "Image: Shaft Drops",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining and extractive labor pressure in the Whiskeytown area."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-era settlement material and gold-rush context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a cribbed mine shaft collar with rope ladder, windlass frame, frayed rope, lantern light, loose rock, and miners arguing over a rescue",
+    "scene": "dusty late afternoon at a claim; one miner kneels by rope marks while another holds a lamp over the dark drop, no readable signs or labels",
+    "composition": "square danger scene looking across the shaft mouth with the black drop centered, workers and tools arranged around the collar",
+    "camera": "low over-the-shoulder view from the shaft edge, close enough to read rope fibers and cribbing",
+    "material_cues": [
+      "cribbed timber",
+      "frayed hemp rope",
+      "rope-burn scars",
+      "windlass iron",
+      "loose rock",
+      "lantern soot",
+      "muddy boot marks",
+      "dusty ore sacks"
+    ],
+    "hand_cut_note": "Make the black drop feel dangerous without hiding the useful evidence around it.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine mine hazard scene",
+      "render_traits": [
+        "slightly simplified miners, shaft collar, windlass, rope, lamp, and rock piles",
+        "modest texture resolution on timber, rope, iron, dust, cloth, rock, and soot",
+        "hard ambient occlusion under cribbing, workers, windlass, tools, and shaft lip",
+        "warm lantern light against harsh dusty exterior shade",
+        "believable 1899 mining tools, clothes, and claim-site clutter",
+        "playable rescue and evidence composition with clear vertical risk"
+      ],
+      "palette": "timber brown, shaft black, rope tan, dust ochre, iron gray, lantern amber, rock blue-gray, and work-cloth brown."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable notices, crate labels, chalk marks, initials, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern hard hats",
+        "electric cap lamps",
+        "steel cage elevator",
+        "warning tape",
+        "plastic helmets",
+        "concrete mine collar",
+        "readable labels",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean museum mine exhibit",
+        "copy of commercial game characters, missions, towns, or logos",
+        "decorative cavern crystals"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The shaft collar, black drop, rope ladder, windlass, miners, loose rock, and rescue tension are readable.",
+      "Every object belongs plausibly to 1899 hard-rock mining.",
+      "The image supports rescue, evidence, labor, hazard, and hidden-cache scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/shaft-drops.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

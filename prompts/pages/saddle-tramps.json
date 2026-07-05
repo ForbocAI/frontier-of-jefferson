@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Fence shadows, road camps, livery yards, and back trails around French Gulch",
+    "rdr_clone_target": "RDR-clone western with camp life, wanted heat, reputation, horse care, and precarious survival",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/saddle-tramps.md",
+    "paired_image_path": "cast/images/saddle-tramps.png",
+    "issue_title": "Page: Saddle Tramps",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Gold rush settlement, road movement, mining towns, and precarious work in the region."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California road-town material, commerce, lodging, and county pressure."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Saddle Tramps cast page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Saddle Tramps",
+      "square image reference immediately after the title",
+      "opening blockquote with invented road-camp note, coffee saying, or borrowed-name warning generated later",
+      "H2 archetype subtitle in the register of Drift Riders",
+      "one or two compact lore paragraphs introducing them as rootless riders, odd-job hands, thieves, messengers, witnesses, and temporary allies",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four terse signs or habits",
+      "H3 Trail Work",
+      "10 H4 headings, each followed later by a brief playable move, leverage, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Generate saddle tramps as precarious frontier survivors, not comic drifters or noble wanderers.",
+      "Tie future moves to borrowed names, temporary camp, horse care, rumor trade, soft crimes, hunger, hidden mercy, and sudden loyalty.",
+      "Let them move between town, ranch, mine, road camp, tribal edge, and outlaw company without fully belonging anywhere.",
+      "Make them useful to player characters as guides, suspects, allies, liabilities, and mirrors of what a rider can become.",
+      "Do not include final move names or final move text in this JSON."
+    ],
+    "hand_cut_note": "They should carry loneliness without turning noble. A saddle tramp owns what a horse can bear and what the town forgot to ask.",
+    "table_spark": "A saddle-tramp scene should ask what a person will trade for breakfast, a dry blanket, or a name that is not theirs.",
+    "must_preserve": [
+      "Use 1899 western road-camp language only.",
+      "Keep rootlessness practical, human, and morally complicated.",
+      "The generated page must include image path cast/images/saddle-tramps.png.",
+      "No finished page prose, final moves, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred, or fake-tribal framing",
+      "do not make poverty cute or rootlessness decorative",
+      "do not use modern slang, modern gear, vehicles, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about rootless riders, camp pressure, rumor, horse care, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/saddle-tramps.md",
+    "image_reference": "cast/images/saddle-tramps.png",
+    "do_not_write_page_now": true
+  }
+}

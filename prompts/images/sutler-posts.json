@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Road sutler post at a dusty junction outside French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in supply pressure and road commerce",
+    "output_path": "regions/images/sutler-posts.png",
+    "paired_page_path": "regions/sutler-posts.md",
+    "issue_title": "Image: Sutler Posts",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road movement, mining communities, and supply pressure."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining commerce and merchandise texture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a road sutler post with crates, flour sacks, horse tack, ammunition boxes, and travelers bargaining under a patched awning",
+    "scene": "dusty noon at a road junction; pack mules, water barrel, clerk behind counter, a woman checking a coffee tin, no readable labels",
+    "composition": "square exterior shop plate with goods forming a cluttered frame around tense bargaining; road and pack animals remain visible beyond",
+    "camera": "counter-corner view, close enough to read materials but not text, like an in-engine barter scene",
+    "material_cues": [
+      "patched canvas awning",
+      "flour sacks",
+      "crate slats",
+      "brass cartridges",
+      "leather tack",
+      "dusty glass jars",
+      "water barrel hoops"
+    ],
+    "hand_cut_note": "Make every supply look useful and a little overpriced.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine supply-post scene",
+      "render_traits": [
+        "slightly simplified travelers, mules, clerk, and goods silhouettes",
+        "modest texture resolution on canvas, sacks, wood, leather, brass, and dust",
+        "hard ambient occlusion under crates, awning, counter, and animals",
+        "hot noon light with awning shade",
+        "believable 1899 road supply objects and clothing",
+        "commerce-pressure composition rather than clean shop display"
+      ],
+      "palette": "dust ochre, canvas tan, flour white, leather brown, brass dull gold, awning shadow, mule gray, and hot sky blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable labels, crate markings, prices, signs, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern cash register",
+        "barcode",
+        "plastic packaging",
+        "cars",
+        "neon",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped counter or cropped mule"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The sutler post, goods, travelers, pack mules, counter, and water barrel are readable.",
+      "Every visible prop belongs plausibly to 1899 road commerce.",
+      "The image shows supply pressure rather than clean merchandise display.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/sutler-posts.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

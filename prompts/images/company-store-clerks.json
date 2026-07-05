@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Company store counter in French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in debt, supplies, and company pressure",
+    "output_path": "cast/images/company-store-clerks.png",
+    "paired_page_path": "cast/company-store-clerks.md",
+    "issue_title": "Image: Company Store Clerks",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining commerce, merchandise, courthouse-town material, and store texture."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining communities, settlement, work, and supply pressure."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a company store clerk behind a crowded counter, weighing beans near an open ledger while miners, a ranch woman, and a road hand wait with silent resentment",
+    "scene": "dim store interior; shelves of tools, sacks, canned goods, boots, lamp smoke, wet coats by the door, no readable account book or labels",
+    "composition": "square interior with ledger and brass scale in the foreground, clerk hands centered, customers as tense silhouettes beyond the counter",
+    "camera": "counter-height close view like an in-engine inventory-and-dialogue scene",
+    "material_cues": [
+      "ledger paper with blurred columns",
+      "brass scale pans",
+      "coffee and flour sacks",
+      "tin cans without readable labels",
+      "worn counter wood",
+      "pencil graphite",
+      "lamp soot and damp wool"
+    ],
+    "hand_cut_note": "Make the smallest object, the ledger, feel like the heaviest thing in the room.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine store interior",
+      "render_traits": [
+        "slightly simplified clerk and customer silhouettes",
+        "modest texture resolution on paper, brass, wood, cloth, and sacks",
+        "hard ambient occlusion under counter objects and shelf rows",
+        "warm lamp light cut by cold doorway light",
+        "believable 1899 merchandise and store clothing",
+        "social-pressure composition rather than cozy shop nostalgia"
+      ],
+      "palette": "lamp amber, ledger cream, brass dull gold, sack tan, counter brown, coal shadow, faded calico, and wet-coat gray."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable ledger entries, labels, posters, prices, signs, or brand text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern cash register",
+        "barcode",
+        "plastic packaging",
+        "cars",
+        "neon",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped ledger or cropped scale"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The clerk, ledger, scale, goods, and customers are fully readable.",
+      "Every visible prop and garment belongs plausibly to an 1899 company store.",
+      "The image shows credit pressure rather than cozy commerce.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/company-store-clerks.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

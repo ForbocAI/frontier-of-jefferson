@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Pine pass and long trail out of French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in travel, camp craft, and animal handling",
+    "output_path": "cast/images/rangers-and-trailhands.png",
+    "paired_page_path": "cast/rangers-and-trailhands.md",
+    "issue_title": "Image: Rangers and Trailhands",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer sign and trail context."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Black Bear",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Black-Bear",
+      "use": "Bear sign and camp-food pressure in forest travel."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional road, logging, ranching, and mining travel context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a small line of trailhands and deputy rangers riding through a pine pass with a pack mule, spare horse, and storm weather behind them",
+    "scene": "late afternoon; rough trail, deer sign in damp dirt, bedrolls, rifle scabbards, a mule shifting its load, and no heroic charge",
+    "composition": "square trail procession with riders staggered naturally into depth, landscape larger than them, and the pack mule as the practical center",
+    "camera": "three-quarter rear trail camera like open-world travel gameplay, low enough to read trail objects",
+    "material_cues": [
+      "dusty tack",
+      "pack canvas",
+      "pine shadow",
+      "wool coats",
+      "rifle leather",
+      "mule hair",
+      "wet trail stones"
+    ],
+    "hand_cut_note": "Make them useful before they are dramatic; their heroism is arriving with dry matches.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine travel scene",
+      "render_traits": [
+        "slightly simplified rider, horse, mule, and pine silhouettes",
+        "modest texture resolution on leather, canvas, wool, stone, and bark",
+        "hard ambient occlusion under animals, packs, bedrolls, and trail rocks",
+        "late afternoon light with storm shadow behind",
+        "believable 1899 trail gear and riding clothes",
+        "working-travel composition rather than posed ranger poster"
+      ],
+      "palette": "pine green, trail umber, storm gray, saddle brown, canvas tan, wool blue-gray, mule dark brown, and low sun gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, maps, labels, brands, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern tactical gear",
+        "modern park ranger uniform",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped pack mule or cropped riders"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The trailhands, animals, pack load, trail, deer sign, and storm weather are readable.",
+      "Every visible prop belongs plausibly to 1899 trail travel.",
+      "The image shows practical travel capability rather than a heroic lineup.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/rangers-and-trailhands.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Spring caves, seep water, mineral stains, mine-adjacent hollows, buckets, and disputed water rights in Jefferson country",
+    "rdr_clone_target": "RDR-clone western with hidden water, claim pressure, cave danger, and practical route knowledge",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/spring-caves.md",
+    "paired_image_path": "regions/images/spring-caves.png",
+    "issue_title": "Page: Spring Caves",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, settlement, road travel, and rugged water pressure around Whiskeytown."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Respectful regional grounding for Native presence and long knowledge of local waterways."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Spring Caves region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Spring Caves",
+      "H3 local marker line in the register of Seep Stone, Bucket Rope, and Cold Breath",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: cave object, water or air detail, plain table meaning",
+      "two compact paragraphs establishing spring caves as water source, hiding place, claim pressure, route clue, and physical hazard",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated spring-cave sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate spring caves as practical hidden water, not mystery scenery: seep stone, mineral crust, bucket rope, bad footing, lamp smoke, cold air, and the sound of water behind rock.",
+      "Give the table hooks around a poisoned bucket, disputed water access, a hidden cache, a trapped animal, claim men guarding the mouth, or tracks that vanish on wet stone.",
+      "Include respectful room for Wintu or other Native families who know seasonal water and old routes, without inventing ceremonies, sacred details, or made-up language.",
+      "Make water useful and dangerous; the cave can save a camp, expose a lie, chill a horse, or turn a gunshot deafening."
+    ],
+    "hand_cut_note": "The cave should feel valuable because a thirsty man can count the drops.",
+    "table_spark": "A spring-cave scene should ask who knows the water, who controls the entrance, what was lowered by rope, and what the wet stone kept from showing.",
+    "must_preserve": [
+      "Use 1899 western water, cave, claim, and trail language only.",
+      "The generated page must include image path regions/images/spring-caves.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the cave mystical, sacred-invented, enchanted, or heroic",
+      "do not romanticize Native people or invent cultural details",
+      "do not include modern pumps, plastic buckets, electric lights, safety railings, or recreational cave-tour language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about spring caves as hidden water, hazard, claim pressure, and scene engine.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/spring-caves.md",
+    "image_reference": "regions/images/spring-caves.png",
+    "do_not_write_page_now": true
+  }
+}

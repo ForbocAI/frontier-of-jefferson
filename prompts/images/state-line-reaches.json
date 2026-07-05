@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "windy state-line reach where wagon road, ferry mud, and law papers meet",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in border-country law and road pressure",
+    "output_path": "regions/images/state-line-reaches.png",
+    "paired_page_path": "regions/state-line-reaches.md",
+    "issue_title": "Image: State-Line Reaches",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road movement, settlement, and rural pressure around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Courthouse and law-paper texture for Northern California mining settlements."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a leaning border post at a dusty road fork, a ferry landing below, deputies comparing folded papers, and a freight wagon waiting with nervous riders",
+    "scene": "windy late afternoon; mud clings to the ferry road, one man watches from the brush line, papers are visible but unreadable",
+    "composition": "square border-road scene with the leaning post in foreground, road fork splitting behind it, ferry mud and wagon pressure visible",
+    "camera": "third-person road approach view, close enough to read paper handling and wheel ruts but not text",
+    "material_cues": [
+      "leaning cedar post",
+      "folded warrant paper",
+      "courthouse wax",
+      "ferry rope",
+      "muddy landing",
+      "wagon ruts",
+      "dusty deputy coats",
+      "wind-bent grass"
+    ],
+    "hand_cut_note": "Make the line feel real because people slow down at it, not because the post is grand.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine border-road scene",
+      "render_traits": [
+        "slightly simplified deputies, riders, wagon, border post, road fork, and ferry landing",
+        "modest texture resolution on wood, paper, wax, mud, rope, cloth, leather, and dust",
+        "hard ambient occlusion under wagon wheels, post, boots, ferry rope, and road brush",
+        "windy late-day light with dust and river haze",
+        "believable 1899 law papers, coats, tack, wagon gear, and road objects",
+        "playable jurisdiction scene with visible route choice and social pressure"
+      ],
+      "palette": "dust ochre, cedar gray, paper cream, wax dull red, river mud brown, coat black, rope tan, and pale windy sky."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable border names, paper text, signs, labels, or markings."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern border patrol",
+        "passport booth",
+        "reflective road sign",
+        "asphalt highway",
+        "cars",
+        "radio equipment",
+        "readable paperwork",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean tourist border marker",
+        "copy of commercial game characters, missions, towns, or logos",
+        "abstract symbolic boundary"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The border post, road fork, ferry mud, deputies, papers, wagon, and watching figure are readable.",
+      "Every object belongs plausibly to 1899 road, freight, and law pressure.",
+      "The image supports jurisdiction, fugitive, route-choice, freight-paper, and rumor scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/state-line-reaches.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

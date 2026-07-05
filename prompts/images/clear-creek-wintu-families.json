@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Clear Creek within Wintu homeland near French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in community life, land pressure, and rugged 1899 work",
+    "output_path": "cast/images/clear-creek-wintu-families.png",
+    "paired_page_path": "cast/clear-creek-wintu-families.md",
+    "issue_title": "Image: Clear Creek Wintu Families",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Clear Creek Wintu homeland, villages, acorns, salmon, seasonal movement, fire stewardship, and Gold Rush disruption."
+    },
+    {
+      "title": "Redding Rancheria",
+      "url": "https://www.reddingrancheria-nsn.gov/",
+      "use": "Living Pit River, Wintu, and Yana community context, sovereignty, culture, families, and traditional homelands."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "Wintu family members and neighbors near Clear Creek doing practical camp and food work: baskets, salmon gear, acorn sacks, a horse pack, and a small controlled-burn smoke line far in the background",
+    "scene": "autumn afternoon by oak and creek; everyday 1899 work clothing suited to weather and labor, children and elders present as people, not symbols, with a freight road visible across the water",
+    "composition": "square respectful community scene with no ceremonial posing; creek and oak trees share the frame with people working, talking, watching the road, and keeping their own space",
+    "camera": "human-height documentary game plate, slightly pulled back to give personal space and avoid trophy-like framing",
+    "material_cues": [
+      "oak leaves and acorn sacks",
+      "woven basket texture",
+      "salmon net poles and cordage",
+      "wool shawls and work shirts",
+      "canvas pack sacks",
+      "cool creek stones",
+      "controlled-burn smoke far away, small and practical"
+    ],
+    "hand_cut_note": "Make the dignity come from ordinary competence, kinship, and the fact that this is their place. Do not theatricalize anyone.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD community/environment scene",
+      "render_traits": [
+        "slightly simplified but respectful human silhouettes",
+        "modest texture resolution on basketry, cloth, oak bark, water, and canvas",
+        "hard ambient occlusion under trees, packs, stones, and figures",
+        "warm autumn daylight with cool creek reflection",
+        "believable 1899 work clothing and practical objects",
+        "community-life composition, not posed spectacle"
+      ],
+      "palette": "oak gold, creek blue, earth umber, smoke gray, work-cloth brown, faded red cloth accents, pine green, and warm late sun."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, writing, or invented Native text. Any road papers must be indistinct."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "invented ceremony",
+        "costume spectacle",
+        "modern clothing",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped faces or isolated trophy portrait"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The people, creek, work objects, road, and oak setting are all fully readable.",
+      "Native presence is ordinary, respectful, community-centered, and grounded in place.",
+      "No invented sacred detail, fake language, costume spectacle, or modern object appears.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/clear-creek-wintu-families.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

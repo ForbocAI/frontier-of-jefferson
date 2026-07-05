@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "timbered hard-rock mine tunnel under the Jefferson hills",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in underground mining danger",
+    "output_path": "regions/images/hard-rock-tunnels.png",
+    "paired_page_path": "regions/hard-rock-tunnels.md",
+    "issue_title": "Image: Hard-Rock Tunnels",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining and extractive labor pressure in the Whiskeytown area."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-era settlement material and gold-rush context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a timbered hard-rock tunnel with ore car rails, candle stubs, hand drills, powder boxes, and miners moving through damp smoke",
+    "scene": "dim underground shift moment; one miner braces an ore car, another studies a cracked timber, seep water shines in the ruts, no readable labels",
+    "composition": "square tunnel-depth image with timber frames receding into darkness and figures caught between candle light and black drift",
+    "camera": "shoulder-height in-engine exploration view from inside the tunnel, close to rails and wet timber",
+    "material_cues": [
+      "wet timber sets",
+      "ore car iron",
+      "powder smoke",
+      "candle wax",
+      "hand-drill steel",
+      "seep water",
+      "rock dust",
+      "muddy boot tracks"
+    ],
+    "hand_cut_note": "Make the dark practical: the viewer should worry about footing, air, and the next brace.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine mine interior",
+      "render_traits": [
+        "slightly simplified miners, tools, ore car, and tunnel geometry",
+        "modest texture resolution on damp wood, rock, iron, mud, cloth, and smoke",
+        "hard ambient occlusion under timber caps, rail ties, ore cart, and figures",
+        "small warm candle pools against black drift shadow",
+        "believable 1899 mining tools and work clothes",
+        "claustrophobic playable composition with no polished cinematic gloss"
+      ],
+      "palette": "lamp amber, wet timber brown, rock gray, powder smoke blue, iron black, mud umber, and candle wax cream."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable crate labels, warning signs, chalk marks, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern hard hats",
+        "electric cap lamps",
+        "diesel machinery",
+        "plastic cones",
+        "railroad tunnel with modern signals",
+        "readable labels",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean museum mine display",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cavern with decorative crystals"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The tunnel, timber sets, ore car, miners, candle light, and seep water are readable.",
+      "Every object belongs plausibly to 1899 hard-rock mining.",
+      "The image supports scenes about danger, labor, pursuit, evidence, and trapped movement.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/hard-rock-tunnels.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

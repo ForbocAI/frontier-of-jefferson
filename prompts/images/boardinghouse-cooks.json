@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Boardinghouse kitchen in French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in food, rumor, shelter, and work-camp pressure",
+    "output_path": "cast/images/boardinghouse-cooks.png",
+    "paired_page_path": "cast/boardinghouse-cooks.md",
+    "issue_title": "Image: Boardinghouse Cooks",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining community routines, logging/ranching context, and lived regional work."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-town interiors, commerce, and old town material culture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a boardinghouse cook flipping corn cakes beside a roaring stove while miners, a deputy, and a child crowd a long table",
+    "scene": "steam-filled dawn kitchen; muddy boots under benches, coffee boiler, flour dust, side door cracked to cold light, and a plate held back while a whispered name passes down the table",
+    "composition": "square interior with stove glow in the foreground and a social web around the long table; food is plain, necessary, and politically arranged",
+    "camera": "eye-level at table height, inviting but crowded, like an in-engine social scene before trouble starts",
+    "material_cues": [
+      "cast iron stove",
+      "grease shine on skillet",
+      "coffee enamelware",
+      "flour dust on sleeves",
+      "worn table planks",
+      "muddy boots under benches",
+      "steam and lamplight"
+    ],
+    "hand_cut_note": "Make the food look plain and necessary; the power is in who gets served first.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine kitchen social scene",
+      "render_traits": [
+        "slightly simplified cook, diners, and stove silhouettes",
+        "modest texture resolution on iron, flour, wood, cloth, and steam",
+        "hard ambient occlusion under benches, stove, plates, and boots",
+        "warm stove light against cold dawn doorway",
+        "believable 1899 kitchen tools, clothing, and tableware",
+        "social-pressure composition rather than cozy still life"
+      ],
+      "palette": "stove orange, flour white, coffee black, worn pine brown, wool gray, mud umber, enamel blue-white, and dawn cold blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable labels, menus, wall notices, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern kitchen appliance",
+        "electric light",
+        "plastic packaging",
+        "cars",
+        "neon",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped stove or cropped table"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The cook, stove, long table, diners, coffee, and kitchen objects are readable.",
+      "Every visible prop belongs plausibly to an 1899 boardinghouse kitchen.",
+      "The image shows food as social leverage rather than cute domestic scenery.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/boardinghouse-cooks.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

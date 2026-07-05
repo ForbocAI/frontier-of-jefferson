@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Long trails, pack camps, stock roads, pine passes, and county edges around French Gulch",
+    "rdr_clone_target": "RDR-clone western with travel, camp survival, animal handling, informal justice, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/rangers-and-trailhands.md",
+    "paired_image_path": "cast/images/rangers-and-trailhands.png",
+    "issue_title": "Page: Rangers and Trailhands",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer sign and prey context for trail work."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Black Bear",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Black-Bear",
+      "use": "Bear sign and camp-food pressure in forest travel."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional roads, mining communities, logging, ranching, and frontier work."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Rangers and Trailhands cast page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Rangers and Trailhands",
+      "square image reference immediately after the title",
+      "opening blockquote with invented trail note, camp warning, or horse-sense saying generated later",
+      "H2 archetype subtitle in the register of Big-Country Working Riders",
+      "one or two compact lore paragraphs introducing range riders, trailhands, deputy rangers, and practical guides who keep routes alive without owning them",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four terse signs or habits",
+      "H3 Trail Work",
+      "12 H4 headings, each followed later by a brief playable move, leverage, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Generate them as a broad playable archetype for travel, camp, animals, weather, and informal justice.",
+      "Tie future moves to horse care, tracking, camp discipline, food, weather, route repair, animal conflict, witness handling, spare mounts, dry matches, and getting people home.",
+      "Keep them capable but limited by fatigue, supply, local politics, and the fact that the road belongs to people before it belongs to a map.",
+      "Make them useful to player characters without turning them into perfect guides or frontier superheroes.",
+      "Do not include final move names or final move text in this JSON."
+    ],
+    "hand_cut_note": "They should feel like the people every polished man hires and then ignores until the road vanishes. A trailhand knows the country by the problems it leaves on his clothes.",
+    "table_spark": "A trailhand scene should ask what the horses need, what the camp forgot, what the weather changed, and who is responsible for the person lagging behind.",
+    "must_preserve": [
+      "Use 1899 western trail, camp, horse, and ranger language only.",
+      "Keep capability practical, fallible, and tied to supply and weather.",
+      "The generated page must include image path cast/images/rangers-and-trailhands.png.",
+      "No finished page prose, final moves, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred, or fake-tribal framing",
+      "do not make them flawless heroes, elite commandos, or generic lawmen",
+      "do not use modern slang, vehicles, plastic gear, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence and includes 12 future H4 move slots.",
+      "The future page is about travel, camp survival, animal handling, informal justice, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/rangers-and-trailhands.md",
+    "image_reference": "cast/images/rangers-and-trailhands.png",
+    "do_not_write_page_now": true
+  }
+}

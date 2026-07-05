@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "The road into French Gulch from Clear Creek, Shasta, and the high timber",
+    "rdr_clone_target": "RDR-clone western with road friction, freight, witnesses, mud, law heat, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/french-gulch-road.md",
+    "paired_image_path": "regions/images/french-gulch-road.png",
+    "issue_title": "Page: French Gulch Road",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek gold rush movement, mining communities, roads, and regional settlement pressure."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining commerce, road-town texture, and old county movement."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the French Gulch Road region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 French Gulch Road",
+      "H3 local marker line in the register of Ruts, Grades, and Return Smoke",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: object, weather or track, plain meaning",
+      "two compact paragraphs establishing the road as travel problem, social pressure, resource, and scene engine",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated trail sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate the road as the first playable artery: mud, grade, freight, witnesses, ambush bends, and town gossip moving both ways.",
+      "Make it a travel engine rather than scenery; every paragraph should imply a cost, return route, or person watching.",
+      "Use ruts, smoke, hoof churn, broken spokes, bridge delays, and porch rumor as the road's language.",
+      "Keep French Gulch close but not safe; the road should feel like it can change the town before riders arrive."
+    ],
+    "hand_cut_note": "The road should feel like it has chewed every wheel that trusted it. It is not a tutorial path; it is a debt collector made of mud.",
+    "table_spark": "A French Gulch Road scene should ask what the riders bring in, what follows them, and who sees them before the town admits it.",
+    "must_preserve": [
+      "Use 1899 western road language only.",
+      "The generated page must include image path regions/images/french-gulch-road.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the road scenic only; it must create choices and costs",
+      "do not use modern pavement, cars, electric signs, modern slang, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about road pressure, travel cost, witnesses, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/french-gulch-road.md",
+    "image_reference": "regions/images/french-gulch-road.png",
+    "do_not_write_page_now": true
+  }
+}

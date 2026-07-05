@@ -1,0 +1,63 @@
+name: Deploy To Cloudflare Pages
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify Cloudflare Pages project name
+        run: |
+          test -n "${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}" || {
+            echo "CLOUDFLARE_PAGES_PROJECT_NAME repository variable is required."
+            exit 1
+          }
+
+      - name: Verify Cloudflare account ID
+        run: |
+          test -n "${{ vars.CLOUDFLARE_ACCOUNT_ID }}" || {
+            echo "CLOUDFLARE_ACCOUNT_ID repository variable is required."
+            exit 1
+          }
+
+      - name: Verify Cloudflare API token
+        run: |
+          test -n "${{ secrets.CLOUDFLARE_API_TOKEN }}" || {
+            echo "CLOUDFLARE_API_TOKEN repository secret is required."
+            exit 1
+          }
+
+      - name: Stage deploy directory
+        run: |
+          mkdir -p .cloudflare-pages-dist
+          rsync -av --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.claude' \
+            --exclude='.DS_Store' \
+            --exclude='README.md' \
+            --exclude='scripts' \
+            --exclude='serve.json' \
+            ./ .cloudflare-pages-dist/
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: >-
+            pages deploy .cloudflare-pages-dist --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

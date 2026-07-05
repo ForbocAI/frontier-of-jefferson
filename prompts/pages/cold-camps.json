@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Cold camps along wagon roads, creek bars, timber edges, and abandoned mining cuts in Jefferson country",
+    "rdr_clone_target": "RDR-clone western with trail evidence, missing travelers, scavenger sign, and hard outdoor survival",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/cold-camps.md",
+    "paired_image_path": "regions/images/cold-camps.png",
+    "issue_title": "Page: Cold Camps",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Rugged mining, logging, ranching, road travel, and settlement conditions around Whiskeytown."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Black Bear",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Black-Bear",
+      "use": "Bear presence and scavenger pressure in California wildlands."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Cold Camps region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Cold Camps",
+      "H3 local marker line in the register of Dead Ash, Bedroll Mark, and Scattered Tin",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: abandoned object, track or weather detail, plain table meaning",
+      "two compact paragraphs establishing cold camps as evidence sites, rests gone wrong, ambush remains, missing-person starts, and survival pressure",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated camp sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate cold camps as practical trail evidence: ash gone gray, bedroll dents, coffee grounds, hoof marks, boot scuffs, broken harness, bear sign, and tools left where people do not usually leave them.",
+      "Give the table hooks around missing travelers, raided freight, illness, a hurried departure, a staged disappearance, or a camp that should still be warm but is not.",
+      "Keep details tactile and readable; the page should help a table infer time, direction, number of people, animals present, and whether violence happened.",
+      "Treat the outdoors as unforgiving: wet blankets, sour beans, smoke in wool, hard ground, cold fingers, and noise traveling farther than expected."
+    ],
+    "hand_cut_note": "The best cold camp clue should be ordinary enough to make everybody uneasy.",
+    "table_spark": "A cold-camp scene should ask who slept here, what woke them, what they left behind, and which tracks are missing.",
+    "must_preserve": [
+      "Use 1899 western trail, camp, and tracking language only.",
+      "The generated page must include image path regions/images/cold-camps.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the camp eerie through supernatural implication",
+      "do not include modern camping gear, nylon, flashlights, cans with readable labels, or plastic objects"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about trail evidence, survival, wildlife, and scene starts.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/cold-camps.md",
+    "image_reference": "regions/images/cold-camps.png",
+    "do_not_write_page_now": true
+  }
+}

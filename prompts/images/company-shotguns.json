@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Mine store street in French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hired force and labor pressure",
+    "output_path": "cast/images/company-shotguns.png",
+    "paired_page_path": "cast/company-shotguns.md",
+    "issue_title": "Image: Company Shotguns",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining communities, road pressure, and resource conflict."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining commerce and town-street material."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "two company shotgun men guarding a mine payroll wagon outside a store while miners watch from shadowed porches",
+    "scene": "bright dusty noon; shotguns and rifles held low, locked cash box under canvas, unreadable receipts on a crate, heat shimmer, and no one standing comfortably in the street",
+    "composition": "square tense street tableau with guards central but not heroic; watchers layered around them, payroll wagon as the real center of gravity",
+    "camera": "waist-height duel-distance view, game cutscene tension without action pose",
+    "material_cues": [
+      "oiled shotgun barrels",
+      "locked iron cash box",
+      "dusty boots",
+      "store awning canvas",
+      "sweat-dark collars",
+      "wagon paint chipped at corners",
+      "porch shadow across miners' faces"
+    ],
+    "hand_cut_note": "Keep their guns low; the threat should live in who gets to stand in the street.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine street tension scene",
+      "render_traits": [
+        "slightly simplified guard, miner, horse, and wagon silhouettes",
+        "modest texture resolution on gunmetal, dust, canvas, wood, and cloth",
+        "hard ambient occlusion under wagon, porch rails, guards, and cash box",
+        "baked harsh noon light with deep porch shadow",
+        "believable 1899 firearms, clothing, wagon, and store materials",
+        "low-threat composition rather than active gunfight"
+      ],
+      "palette": "dust ochre, shotgun iron, wagon red-brown, canvas tan, porch black, faded denim, brass glints, and hot sky blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable store signs, receipts, crate labels, badges, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern police gear",
+        "automatic weapons",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped guns or cropped wagon"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The guards, payroll wagon, cash box, miners, and store street are fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 labor-conflict town life.",
+      "The image shows private force and social pressure without becoming a gunfight poster.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/company-shotguns.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

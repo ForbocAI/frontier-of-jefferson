@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Road junction supply posts, freight counters, pack yards, and water barrels around French Gulch",
+    "rdr_clone_target": "RDR-clone western with supply pressure, credit, trade, road news, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/sutler-posts.md",
+    "paired_image_path": "regions/images/sutler-posts.png",
+    "issue_title": "Page: Sutler Posts",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Gold rush communities, road movement, mining, logging, ranching, and immigrant settlement pressure."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining commerce, merchandise, and town supply texture."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Sutler Posts region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Sutler Posts",
+      "H3 local marker line in the register of Counter, Crates, and Road Credit",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: object, weather or track, plain meaning",
+      "two compact paragraphs establishing the post as supply point, social pressure, road resource, and scene engine",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated supply-post sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate trading and supply posts as road-edge commerce: goods, credit, news, repair, water, false shortages, and exploitation.",
+      "Make the page useful for restocking, barter scenes, overheard news, dangerous favors, and leverage around who owes what.",
+      "Use flour sacks, tack, coffee, cartridges, barrel water, crate slats, mule loads, and road dust as physical language.",
+      "A sutler post should feel like a store that charges extra because it knows how far the next one is."
+    ],
+    "hand_cut_note": "Need is the first customer through every door.",
+    "table_spark": "A sutler-post scene should ask what supply is missing, who can pay, who must bargain, and what road news comes with the sale.",
+    "must_preserve": [
+      "Use 1899 western supply and trade language only.",
+      "The generated page must include image path regions/images/sutler-posts.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make trade quaint or consequence-free",
+      "do not use modern registers, barcodes, plastic packaging, vehicles, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about supply, credit, road news, repair, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/sutler-posts.md",
+    "image_reference": "regions/images/sutler-posts.png",
+    "do_not_write_page_now": true
+  }
+}

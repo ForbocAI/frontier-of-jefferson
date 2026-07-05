@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Back lots, kitchen doors, wash lines, ash pits, chicken runs, and small gardens behind French Gulch streets",
+    "rdr_clone_target": "RDR-clone western with domestic labor, rumor, scarcity, back-door deals, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/kitchen-lots.md",
+    "paired_image_path": "regions/images/kitchen-lots.png",
+    "issue_title": "Page: Kitchen Lots",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining communities, family and work settlement, roads, and lived regional context."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California town material, old buildings, commerce, and street/back-lot contrast."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Kitchen Lots region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Kitchen Lots",
+      "H3 local marker line in the register of Back Doors, Wash Lines, and Scrap Gardens",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: object, weather or track, plain meaning",
+      "two compact paragraphs establishing the lots as social pressure, resource, hidden route, and scene engine",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated back-lot sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate kitchen lots as lived-in backsides of town: gardens, wash lines, ash pits, gossip, chickens, dishwater, and hidden exchanges.",
+      "Make them social scenes where domestic labor meets secrets, scarcity, shelter, illness, and private bargaining.",
+      "Use onion skins, cracked basins, fence slats, ash barrels, bootprints, laundry, and side doors as field language.",
+      "The place should feel private but not small; whole-town politics pass through the back door."
+    ],
+    "hand_cut_note": "Give this place onion skins, dishwater, and the kind of truth heard while nobody thinks they are in public. The back lot knows the town better than the boardwalk does.",
+    "table_spark": "A kitchen-lot scene should ask who saw the rider leave by the back door, who is hiding in the wash, and what hunger made negotiable.",
+    "must_preserve": [
+      "Use 1899 western domestic and town-back language only.",
+      "The generated page must include image path regions/images/kitchen-lots.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make domestic labor quaint or decorative only",
+      "do not use modern plumbing, appliances, vehicles, plastic props, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about back-door social pressure, scarcity, hidden routes, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/kitchen-lots.md",
+    "image_reference": "regions/images/kitchen-lots.png",
+    "do_not_write_page_now": true
+  }
+}

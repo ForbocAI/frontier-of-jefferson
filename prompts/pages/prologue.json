@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
+    "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "prologue/prologue.md",
+    "paired_image_path": "prologue/images/prologue.png",
+    "issue_title": "Page: Prologue",
+    "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek gold rush communities, mining pressure, roads, immigrants, and regional work."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Long Wintu presence around Clear Creek and the need to treat land memory as active context."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "County-seat, courthouse, mining-commerce, brick-and-timber material for northern California frontier scenes."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown lore-and-rules page writer",
+    "task": "Generate the prologue page that teaches the packet tone and opening situation without resolving the campaign. Do not write the finished prologue inside this JSON.",
+    "page_shape": [
+      "H2 title",
+      "square image reference immediately after the title",
+      "opening blockquote with invented road-book wording generated later",
+      "two compact paragraphs establishing the first trouble as a playable frontier situation",
+      "H3 What The Posse Knows",
+      "short bullet list of known pressures generated later",
+      "H3 What The Town Hides",
+      "short bullet list of hidden pressures generated later",
+      "H3 First Night In French Gulch",
+      "scene guidance paragraph generated later",
+      "H3 Road Out",
+      "closing blockquote generated later"
+    ],
+    "generation_guidance": [
+      "Open with a concrete situation suitable for session one: weather, money, law, rumor, and a road that will not stay open.",
+      "Keep secrets as prompts for play rather than fixed plot revelations.",
+      "Make ordinary objects carry pressure: wet payroll paper, a torn freight tag, a saddle cinch cut too clean, a horse that refuses a certain bridge.",
+      "Use French Gulch as the social room where everyone hears a different version before the posse rides.",
+      "Avoid naming final NPCs in this prompt; leave names, motives, and exact guilt for the future page generation."
+    ],
+    "hand_cut_note": "This page should feel hand-folded into a coat pocket by someone who meant to leave town before breakfast. It is the bad errand, not the grand legend.",
+    "table_spark": "Use the first night to make the table care about mud, witnesses, hunger, and who gets believed when the same road tells two stories.",
+    "must_preserve": [
+      "French Gulch is the opening settlement.",
+      "The prologue creates playable pressure but does not solve the mystery.",
+      "The page must include the image reference path exactly: prologue/images/prologue.png.",
+      "The future prose should leave room for Native families, workers, law, wildlife, and company money as active forces."
+    ],
+    "style_constraints": {
+      "era": "Everything generated from this prompt belongs to 1899: horses, ore wagons, soot-black lamps, telegraph where appropriate, hand tools, rifles, ledgers, canvas, iron, mud, pine, and courthouse paper.",
+      "rdr_clone": "Aim at an RDR-clone western tabletop packet: moral pressure, travel friction, camp routines, hunting, law heat, debt, reputation, and open-world consequence without copying named characters, missions, towns, logos, or slogans.",
+      "voice": "Use a weathered oral-history cadence with practical table utility. The page should sound like it came from people who have slept outside, hauled ore, read tracks, and argued over land.",
+      "native_representation": "Native American and tribal material must be grounded, specific, and respectful: living families, trade, land rights, stewardship, survival, diplomacy, and conflict. Do not invent sacred rites, fake language, costumes, or mystical tropes.",
+      "shape_priority": "Follow the requested section order and heading levels exactly while inventing fresh 1899 western language."
+    },
+    "avoid": [
+      "do not write finished page prose inside this prompt file",
+      "do not include completed lore paragraphs, sample quotations, dialogue, final move text, or final rule text",
+      "do not mention any source packet, template packet, reference project, or inherited taxonomy",
+      "do not use copied names or terms from any prior non-western packet",
+      "do not include engine, hardware, runtime, profiling, build, deployment, or implementation details",
+      "do not include modern slang, modern technology, theme-park nostalgia, fake tribal language, or sacred ceremony invention",
+      "do not use placeholder filler such as TBD, lorem ipsum, or generic western flavor without a playable purpose"
+    ],
+    "self_check": [
+      "The generated markdown follows the required heading order exactly.",
+      "This JSON contains guidance only and no finished prologue prose.",
+      "The generated page creates a playable first pressure without locking the campaign into one answer.",
+      "The future page stays in grounded 1899 Jefferson State language.",
+      "No copied terms, inherited non-western vocabulary, modern props, or reference/source project names appear."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "prologue/prologue.md",
+    "image_reference": "prologue/images/prologue.png",
+    "do_not_write_page_now": true
+  }
+}

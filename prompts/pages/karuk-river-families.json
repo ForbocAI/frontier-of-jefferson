@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Klamath River routes, forested canyon roads, and northern Jefferson border country",
+    "rdr_clone_target": "RDR-clone western with river travel, land pressure, family work, negotiation, and hard frontier choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/karuk-river-families.md",
+    "paired_image_path": "cast/images/karuk-river-families.png",
+    "issue_title": "Page: Karuk River Families",
+    "quality_bar": "hand-cut, grounded, respectful, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "Karuk Tribe",
+      "url": "https://www.karuk.us/",
+      "use": "Klamath River ancestral lands, salmon fishing, basketry, environmental stewardship, cultural burning, language and tradition preservation, and self-governance."
+    },
+    {
+      "title": "Yurok Tribe",
+      "url": "https://www.yuroktribe.org/",
+      "use": "Sovereign rights, self-governance, cultural preservation, land and water stewardship, reciprocity, and dignity."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Karuk River Families cast page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Karuk River Families",
+      "square image reference immediately after the title",
+      "opening blockquote with invented respectful river note or travel observation generated later; do not use fake Karuk language",
+      "H2 archetype subtitle in the register of Klamath River Households",
+      "one or two compact lore paragraphs introducing families and river workers tied to salmon, burning, travel, trade, and self-governance along the Klamath",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four grounded signs, strengths, or social facts",
+      "H3 Trail Work",
+      "10 H4 headings, each followed later by a brief playable move, leverage, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Write this as a grounded tribal community page connected to the Klamath River and regional travel.",
+      "Tie future moves to river knowledge, stewardship, food systems, negotiation, warning, route permission, family protection, and outsider obligations.",
+      "Let the page show pressure from miners, roads, timber, law, and outsiders without reducing people to victims or side characters.",
+      "Do not invent sacred details, fake words, decorative costumes, or special powers.",
+      "Do not include final move names or final move text in this JSON."
+    ],
+    "hand_cut_note": "The page should move like river work: practiced, alert, and unwilling to be hurried by a stranger.",
+    "table_spark": "A river crossing can be a trade route, a boundary, a pantry, and a courtroom all before noon.",
+    "must_preserve": [
+      "Use respectful 1899 western and regional language only.",
+      "Do not invent sacred practices, fake words, or mystical traits.",
+      "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
+      "The generated page must include image path cast/images/karuk-river-families.png.",
+      "No finished page prose, final moves, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred-invented, or fake-tribal framing",
+      "do not reduce Native people to victims, guides, costumes, or symbols",
+      "do not use modern slang, modern gear, vehicles, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is respectful, grounded, and useful for play.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to 1899 Jefferson State western play and respects living Native communities."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/karuk-river-families.md",
+    "image_reference": "cast/images/karuk-river-families.png",
+    "do_not_write_page_now": true
+  }
+}

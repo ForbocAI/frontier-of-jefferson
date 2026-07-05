@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Private mine office above French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in claim ownership and quiet pressure",
+    "output_path": "cast/images/claim-kings-and-combine-men.png",
+    "paired_page_path": "cast/claim-kings-and-combine-men.md",
+    "issue_title": "Image: Claim Kings and Combine Men",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining communities, claims, and resource conflict."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining commerce, courthouse records, and old town material culture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "well-dressed combine men studying claim maps in a private back room while a muddy miner waits outside frosted glass",
+    "scene": "lamplit office; cigar haze, safe door, survey map with unreadable marks, polished boots against rough floorboards, and a ledger closed under one man's hand",
+    "composition": "square interior with clean suits enclosed by dark wood and the waiting miner as a shadow beyond the door; claim papers form the center of gravity",
+    "camera": "slightly high corner angle like a stealth overhear scene, with the threshold mud visible below",
+    "material_cues": [
+      "cigar smoke",
+      "polished walnut desk",
+      "safe iron",
+      "survey paper with illegible markings",
+      "silver watch chain",
+      "mud on threshold boards",
+      "lamp glass and ink sheen"
+    ],
+    "hand_cut_note": "The room should look expensive enough to make the mud at the door feel like evidence.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine private office scene",
+      "render_traits": [
+        "slightly simplified suited figures and office objects",
+        "modest texture resolution on paper, smoke, wood, wool, and iron",
+        "hard ambient occlusion under desk, safe, chairs, and door frame",
+        "warm lamplight trapped in a dark office",
+        "believable 1899 office furniture, clothing, and claim materials",
+        "quiet ownership pressure instead of villain poster"
+      ],
+      "palette": "walnut brown, lamp amber, cigar gray, paper cream, suit black, mud umber, safe iron, and dull silver."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable maps, ledger entries, office signs, labels, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern office gear",
+        "typewriter if not period-appropriate",
+        "computer",
+        "cars",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped map or cropped threshold"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The combine men, claim maps, safe, office, waiting miner, and muddy threshold are readable.",
+      "Every visible prop belongs plausibly to an 1899 mine office.",
+      "The image shows ownership pressure and paper power without readable text.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/claim-kings-and-combine-men.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

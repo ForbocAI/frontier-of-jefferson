@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
+    "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "index.md",
+    "paired_image_path": null,
+    "issue_title": "Page: Index",
+    "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional history, Clear Creek gold rush context, Wintu presence, mining, roads, logging, and ranching."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Wintu homeland and Clear Creek context that must remain visible in the packet structure."
+    },
+    {
+      "title": "Karuk Tribe",
+      "url": "https://www.karuk.us/",
+      "use": "Klamath River Native community context for the northern and western reaches."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-town commerce, courthouse memory, brick ruins, roads, and northern California material culture."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown navigation page writer",
+    "task": "Generate only the navigation/index page for the 1899 Jefferson State western packet, preserving section order and link inventory. Do not write finished index prose inside this JSON.",
+    "page_shape": [
+      "H1 project title",
+      "one compact orientation paragraph that points readers into the packet without explaining the whole setting",
+      "H2 Introduction with bullet link to the introduction page",
+      "H2 Cast of Jefferson with bullet links to every cast page in the listed order",
+      "H2 Regions with bullet links to every region page in the listed order",
+      "H2 Prologue with bullet link",
+      "H2 Appendix with bullet link",
+      "H2 Rules with bullet links to every rules page in the listed order",
+      "H2 Play with bullet link",
+      "H2 Header with concise site header guidance",
+      "H2 Footer with concise site footer guidance"
+    ],
+    "generation_guidance": [
+      "Generate a working table-of-contents page, not a sales page.",
+      "Keep the index lean enough to scan before play starts.",
+      "Use the western navigation names exactly as listed in must_preserve.",
+      "Make the first paragraph feel like opening a county road book in a rain-dark room, but do not include that final paragraph in this JSON.",
+      "The index should imply that every link is a road, a job, or a debt waiting to be ridden."
+    ],
+    "hand_cut_note": "Treat the index like a worn thumb tab in a trail ledger: plain, useful, and faintly stained with the places it points toward.",
+    "table_spark": "The index should feel practical enough for a table and personal enough that no title sounds machine-stamped.",
+    "must_preserve": {
+      "introduction": [
+        [
+          "Introduction",
+          "introduction/introduction.md"
+        ]
+      ],
+      "cast": [
+        [
+          "Ford Men",
+          "cast/ford-men.md"
+        ],
+        [
+          "Fence Riders",
+          "cast/fence-riders.md"
+        ],
+        [
+          "Road Scouts",
+          "cast/road-scouts.md"
+        ],
+        [
+          "Hard-Rock Men",
+          "cast/hard-rock-men.md"
+        ],
+        [
+          "Saddle Tramps",
+          "cast/saddle-tramps.md"
+        ],
+        [
+          "Clear Creek Wintu Families",
+          "cast/clear-creek-wintu-families.md"
+        ],
+        [
+          "Karuk River Families",
+          "cast/karuk-river-families.md"
+        ],
+        [
+          "Hoopa Valley Packers",
+          "cast/hoopa-valley-packers.md"
+        ],
+        [
+          "Pit River Hands",
+          "cast/pit-river-hands.md"
+        ],
+        [
+          "Night Watchmen",
+          "cast/night-watchmen.md"
+        ],
+        [
+          "Brush Crews",
+          "cast/brush-crews.md"
+        ],
+        [
+          "Wire Riders",
+          "cast/wire-riders.md"
+        ],
+        [
+          "Company Store Clerks",
+          "cast/company-store-clerks.md"
+        ],
+        [
+          "Stage Drivers",
+          "cast/stage-drivers.md"
+        ],
+        [
+          "Courthouse Memory Women",
+          "cast/courthouse-memory-women.md"
+        ],
+        [
+          "Bear Sign",
+          "cast/bear-sign.md"
+        ],
+        [
+          "Cougar Trails",
+          "cast/cougar-trails.md"
+        ],
+        [
+          "Wolf Rumors",
+          "cast/wolf-rumors.md"
+        ],
+        [
+          "Elk and Deer Herds",
+          "cast/elk-and-deer-herds.md"
+        ],
+        [
+          "Company Shotguns",
+          "cast/company-shotguns.md"
+        ],
+        [
+          "Ridge Lookouts",
+          "cast/ridge-lookouts.md"
+        ],
+        [
+          "Timber Bosses",
+          "cast/timber-bosses.md"
+        ],
+        [
+          "Boardinghouse Cooks",
+          "cast/boardinghouse-cooks.md"
+        ],
+        [
+          "Press Boys",
+          "cast/press-boys.md"
+        ],
+        [
+          "Claim Kings and Combine Men",
+          "cast/claim-kings-and-combine-men.md"
+        ],
+        [
+          "Rangers and Trailhands",
+          "cast/rangers-and-trailhands.md"
+        ],
+        [
+          "Brands, Blazes, and Camp Calls",
+          "cast/brands-blazes-and-camp-calls.md"
+        ]
+      ],
+      "regions": [
+        [
+          "French Gulch Road",
+          "regions/french-gulch-road.md"
+        ],
+        [
+          "Kitchen Lots",
+          "regions/kitchen-lots.md"
+        ],
+        [
+          "Mission-Church Yards",
+          "regions/mission-church-yards.md"
+        ],
+        [
+          "Sutler Posts",
+          "regions/sutler-posts.md"
+        ],
+        [
+          "French Gulch",
+          "regions/french-gulch.md"
+        ],
+        [
+          "Wagon Bridges",
+          "regions/wagon-bridges.md"
+        ],
+        [
+          "Hard-Rock Tunnels",
+          "regions/hard-rock-tunnels.md"
+        ],
+        [
+          "Claim Stakes",
+          "regions/claim-stakes.md"
+        ],
+        [
+          "Cold Camps",
+          "regions/cold-camps.md"
+        ],
+        [
+          "Knife-Edge Trails",
+          "regions/knife-edge-trails.md"
+        ],
+        [
+          "Ore Trestles",
+          "regions/ore-trestles.md"
+        ],
+        [
+          "Creek Fords",
+          "regions/creek-fords.md"
+        ],
+        [
+          "Spring Caves",
+          "regions/spring-caves.md"
+        ],
+        [
+          "Shaft Mouths",
+          "regions/shaft-mouths.md"
+        ],
+        [
+          "Gumbo Roads",
+          "regions/gumbo-roads.md"
+        ],
+        [
+          "Hay Meadows",
+          "regions/hay-meadows.md"
+        ],
+        [
+          "Fire Rings",
+          "regions/fire-rings.md"
+        ],
+        [
+          "Weather Turns",
+          "regions/weather-turns.md"
+        ],
+        [
+          "Border Reaches",
+          "regions/border-reaches.md"
+        ],
+        [
+          "Blazes and Cairns",
+          "regions/blazes-and-cairns.md"
+        ]
+      ],
+      "prologue": [
+        [
+          "Prologue",
+          "prologue/prologue.md"
+        ]
+      ],
+      "appendix": [
+        [
+          "Appendix",
+          "appendix/appendix.md"
+        ]
+      ],
+      "rules": [
+        [
+          "Outfitting the Table",
+          "rules/outfitting-the-table.md"
+        ],
+        [
+          "Trail Boss Guidance",
+          "rules/trail-boss-guidance.md"
+        ],
+        [
+          "Asking the Deck",
+          "rules/asking-the-deck.md"
+        ],
+        [
+          "Asking the Deck Examples",
+          "rules/asking-the-deck-examples.md"
+        ],
+        [
+          "First Ride Tutorial",
+          "rules/first-ride-tutorial.md"
+        ],
+        [
+          "Troubles and Scenes",
+          "rules/troubles-and-scenes.md"
+        ],
+        [
+          "Turning Rumors",
+          "rules/turning-rumors.md"
+        ],
+        [
+          "Short Ride Tutorial",
+          "rules/short-ride-tutorial.md"
+        ],
+        [
+          "Ledger Work",
+          "rules/ledger-work.md"
+        ],
+        [
+          "Table Compact",
+          "rules/table-compact.md"
+        ],
+        [
+          "Posse Play",
+          "rules/posse-play.md"
+        ],
+        [
+          "Missing Payroll Example",
+          "rules/missing-payroll-example.md"
+        ],
+        [
+          "Contest Rules",
+          "rules/contest-rules.md"
+        ],
+        [
+          "Camp Talk and Trail Sign",
+          "rules/camp-talk-and-trail-sign.md"
+        ]
+      ],
+      "play": [
+        [
+          "Procedural Map Generation",
+          "play/procedural-map-generation.md"
+        ]
+      ]
+    },
+    "style_constraints": {
+      "era": "Everything generated from this prompt belongs to 1899: horses, ore wagons, soot-black lamps, telegraph where appropriate, hand tools, rifles, ledgers, canvas, iron, mud, pine, and courthouse paper.",
+      "rdr_clone": "Aim at an RDR-clone western tabletop packet: moral pressure, travel friction, camp routines, hunting, law heat, debt, reputation, and open-world consequence without copying named characters, missions, towns, logos, or slogans.",
+      "voice": "Use direct index language with a weathered edge. It should guide, not perform.",
+      "native_representation": "Native American and tribal material must be grounded, specific, and respectful: living families, trade, land rights, stewardship, survival, diplomacy, and conflict. Do not invent sacred rites, fake language, costumes, or mystical tropes.",
+      "shape_priority": "Follow the requested section order and link inventory exactly."
+    },
+    "avoid": [
+      "do not write finished index prose inside this prompt file",
+      "do not include completed lore paragraphs, sample quotations, dialogue, final move text, or final rule text",
+      "do not mention any source packet, template packet, reference project, or inherited taxonomy",
+      "do not use copied names or terms from any prior non-western packet",
+      "do not include engine, hardware, runtime, profiling, build, deployment, or implementation details",
+      "do not include modern slang, modern technology, theme-park nostalgia, fake tribal language, or sacred ceremony invention",
+      "do not use placeholder filler such as TBD, lorem ipsum, or generic western flavor without a playable purpose"
+    ],
+    "self_check": [
+      "The generated markdown follows the required section order exactly.",
+      "Every link title and path in must_preserve appears once and only once.",
+      "This JSON contains guidance only and no finished index prose.",
+      "The navigation names are grounded 1899 western names.",
+      "No copied terms, inherited non-western vocabulary, modern props, or reference/source project names appear."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "index.md",
+    "image_reference": null,
+    "do_not_write_page_now": true
+  }
+}

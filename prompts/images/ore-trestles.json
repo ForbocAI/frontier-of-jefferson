@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "raised ore trestle and chute deck over a rocky creek cut",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining logistics and height danger",
+    "output_path": "regions/images/ore-trestles.png",
+    "paired_page_path": "regions/ore-trestles.md",
+    "issue_title": "Image: Ore Trestles",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining and transport pressure in rugged terrain."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-era industrial material and settlement context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a raised timber ore trestle with an ore car, chute, loose brake rope, workers on the deck, and a rider watching from below",
+    "scene": "dusty afternoon; spilled ore rocks bounce down a chute, one worker points at a cracked brace, creek stones and scrub sit far beneath, no readable signs",
+    "composition": "square height-danger scene with trestle diagonally crossing the frame, deck above, shadowed ground below, and figures at both levels",
+    "camera": "low creek-bed angle looking up through trestle timbers, like a player hiding below a work site",
+    "material_cues": [
+      "sun-split beams",
+      "fresh green timber patch",
+      "iron straps",
+      "ore dust",
+      "brake rope",
+      "tram rail",
+      "creek stones",
+      "work boots"
+    ],
+    "hand_cut_note": "Make the structure look useful enough to trust and old enough to doubt.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine mining structure scene",
+      "render_traits": [
+        "slightly simplified workers, rider, ore car, chute, and trestle geometry",
+        "modest texture resolution on wood grain, ore dust, iron, rope, cloth, and stone",
+        "hard ambient occlusion under braces, ore car, deck planks, chute, and figures",
+        "hot dusty light with dark under-structure shadows",
+        "believable 1899 mining infrastructure and work clothes",
+        "vertical playable composition with possible climb, hide, sabotage, and fall routes"
+      ],
+      "palette": "ore gray, timber brown, dust ochre, iron black, rope tan, creek-stone blue, scrub green, and sun-bleached sky."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable warning boards, crate marks, painted names, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern steel catwalk",
+        "yellow safety rail",
+        "electric hoist",
+        "hard hats",
+        "concrete supports",
+        "readable signage",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean industrial museum display",
+        "copy of commercial game characters, missions, towns, or logos",
+        "scenic overlook with no work function"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The trestle, ore car, chute, rope, workers, rider below, and height are readable.",
+      "Every object belongs plausibly to 1899 mining logistics.",
+      "The image supports worksite, sabotage, chase, fall, and hidden-witness scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/ore-trestles.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

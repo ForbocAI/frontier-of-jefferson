@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Hoopa Valley approaches, Klamath-Trinity mountain roads, pack trails, and freight camps",
+    "rdr_clone_target": "RDR-clone western with pack travel, trade pressure, land rights, animal handling, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/hoopa-valley-packers.md",
+    "paired_image_path": "cast/images/hoopa-valley-packers.png",
+    "issue_title": "Page: Hoopa Valley Packers",
+    "quality_bar": "hand-cut, grounded, respectful, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "Hoopa Valley Tribe",
+      "url": "https://www.hoopa-nsn.gov/",
+      "use": "Hoopa Valley tribal government, sovereignty, culture, traditions, natural resources, and future generations."
+    },
+    {
+      "title": "Karuk Tribe",
+      "url": "https://www.karuk.us/",
+      "use": "Northern California river, natural resource, stewardship, and self-governance context."
+    },
+    {
+      "title": "Yurok Tribe",
+      "url": "https://www.yuroktribe.org/",
+      "use": "Sovereign rights, land and water stewardship, cultural preservation, reciprocity, and dignity."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Hoopa Valley Packers cast page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Hoopa Valley Packers",
+      "square image reference immediately after the title",
+      "opening blockquote with invented freight note, trail warning, or pack-line observation generated later; do not use fake Native language",
+      "H2 archetype subtitle in the register of Valley Freight Kin",
+      "one or two compact lore paragraphs introducing packers, haulers, guides, and negotiators moving goods through hard country",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four grounded signs, strengths, or social facts",
+      "H3 Trail Work",
+      "10 H4 headings, each followed later by a brief playable move, leverage, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Generate them as skilled freight and community workers with sovereignty, family obligations, and natural-resource knowledge.",
+      "Tie future moves to pack routes, animal handling, trade negotiation, safe lodging, route denial, lost freight, official pressure, and knowing when a load is worth refusing.",
+      "Make the page useful for player negotiations, rough travel, supply problems, and jurisdictional tension.",
+      "Do not turn them into sidekicks, wilderness stereotypes, or decorative guides.",
+      "Do not include final move names or final move text in this JSON."
+    ],
+    "hand_cut_note": "Their page should feel like a load balanced so well the mule resents nobody but the hill. Freight is politics when the trail crosses land other men pretend is empty.",
+    "table_spark": "A packer scene should ask who owns the road, who needs the freight, what the animal knows, and what the riders must promise before the load moves.",
+    "must_preserve": [
+      "Use respectful 1899 western and regional language only.",
+      "Do not invent sacred practices, fake words, or mystical traits.",
+      "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
+      "The generated page must include image path cast/images/hoopa-valley-packers.png.",
+      "No finished page prose, final moves, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred-invented, or fake-tribal framing",
+      "do not reduce Native people to victims, guides, costumes, or symbols",
+      "do not use modern slang, modern gear, vehicles, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is respectful, grounded, and useful for freight and travel play.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to 1899 Jefferson State western play and respects living Native communities."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/hoopa-valley-packers.md",
+    "image_reference": "cast/images/hoopa-valley-packers.png",
+    "do_not_write_page_now": true
+  }
+}

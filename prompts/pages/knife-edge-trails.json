@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Knife-edge ridge trails, shale ledges, switchbacks, pack strings, and storm exposure above the mining roads",
+    "rdr_clone_target": "RDR-clone western with dangerous travel, animal handling, ambush lines, and weather exposure",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/knife-edge-trails.md",
+    "paired_image_path": "regions/images/knife-edge-trails.png",
+    "issue_title": "Page: Knife-Edge Trails",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Rugged terrain, roads, mining travel, logging, and settlement pressure around Whiskeytown."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Mountain Lion",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Mountain-Lion",
+      "use": "Cougar presence and sign in California rough country."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Knife-Edge Trails region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Knife-Edge Trails",
+      "H3 local marker line in the register of Loose Shale, Pack Rope, and Long Drop",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: trail object, wind or animal sign, plain table meaning",
+      "two compact paragraphs establishing ridge trails as travel hazard, lookout line, ambush approach, pack-animal test, and weather clock",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated trail sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate knife-edge trails as narrow practical routes used because the long road costs too much time: shale, scrub oak, mule bells, switchback dust, snapped cinches, and a drop that keeps everyone honest.",
+      "Give the table hooks around a stalled pack string, cougar tracks in dust, a rider forced to lead his horse, a loose saddle load, shots echoing wrong, or storm clouds cutting off retreat.",
+      "Make movement matter; the page should guide who can pass, who must dismount, what falls, what can be heard, and where cover exists.",
+      "Use trail-craft, fear, and stubborn necessity rather than grand scenery."
+    ],
+    "hand_cut_note": "The trail should feel whittled into the hill by hooves that never liked it.",
+    "table_spark": "A knife-edge trail scene should ask what is too heavy, who is blocking the line, and what sound came from above or below.",
+    "must_preserve": [
+      "Use 1899 western trail, pack-animal, and weather language only.",
+      "The generated page must include image path regions/images/knife-edge-trails.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not describe travel as glamorous or painless",
+      "do not use modern hiking gear, railings, paved paths, bright trail blazes, or resort overlook language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about ridge travel as hazard, route choice, and scene engine.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/knife-edge-trails.md",
+    "image_reference": "regions/images/knife-edge-trails.png",
+    "do_not_write_page_now": true
+  }
+}

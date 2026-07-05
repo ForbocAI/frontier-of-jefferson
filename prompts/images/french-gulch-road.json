@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Muddy road descending toward French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in road travel and town approach",
+    "output_path": "regions/images/french-gulch-road.png",
+    "paired_page_path": "regions/french-gulch-road.md",
+    "issue_title": "Image: French Gulch Road",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek road movement and mining-community setting."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining road and town texture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "the muddy road into French Gulch with wagon ruts full of sky, pine walls, a small rider silhouette, and smoke from town ahead",
+    "scene": "cold morning after rain; switchback grade, old wheel tracks, broken fence, ravens over a far ridge, and town smoke showing before the buildings do",
+    "composition": "square landscape with the road entering from the bottom edge and pulling the eye toward smoke; ruts and puddles act as foreground clues",
+    "camera": "low road-height perspective, playable route framing, early-HD open-world travel feel",
+    "material_cues": [
+      "mud ruts reflecting gray sky",
+      "wet pine needles",
+      "wagon iron scars",
+      "shale gravel",
+      "horse droppings",
+      "broken fence rail",
+      "thin smoke above the gulch"
+    ],
+    "hand_cut_note": "Make the road feel used, watched, and ready to make even a short ride expensive.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine route vista",
+      "render_traits": [
+        "slightly simplified rider, trees, and road silhouettes",
+        "modest texture resolution on mud, pine, ruts, fence, and shale",
+        "hard ambient occlusion in wheel grooves and under fence rails",
+        "cold morning light after rain",
+        "believable 1899 road conditions and riding gear",
+        "travel-pressure composition rather than postcard landscape"
+      ],
+      "palette": "mud umber, rain gray, pine green, smoke blue, wet shale, saddle brown, and cold dawn silver."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, maps, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern pavement",
+        "automobile",
+        "guardrail",
+        "cars",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped road or cropped rider"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The road, ruts, rider, fence, pine walls, and town smoke are readable.",
+      "Every visible prop belongs plausibly to 1899 road travel.",
+      "The image makes travel pressure visible before town arrival.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/french-gulch-road.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

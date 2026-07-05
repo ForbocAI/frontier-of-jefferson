@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Creek fords, gravel bars, wheel ruts, cold water, fish runs, and washed tracks below the wagon roads",
+    "rdr_clone_target": "RDR-clone western with travel risk, water judgment, tracking pressure, and local route knowledge",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/creek-fords.md",
+    "paired_image_path": "regions/images/creek-fords.png",
+    "issue_title": "Page: Creek Fords",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Respectful grounding for Wintu presence and long relationship with lands and waterways in the region."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Wildlife movement and tracks around creek corridors."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Creek Fords region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Creek Fords",
+      "H3 local marker line in the register of Gravel Bar, Wheel Rut, and Cold Water",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: ford object, water or track detail, plain table meaning",
+      "two compact paragraphs establishing fords as travel tests, tracking filters, meeting places, wildlife corridors, and local-knowledge scenes",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated ford sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate creek fords as practical crossings where depth, current, gravel, wheel ruts, cold feet, and animal behavior decide what happens.",
+      "Include respectful room for Wintu or other Native families who know seasonal water and old paths, without inventing ceremonies, sacred details, or made-up language.",
+      "Give the table hooks around a wagon stuck midstream, washed-out tracks, deer at dawn, salmon or trout sign, a hidden rider downstream, or a crossing that locals refuse after storm rain.",
+      "Make water a clock and a witness: it carries blood, scatters tracks, chills horses, and tells who crossed recently."
+    ],
+    "hand_cut_note": "The ford should feel shallow until the wrong wheel drops into the wrong hole.",
+    "table_spark": "A creek-ford scene should ask who knows the bottom, what the water erased, and which bank is safer to leave from.",
+    "must_preserve": [
+      "Use 1899 western road, water, and tracking language only.",
+      "The generated page must include image path regions/images/creek-fords.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not romanticize Native people or invent cultural details",
+      "do not use concrete culverts, modern bridges, plastic debris, road signs, or recreational fishing language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about fords as travel, tracking, water, wildlife, and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/creek-fords.md",
+    "image_reference": "regions/images/creek-fords.png",
+    "do_not_write_page_now": true
+  }
+}

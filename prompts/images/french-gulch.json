@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "French Gulch mining settlement at the foot of dry hills and worked creek ground",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining-town grit and public tension",
+    "output_path": "regions/images/french-gulch.png",
+    "paired_page_path": "regions/french-gulch.md",
+    "issue_title": "Image: French Gulch",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining settlement, road, logging, and ranch pressure around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush town architecture and Northern California commerce."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a rough French Gulch main street with ore wagons, false-front stores, plank walk, miners, riders, and a stamp mill visible down the grade",
+    "scene": "late afternoon dust and wood smoke; two men argue beside an ore wagon, a rider waters a horse, children watch from a porch, no readable signage",
+    "composition": "square settlement establishing plate with main street cutting diagonally through the frame and creek works visible beyond town",
+    "camera": "slightly low third-person street view, like a player entering town from the wagon road",
+    "material_cues": [
+      "weathered false fronts",
+      "muddy plank walk",
+      "ore sacks",
+      "wagon iron",
+      "horse sweat",
+      "lamp smoke",
+      "tailings dirt",
+      "sun-baked hillside"
+    ],
+    "hand_cut_note": "Make the town feel useful, sour, and watched from every porch.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine town vista",
+      "render_traits": [
+        "slightly simplified settlers, riders, miners, and team animals",
+        "modest texture resolution on timber, dust, cloth, iron, and hillside scrub",
+        "hard ambient occlusion under porches, wagons, horses, and awnings",
+        "warm late-day light with dirty street haze",
+        "believable 1899 mining-town clothing and tools",
+        "public tension staged like an explorable mission hub without copying any known game location"
+      ],
+      "palette": "dust gold, gray weathered timber, creek mud brown, faded red paint, dark iron, smoke blue, and dry-grass ochre."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable store signs, posters, crate labels, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern vehicles",
+        "telephone poles dominating frame",
+        "neon",
+        "plastic objects",
+        "readable signage",
+        "legible posters",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean theme-park western street",
+        "copy of commercial game characters, missions, towns, or logos",
+        "empty town with no human pressure"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "French Gulch, ore wagons, plank walk, creek works, riders, and miners are readable.",
+      "Every object belongs plausibly to an 1899 Northern California mining settlement.",
+      "The image supports table scenes about work, debt, public argument, and road travel.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/french-gulch.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

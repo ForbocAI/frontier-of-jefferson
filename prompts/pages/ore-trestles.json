@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Ore trestles, timber loading frames, chute decks, tram tracks, and high work platforms above creek cuts",
+    "rdr_clone_target": "RDR-clone western with industrial height, sabotage, payroll pressure, and mine-road logistics",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/ore-trestles.md",
+    "paired_image_path": "regions/images/ore-trestles.png",
+    "issue_title": "Page: Ore Trestles",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, logging, and rugged transport pressures around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush mining-town infrastructure and period industrial material."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Ore Trestles region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Ore Trestles",
+      "H3 local marker line in the register of High Timber, Chute Dust, and Loose Bolt",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: trestle object, height or sound detail, plain table meaning",
+      "two compact paragraphs establishing ore trestles as loading sites, work hazards, sabotage targets, chase routes, and evidence points",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated trestle sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate ore trestles as working industrial timber: raised rails, chutes, braces, loose bolts, spilled rock, warning shouts, and men who know which boards flex.",
+      "Give the table hooks around a stalled ore car, cut brake rope, missing payroll box, a fall nobody believes was accidental, a hidden witness below, or a company man demanding the line stay open.",
+      "Make height and noise matter; the page should guide cover, movement, falling hazards, visibility from below, and what gets drowned out by ore clatter.",
+      "Keep the craft rough and local: green timber repairs beside old sun-split beams, iron plates hammered flat, and dust so fine it gets into coffee."
+    ],
+    "hand_cut_note": "A trestle should feel like a job site that only stands because everyone is too poor to stop using it.",
+    "table_spark": "An ore-trestle scene should ask what is moving, what is loose, who is below, and who profits if the structure fails.",
+    "must_preserve": [
+      "Use 1899 western mining, freight, and timber language only.",
+      "The generated page must include image path regions/images/ore-trestles.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the trestle a scenic overlook",
+      "do not use modern steel catwalks, safety rail systems, yellow hazard paint, electric hoists, or clean museum staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about ore trestles as work hazards, logistics points, and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/ore-trestles.md",
+    "image_reference": "regions/images/ore-trestles.png",
+    "do_not_write_page_now": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Pine camp above Clear Creek",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in wildlife pressure and camp consequence",
+    "output_path": "cast/images/bear-sign.png",
+    "paired_page_path": "cast/bear-sign.md",
+    "issue_title": "Image: Bear Sign",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California Department of Fish and Wildlife Black Bear",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Black-Bear",
+      "use": "Black bear range, omnivorous behavior, forest/chaparral habitat, food conflict, and livestock/camp pressure."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "fresh black bear tracks and a torn flour sack beside a wrecked camp box, with a cinnamon-colored black bear half-visible in brush beyond",
+    "scene": "early morning pine camp; cold ashes, scattered beans, claw marks on a log, a tense horse at frame edge, and bedrolls pulled back from the mess",
+    "composition": "square clue scene with tracks leading from foreground evidence to the partly hidden animal; the mistake is clear before the bear is",
+    "camera": "low ground-level inspection angle, bear visible but not lunging, like a PS3-era in-engine tracking moment",
+    "material_cues": [
+      "muddy paw prints",
+      "torn canvas flour sack",
+      "splintered pine camp box",
+      "cold ash and bean scatter",
+      "bear fur partly in shadow",
+      "dew grass",
+      "horse tack pulled tight by nervous movement"
+    ],
+    "hand_cut_note": "Let the animal be ordinary and therefore frightening. The camp made the invitation.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine wildlife clue scene",
+      "render_traits": [
+        "slightly simplified bear, horse, and camp-object silhouettes",
+        "modest texture resolution on fur, canvas, mud, ash, and pine",
+        "hard ambient occlusion under camp box, logs, and the bear's brush cover",
+        "cold morning light with damp ground highlights",
+        "believable 1899 camp gear and food storage",
+        "naturalistic animal pressure rather than monster staging"
+      ],
+      "palette": "cold ash gray, pine green, mud brown, flour white, cinnamon bear fur, canvas tan, wet grass green, and weak dawn blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable labels, brands, signs, crate markings, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "monster bear",
+        "oversized creature",
+        "modern cooler",
+        "plastic food tub",
+        "cars",
+        "neon",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped tracks or cropped bear"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The tracks, torn sack, camp box, bear, and nervous horse are fully readable.",
+      "Every visible prop belongs plausibly to 1899 camp life.",
+      "The bear is naturalistic and the camp mistake is visible.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/bear-sign.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

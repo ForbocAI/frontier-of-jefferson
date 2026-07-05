@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "back-road trail-mark cluster near pine timber and mining-country brush",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in navigation evidence and false-route tension",
+    "output_path": "regions/images/trail-blazes.png",
+    "paired_page_path": "regions/trail-blazes.md",
+    "issue_title": "Image: Trail Blazes",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Back-road movement through mining, logging, and ranch country."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush movement and settlement material context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "an axe-blazed pine, bent nail, small cairn, branded stake, chalk smear on stone, and boot tracks where a back trail splits",
+    "scene": "overcast trail edge after rain; one rider crouches to compare marks while another watches the wrong fork, no readable symbols or text",
+    "composition": "square evidence scene with marks large in foreground, forked trail mid-frame, and brushy timber road disappearing beyond",
+    "camera": "low tracker-view angle close to bark cuts, nail, stones, and muddy tracks",
+    "material_cues": [
+      "fresh axe scar",
+      "weathered pine bark",
+      "bent iron nail",
+      "chalk smear",
+      "small fieldstones",
+      "branded wooden stake",
+      "muddy boot tracks",
+      "cut brush stems"
+    ],
+    "hand_cut_note": "Make the marks plain, useful, and suspicious instead of decorative.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine trail-evidence scene",
+      "render_traits": [
+        "slightly simplified riders, trail fork, tree bark, stones, stake, nail, and brush",
+        "modest texture resolution on bark, chalk, iron, wet dirt, wood, leather, and brush",
+        "hard ambient occlusion under stones, roots, boots, stake, nail head, and brush",
+        "cool post-rain light with wet bark highlights",
+        "believable 1899 trail marks, riding gear, and route evidence",
+        "playable navigation scene where false direction and tracking matter"
+      ],
+      "palette": "wet pine brown, chalk white, iron black, mud umber, bark gray, brush green, leather brown, and overcast blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable symbols, letters, brands, signs, labels, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "carved symbols",
+        "ancient alphabet",
+        "secret-code glyphs",
+        "modern trail signs",
+        "plastic flagging tape",
+        "spray paint",
+        "GPS device",
+        "reflective markers",
+        "cars",
+        "readable writing",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean park trail display",
+        "copy of commercial game characters, missions, towns, or logos"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The axe blaze, bent nail, cairn, branded stake, chalk smear, trail fork, rider, and tracks are readable.",
+      "Every object belongs plausibly to rugged 1899 trail navigation.",
+      "The image supports navigation, pursuit, false-mark, warning, and tracking scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/trail-blazes.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

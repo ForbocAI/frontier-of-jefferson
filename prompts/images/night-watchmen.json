@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "French Gulch after midnight",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in town patrol and law pressure",
+    "output_path": "cast/images/night-watchmen.png",
+    "paired_page_path": "cast/night-watchmen.md",
+    "issue_title": "Image: Night Watchmen",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Iron shutters, old brick, courthouse-town texture, and mining-commerce streets."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining settlement and road-town pressure."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a night watchman with a shotgun and smoky lamp walking past shuttered brick ruins and timber storefronts while a dog watches an alley",
+    "scene": "cold moonlit street after rain; dim lamp circles, damp boards, unreadable wanted sheets, a jail door key ring at the belt, mountain dark behind town, and one upstairs curtain slightly open",
+    "composition": "square nocturne with the lamp circle as the only warm center; alleys press close, the watchman is off-center, and the dog sees what he might not",
+    "camera": "third-person trailing view like a stealth patrol in an early-HD western game, low enough to catch mud and lamp reflection",
+    "material_cues": [
+      "smoked lamp glass",
+      "oiled shotgun stock",
+      "wet brick and iron shutters",
+      "muddy street with boot shine",
+      "key ring on worn leather belt",
+      "dog fur rim-lit by lamp",
+      "rain-dark porch boards"
+    ],
+    "hand_cut_note": "Let the image ask whether he is protecting the town or protecting what the town did. Keep his gun low and the shadows busier than he is.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine stealth patrol scene",
+      "render_traits": [
+        "slightly simplified watchman, dog, and storefront silhouettes",
+        "modest texture resolution on lamp glass, wet brick, wood, mud, and leather",
+        "hard ambient occlusion in alleys, under awnings, and behind shutters",
+        "strong warm lamp against cold moonlight",
+        "believable 1899 town patrol gear and buildings",
+        "quiet suspicion instead of action pose"
+      ],
+      "palette": "lamp amber, wet brick red, mud black, moon gray, shutter iron, dark pine, shotgun brown, and weak window gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable wanted posters, signs, labels, or text. Papers should be indistinct period shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "electric flashlight",
+        "modern police gear",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped lamp or cropped dog"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The watchman, lamp, shotgun, dog, alley, and wet street are fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 town patrol life.",
+      "The mood is practical and suspicious, not theatrical or modern.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/night-watchmen.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Snow edges, stock country, Klamath mountain ridges, and rumor-heavy road camps",
+    "rdr_clone_target": "RDR-clone western with rumor, livestock fear, disputed sign, hunting pressure, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/wolf-rumors.md",
+    "paired_image_path": "cast/images/wolf-rumors.png",
+    "issue_title": "Page: Wolf Rumors",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "California Department of Fish and Wildlife Gray Wolf",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Gray-Wolf",
+      "use": "Gray wolves as a native species likely extirpated from California in the 1920s, making 1899 wolf sign rare, disputed, and plausible at the edge."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer as prey and track context."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Elk",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Elk",
+      "use": "Elk and herd-scale landscape context for northern/wider frontier scenes."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Wolf Rumors cast page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Wolf Rumors",
+      "square image reference immediately after the title",
+      "opening blockquote with invented snow-track note, stock warning, or camp rumor generated later",
+      "H2 archetype subtitle in the register of Old Pack Talk",
+      "one or two compact lore paragraphs introducing rare wolf sign, disputed stories, stock fear, and memory of a native predator near the edge of disappearance",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four grounded signs or rumor patterns",
+      "H3 Rumors and Signs",
+      "10 H4 headings, each followed later by a brief playable move, warning, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Generate wolves as rare, contested, and rumor-heavy for 1899, not common enemies.",
+      "Tie future entries to disputed tracks, distant howls, livestock panic, old hunter claims, mistaken dog sign, snow reading, dead calves, bounty talk, and moral choices around extermination.",
+      "Make uncertainty playable: the page should ask what people do before they know.",
+      "Use the rumor itself as a social animal: it changes prices, patrols, blame, and who gets permission to cross land.",
+      "Do not include final move names or final move text in this JSON."
+    ],
+    "hand_cut_note": "The best wolf page is mostly absence: a howl, a missing calf, and three men lying for different reasons.",
+    "table_spark": "A rumor can travel farther than a pack and bite nearly as hard.",
+    "must_preserve": [
+      "Use 1899 western animal-sign and rumor language only.",
+      "Keep wolves rare, naturalistic, disputed, and historically plausible for 1899.",
+      "The generated page must include image path cast/images/wolf-rumors.png.",
+      "No finished page prose, final entries, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred-invented, or fake-tribal framing",
+      "do not make wolves common monsters, pets, boss fights, mascots, or moral symbols",
+      "do not use modern wildlife gear, vehicles, plastic props, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about rare wolf sign, disputed rumor, livestock fear, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/wolf-rumors.md",
+    "image_reference": "cast/images/wolf-rumors.png",
+    "do_not_write_page_now": true
+  }
+}

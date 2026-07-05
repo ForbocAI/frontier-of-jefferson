@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Trail blazes, axe cuts, cairns, bent nails, chalk smears, branded stakes, and false route marks across Jefferson back roads",
+    "rdr_clone_target": "RDR-clone western with navigation pressure, false signs, pursuit, local knowledge, and route-choice risk",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/trail-blazes.md",
+    "paired_image_path": "regions/images/trail-blazes.png",
+    "issue_title": "Page: Trail Blazes",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road movement, mining, logging, ranching, and rugged local travel around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush movement, commerce, and Northern California settlement texture."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Trail Blazes region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Trail Blazes",
+      "H3 local marker line in the register of Axe Cut, Bent Nail, and Chalk Smear",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: trail-mark object, weather or tampering detail, plain table meaning",
+      "two compact paragraphs establishing trail blazes as navigation aid, warning system, evidence trail, false-mark trick, and local-knowledge scene",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated trail-blaze sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate trail blazes as practical 1899 marks: axe cuts in pine bark, cairns, bent nails, branded stakes, chalk arrows on rock, cut brush, and charcoal marks that weather away.",
+      "Give the table hooks around a false blaze, a mark hidden by snowmelt, a pursuit route, a logging cutoff, a miner's private path, or a warning meant only for people who know the road.",
+      "Make marks readable but uncertain; the page should help decide age, maker, direction, tampering, weather damage, and whether a shortcut is a trap.",
+      "Keep the marks local and workmanlike, never invented alphabets, sacred signs, puzzle symbols, or secret-society codes."
+    ],
+    "hand_cut_note": "A good trail mark should look plain until somebody notices it points wrong.",
+    "table_spark": "A trail-blaze scene should ask who cut the mark, who changed it, what weather hid it, and what road it wants people to take.",
+    "must_preserve": [
+      "Use 1899 western trail, timber, road, and tracking language only.",
+      "The generated page must include image path regions/images/trail-blazes.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not use stone-marker framing, old-world alphabets, sacred-invented marks, secret codes, or puzzle-symbol logic",
+      "do not include modern trail blazes, bright plastic flagging, reflective markers, park signage, spray paint, GPS, or recreational hiking language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about trail blazes as navigation, evidence, false signs, and scene engine.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/trail-blazes.md",
+    "image_reference": "regions/images/trail-blazes.png",
+    "do_not_write_page_now": true
+  }
+}

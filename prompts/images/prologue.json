@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
+    "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
+    "output_path": "prologue/images/prologue.png",
+    "paired_page_path": "prologue/prologue.md",
+    "issue_title": "Image: Prologue",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining communities, road pressure, immigrant settlement, and Clear Creek-era social conflict."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Courthouse-town material, iron shutters, brick ruins, commerce, and northern California mining-town texture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a small posse gathered under a hotel porch in French Gulch while rain slants across a lantern-lit street and an anxious horse paws mud",
+    "scene": "nightfall in 1899; a buckboard stands half-loaded, upstairs silhouettes watch through curtains, unreadable handbills curl on a post, pine-black hills close behind town, and a wet road leaves the porch into darkness",
+    "composition": "square scene plate with the porch as a sheltering frame and the road beyond as the threat line; one rider stands just outside the lantern circle to make the errand feel personal",
+    "camera": "chest-height over-the-shoulder view from just behind a soaked rider, cinematic but still game-like, with early-HD silhouettes and baked shadow under the porch roof",
+    "material_cues": [
+      "kerosene lantern glow on wet porch planks",
+      "rain beads on wool coats",
+      "muddy boot prints crossing old boards",
+      "horse steam in cold air",
+      "creased paper tucked under a gloved thumb",
+      "patched canvas on a buckboard load",
+      "dull gunmetal kept low and practical"
+    ],
+    "hand_cut_note": "Do not make the prologue grand. Make it feel like a bad errand accepted because the room got quiet and nobody else would ride.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD promotional render mixed with in-engine screenshot staging",
+      "render_traits": [
+        "chunky but readable character silhouettes",
+        "modest texture resolution on wood, cloth, mud, and leather",
+        "hard ambient occlusion under porch rails, hat brims, wagon boards, and horse legs",
+        "lantern-lit night palette with visible rain streaks",
+        "believable 1899 clothing and town architecture",
+        "grounded mood with no theatrical hero pose"
+      ],
+      "palette": "lantern amber, rain-black pine, muddy umber, faded blue wool, oxidized iron, cold gray sky, and weak window gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "Avoid readable words. Handbills and notes should be visible only as blurred period paper shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern cars",
+        "modern pavement",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped horse or cropped rider"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The porch, road, horse, and riders are all fully readable.",
+      "Every visible prop, garment, animal, and building belongs plausibly to 1899 frontier life.",
+      "The mood is practical and tense rather than theatrical.",
+      "No copied game characters, no readable modern text, and no inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "prologue/images/prologue.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

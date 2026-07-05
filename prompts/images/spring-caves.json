@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "spring cave beside a worked mining gulch in Jefferson country",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hidden water and cave danger",
+    "output_path": "regions/images/spring-caves.png",
+    "paired_page_path": "regions/spring-caves.md",
+    "issue_title": "Image: Spring Caves",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, travel, settlement, and water pressure in the Whiskeytown region."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Respectful regional grounding for Native knowledge of local waterways."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a hidden spring cave with cold seep water, mineral-stained stone, bucket rope, lamp smoke, horse tracks outside, and two travelers crouched near the entrance",
+    "scene": "late afternoon at a rocky gulch mouth; a Native woman points toward the safer footing while a miner lowers a tin bucket, no readable signs or labels",
+    "composition": "square cave-mouth scene with dark spring water in foreground, figures at the threshold, and dry road country visible beyond",
+    "camera": "low in-engine exploration view from just inside the cave, close to wet stone and bucket rope",
+    "material_cues": [
+      "mineral crust",
+      "cold seep water",
+      "wet stone shine",
+      "frayed bucket rope",
+      "tin bucket",
+      "lamp soot",
+      "muddy horse tracks",
+      "dry gulch dust"
+    ],
+    "hand_cut_note": "Make the water look valuable, cold, and hard to reach without turning the cave into a shrine.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine hidden-water scene",
+      "render_traits": [
+        "slightly simplified travelers, cave mouth, bucket, rope, tracks, and water surface",
+        "modest texture resolution on wet stone, mineral crust, tin, rope, cloth, mud, and dust",
+        "hard ambient occlusion under rock lip, figures, bucket, horse tracks, and cave ledges",
+        "cool cave shadow against hot late-day exterior light",
+        "believable 1899 clothing, water gear, lamp soot, and trail wear",
+        "playable threshold composition with water access, hiding space, and danger underfoot"
+      ],
+      "palette": "cold spring blue, mineral white, wet stone gray, rope tan, tin dull silver, lamp black, dry dust ochre, and late sun gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, markings, papers, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "decorative crystals",
+        "sacred invented symbols",
+        "modern pumps",
+        "plastic bucket",
+        "electric lights",
+        "cave tour railings",
+        "cars",
+        "readable signage",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean tourist cave",
+        "copy of commercial game characters, missions, towns, or logos",
+        "caricatured Native clothing or invented symbols"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The spring cave, cold water, mineral stains, bucket rope, travelers, tracks, and dry exterior are readable.",
+      "Every object belongs plausibly to rugged 1899 water access and trail life.",
+      "The image treats Native knowledge respectfully and keeps the cave practical, not mystical.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/spring-caves.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, beginning in French Gulch",
+    "output_path": "folk/images/the-claim-king.png",
+    "paired_page_path": "folk/the-claim-king.md",
+    "issue_title": "Image: The Claim King",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a charismatic frontier boss seated in a saloon corner with claim papers, cane, expensive vest, and watchful associates",
+    "scene": "Jefferson State frontier location tied to the page role, period-authentic 1899 props, dust and weather visible",
+    "composition": "single strong central subject or tableau, full subject readable in square frame, early-HD western game key-art clarity",
+    "boutique_direction": "Make him charismatic enough to explain his hold on people and small enough that the reader can imagine meeting him in a saloon corner.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD promotional render crossed with in-engine screenshot composition",
+      "render_traits": [
+        "slightly simplified geometry",
+        "visible but intentional low-poly silhouettes",
+        "baked sunlight and hard-edged ambient occlusion",
+        "weathered texture maps with modest resolution",
+        "grounded 1899 clothing, props, architecture, and landscape",
+        "dust, mud, smoke, timber, canvas, iron, leather, and worn paint as tactile materials"
+      ],
+      "palette": "sun-bleached ochre, pine green, oxidized iron, charcoal shadow, muddy umber, faded calico, brass highlights, and cold mountain blue; avoid one-note sepia.",
+      "negative_prompt": [
+        "storybook fantasy art",
+        "watercolor illustration",
+        "cute fairy tale style",
+        "modern technology",
+        "cars",
+        "power lines unless telegraph-specific",
+        "neon",
+        "high fantasy armor",
+        "magic spell effects",
+        "dragons",
+        "elves",
+        "dwarves",
+        "text overlays",
+        "legible signage",
+        "logos",
+        "watermark",
+        "photorealistic modern DSLR look",
+        "next-gen ultra realistic rendering",
+        "smooth plastic skin",
+        "oversaturated concept art",
+        "cropped subject"
+      ]
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "Avoid readable words; any labels or notices should be indistinct period-appropriate shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "storybook fantasy art",
+        "watercolor illustration",
+        "cute fairy tale style",
+        "modern technology",
+        "cars",
+        "power lines unless telegraph-specific",
+        "neon",
+        "high fantasy armor",
+        "magic spell effects",
+        "dragons",
+        "elves",
+        "dwarves",
+        "text overlays",
+        "legible signage",
+        "logos",
+        "watermark",
+        "photorealistic modern DSLR look",
+        "next-gen ultra realistic rendering",
+        "smooth plastic skin",
+        "oversaturated concept art",
+        "cropped subject"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Looks like a PS3-era western game asset or promotional plate, not fantasy storybook art.",
+      "Square framing leaves the main subject fully readable at page-card scale.",
+      "Every prop and garment belongs plausibly to 1899 frontier life.",
+      "No source/reference project names, no logos, and no readable modern text."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "folk/images/the-claim-king.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

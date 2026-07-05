@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
+    "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
+    "output_path": "introduction/images/frontier-of-jefferson.png",
+    "paired_page_path": "introduction/introduction.md",
+    "issue_title": "Image: Introduction",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek gold rush context, Wintu presence, mining communities, and rugged regional work."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Wintu homeland around Clear Creek and the need to show Native presence as grounded community context."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining town material: brick remnants, commerce, courthouse memory, iron, timber, and road dust."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a full-packet hero plate of French Gulch in 1899: muddy main street, timber storefronts, ore wagons, pine hills, and one rider entering from the near foreground",
+    "scene": "late afternoon after rain; chimney smoke, slick ruts, tethered horses, a courthouse notice board with unreadable papers, a Wintu family and a freight hand crossing paths naturally near the store, and mountains closing the sky",
+    "composition": "square promotional key art crop with the road pulling the eye into town; side characters arranged like a playable hub, with no single posed hero owning the frame",
+    "camera": "low horseback-height three-quarter view, mild wide angle, early-HD open-world game framing with readable silhouettes and chunky environmental geometry",
+    "material_cues": [
+      "wet mud ruts reflecting gray sky",
+      "dark pine boards swollen by rain",
+      "canvas awnings with frayed edges",
+      "lamp glass catching dull brass light",
+      "iron wagon rims and ore cart scars",
+      "worn saddle leather and soaked wool",
+      "tailings and pine needles at the road edge"
+    ],
+    "hand_cut_note": "Make this the visual promise of the whole packet: not clean nostalgia, but a town where every porch has a private argument and every road out costs more than it first looks.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD promotional render mixed with in-engine screenshot staging",
+      "render_traits": [
+        "slightly simplified geometry with readable silhouettes",
+        "modest texture resolution and baked sunlight",
+        "hard-edged ambient occlusion under awnings, hats, wagons, and porch rails",
+        "weathered but not hyper-detailed materials",
+        "believable 1899 clothing, tools, saddles, firearms, wagons, animals, and town architecture",
+        "dust, mud, smoke, pine needles, canvas, iron, rawhide, calico, paper, and worn paint as tactile cues"
+      ],
+      "palette": "sun-baked ochre, pine green, muddy umber, charcoal shadow, oxidized iron, faded calico, dull brass, cold creek blue, and smoke gray; avoid one-note sepia."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "Avoid readable words. Notices, signs, and paper scraps may appear only as indistinct period marks."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern cars",
+        "modern pavement",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped main subject"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The main subject is fully framed and not hidden by text or logos.",
+      "Every visible prop, animal, garment, and building belongs plausibly to 1899 frontier life.",
+      "Native presence is ordinary, respectful, and grounded in community life rather than costume or spectacle.",
+      "No copied game characters, no readable modern text, and no inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "introduction/images/frontier-of-jefferson.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

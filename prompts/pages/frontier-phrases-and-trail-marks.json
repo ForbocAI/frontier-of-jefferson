@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, beginning in French Gulch",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "familiar/frontier-phrases-and-trail-marks.md",
+    "paired_image_path": "images/frontier-phrases-and-trail-marks.png",
+    "issue_title": "Page: Frontier Phrases and Trail Marks",
+    "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
+  },
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown lore-and-rules page writer",
+    "task": "Generate the Frontier Phrases and Trail Marks familiar/rules page for the 1899 Jefferson frontier rules packet.",
+    "page_shape": [
+      "H2 Frontier Phrases and Trail Marks",
+      "square image reference",
+      "opening blockquote",
+      "H3 Begin the Scene",
+      "H3 Ask the First Question",
+      "H3 Mark a Thread",
+      "H3 Pass the Mantle",
+      "H3 Record the Fact",
+      "H3 Close the Scene"
+    ],
+    "generation_guidance": [
+      "This is a table-facing procedure page, not technical documentation.",
+      "Use examples and rule language only in the generated markdown, not in this prompt file.",
+      "Keep mechanics legible for solo and group play.",
+      "Tie procedures to frontier objects: ledgers, maps, playing cards, trail signs, strongboxes, notices, coffee, weather, and debt."
+    ],
+    "boutique_direction": "Replace mystical phrasework with brands, blaze marks, chalk signs, courthouse shorthand, camp calls, and practical table phrases.",
+    "continuity_hooks": [
+      "phrases",
+      "marks",
+      "scene ritual"
+    ],
+    "must_preserve": [],
+    "style_constraints": {
+      "era": "All generated content belongs to 1899 and should feel period-grounded without becoming a history lecture.",
+      "voice": "Use a frontier oral-history voice: weathered, specific, practical, and slightly mythic, but never fantasy-storybook.",
+      "typography": "Generated markdown will later be shown with Rye for headings and Smokum for body copy; write headings that can carry that bold western display style.",
+      "rules_lore_balance": "Every page should be useful at the table: lore creates hooks, rules create choices, and neither should read like technical documentation.",
+      "continuity": "French Gulch is the starting pressure point; roads, claims, people, debts, weather, rumor, law, and company power should radiate outward from there."
+    },
+    "avoid": [
+      "do not write finished page prose inside this prompt file",
+      "do not include completed lore paragraphs, sample inscriptions, dialogue, or final rule text",
+      "do not mention any source packet, template packet, or reference project by name",
+      "do not include engine, hardware, runtime, profiling, build, deployment, or implementation details",
+      "do not include modern slang, modern technology, fantasy races, magic systems, or developer-facing commentary",
+      "do not use placeholder filler such as TBD, lorem ipsum, or generic western flavor without a playable purpose"
+    ],
+    "self_check": [
+      "The generated markdown follows the required section order exactly.",
+      "The generated page contains real usable lore/rules, but this JSON prompt contains no finished page prose.",
+      "The generated page stays in 1899 Jefferson State and begins from or points back to French Gulch when appropriate.",
+      "The generated page contains no technical engine or hardware material.",
+      "The generated page never names any reference/source packet."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "familiar/frontier-phrases-and-trail-marks.md",
+    "image_reference": "images/frontier-phrases-and-trail-marks.png",
+    "do_not_write_now": true
+  }
+}

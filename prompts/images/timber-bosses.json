@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Saw camp in mixed conifer forest above French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in logging labor and resource pressure",
+    "output_path": "cast/images/timber-bosses.png",
+    "paired_page_path": "cast/timber-bosses.md",
+    "issue_title": "Image: Timber Bosses",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Logging, ranching, mining, and resource-use context around the region."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California commerce and material texture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a timber boss at a saw camp shouting over a crosscut crew while logs wait on skids and oxen stand in mud",
+    "scene": "cold morning in mixed conifer forest; sawdust haze, cook smoke, rough bunkhouse, dangerous slope beyond, and a ledger tucked under the boss's arm",
+    "composition": "square busy worksite with boss offset, logs creating heavy horizontal lines, crew and oxen showing the cost of the command",
+    "camera": "slightly low worksite angle with early-HD texture on bark, sawdust, and mud",
+    "material_cues": [
+      "fresh-cut pine",
+      "sawdust on boots",
+      "muddy skids",
+      "wool coats and suspenders",
+      "ox harness leather",
+      "ledger tucked under arm",
+      "crosscut saw teeth"
+    ],
+    "hand_cut_note": "Let him be competent enough to be dangerous; the trees are not the only things being counted.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine logging worksite",
+      "render_traits": [
+        "slightly simplified boss, crew, oxen, and log silhouettes",
+        "modest texture resolution on bark, sawdust, wool, mud, and leather",
+        "hard ambient occlusion under logs, oxen, saws, and skid timbers",
+        "cold morning light with sawdust haze",
+        "believable 1899 logging tools and camp clothing",
+        "resource-pressure composition rather than heroic lumber portrait"
+      ],
+      "palette": "fresh pine gold, mud umber, ox brown, wool gray, sawdust tan, iron gray, cook-smoke blue, and conifer green."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable ledger entries, crate labels, signs, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern chainsaw",
+        "logging truck",
+        "hardhat",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped logs or cropped oxen"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The timber boss, crew, logs, oxen, saws, and muddy worksite are readable.",
+      "Every visible prop belongs plausibly to 1899 logging work.",
+      "The image shows labor pressure and extraction rather than nostalgic scenery.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/timber-bosses.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

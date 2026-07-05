@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "weathered timber wagon bridge spanning a cold creek in rugged Jefferson country",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in crossing tension and road travel",
+    "output_path": "regions/images/wagon-bridges.png",
+    "paired_page_path": "regions/wagon-bridges.md",
+    "issue_title": "Image: Wagon Bridges",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Rugged road movement through mining, logging, and ranch country."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer sign and creek-edge wildlife texture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a patched timber wagon bridge with an ore wagon half across, riders waiting, a toll chain on one post, and creek water foaming below",
+    "scene": "overcast afternoon after rain; muddy ruts climb onto the deck, deer tracks mark the bank, a repair crew tests a plank with a pry bar, no readable signs",
+    "composition": "square crossing scene with the bridge running from lower foreground to upper distance, creek diagonally below, travelers held in a tense queue",
+    "camera": "third-person road approach angle, low enough to make the planks and drop feel dangerous",
+    "material_cues": [
+      "wet fir planks",
+      "rusted iron spikes",
+      "muddy wagon ruts",
+      "rope lashings",
+      "creek foam",
+      "horse tack",
+      "patched toll post",
+      "brushy bank"
+    ],
+    "hand_cut_note": "Make the crossing look like it can hold today, but maybe not tomorrow.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine road crossing scene",
+      "render_traits": [
+        "slightly simplified horses, wagon team, repair crew, and waiting riders",
+        "modest texture resolution on wet wood, mud, rope, iron, brush, and creek water",
+        "hard ambient occlusion under bridge beams, wagon wheels, horses, and bank brush",
+        "gray post-rain light with creek shine",
+        "believable 1899 freight gear and trail clothing",
+        "chokepoint composition that feels playable from either side"
+      ],
+      "palette": "wet timber brown, creek gray, mud black, rope tan, dull iron, buckskin, pine green, and clouded sky."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable toll notices, signs, initials, labels, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "concrete bridge",
+        "modern guardrail",
+        "asphalt road",
+        "cars",
+        "electric lights",
+        "readable signage",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "bridge with no people, animals, or crossing pressure"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The bridge, wagon, riders, toll chain, creek, muddy ruts, and repair work are readable.",
+      "Every object belongs plausibly to an 1899 road crossing.",
+      "The image feels like a playable chokepoint rather than background scenery.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/wagon-bridges.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

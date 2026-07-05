@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, beginning in French Gulch",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "folk/the-rumor-road.md",
+    "paired_image_path": "images/rumor-road.png",
+    "issue_title": "Page: The Rumor Road",
+    "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
+  },
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown lore-and-rules page writer",
+    "task": "Generate the The Rumor Road folk page for the 1899 Jefferson frontier rules/lore packet.",
+    "page_shape": [
+      "H2 title",
+      "square image reference",
+      "opening blockquote with mark, saying, and object/source note",
+      "H2 archetype subtitle: Living Gossip Network",
+      "one to two compact lore paragraphs",
+      "H3 Role with short role phrase",
+      "H3 Traits with two to four concise traits",
+      "H3 Gifts",
+      "10 H4 gift headings, each followed by a short rules-lore description",
+      "H3 Working Cant closing blockquote"
+    ],
+    "generation_guidance": [
+      "Generate this group as the informal web of talk, favors, signals, and remembered routes.",
+      "Each gift should be playable and table-readable: a concrete action, social leverage, travel edge, protection, recovery, or complication tool.",
+      "Gift descriptions should be brief but specific; avoid numeric stat blocks unless the future system explicitly asks for them.",
+      "The working cant should be generated as an in-world mark with plain meaning, but no completed cant belongs in this JSON prompt."
+    ],
+    "boutique_direction": "Write it like a force without making it supernatural: the frontier itself seems to speak because everybody owes somebody a story.",
+    "continuity_hooks": [
+      "rumor",
+      "routes",
+      "favors",
+      "news"
+    ],
+    "must_preserve": [],
+    "style_constraints": {
+      "era": "All generated content belongs to 1899 and should feel period-grounded without becoming a history lecture.",
+      "voice": "Use a frontier oral-history voice: weathered, specific, practical, and slightly mythic, but never fantasy-storybook.",
+      "typography": "Generated markdown will later be shown with Rye for headings and Smokum for body copy; write headings that can carry that bold western display style.",
+      "rules_lore_balance": "Every page should be useful at the table: lore creates hooks, rules create choices, and neither should read like technical documentation.",
+      "continuity": "French Gulch is the starting pressure point; roads, claims, people, debts, weather, rumor, law, and company power should radiate outward from there."
+    },
+    "avoid": [
+      "do not write finished page prose inside this prompt file",
+      "do not include completed lore paragraphs, sample inscriptions, dialogue, or final rule text",
+      "do not mention any source packet, template packet, or reference project by name",
+      "do not include engine, hardware, runtime, profiling, build, deployment, or implementation details",
+      "do not include modern slang, modern technology, fantasy races, magic systems, or developer-facing commentary",
+      "do not use placeholder filler such as TBD, lorem ipsum, or generic western flavor without a playable purpose"
+    ],
+    "self_check": [
+      "The generated markdown follows the required section order exactly.",
+      "The generated page contains real usable lore/rules, but this JSON prompt contains no finished page prose.",
+      "The generated page stays in 1899 Jefferson State and begins from or points back to French Gulch when appropriate.",
+      "The generated page contains no technical engine or hardware material.",
+      "The generated page never names any reference/source packet."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "folk/the-rumor-road.md",
+    "image_reference": "images/rumor-road.png",
+    "do_not_write_now": true
+  }
+}

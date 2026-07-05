@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson wagon road where snowmelt, mud, dry grass, and smoke haze meet across elevation",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in seasonal travel and work pressure",
+    "output_path": "regions/images/seasonal-shifts.png",
+    "paired_page_path": "regions/seasonal-shifts.md",
+    "issue_title": "Image: Seasonal Shifts",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Seasonal road, mining, logging, and ranch conditions in rugged terrain."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer movement and seasonal wildlife sign."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a wagon road climbing from muddy spring runoff toward dry grass and smoke haze, with snow still on the high ridge and deer tracks beside a creek",
+    "scene": "one grounded high-country road scene, not a split-screen; freight riders pause to judge weather while a creek runs high across ruts, no readable signs",
+    "composition": "square landscape-road plate with foreground mud and runoff, midground riders and wagon, dry slope beyond, and snowy ridge in distance",
+    "camera": "third-person road approach angle, low enough to read ruts, tracks, water height, and sky changes",
+    "material_cues": [
+      "runoff water",
+      "muddy wheel ruts",
+      "dry yellow grass",
+      "snow patches",
+      "smoke haze",
+      "deer tracks",
+      "wet wagon canvas",
+      "dusty saddle leather"
+    ],
+    "hand_cut_note": "Make the season change visible through travel problems, not a decorative calendar scene.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine seasonal road scene",
+      "render_traits": [
+        "slightly simplified riders, wagon, animals, road, creek, grass, and ridge geometry",
+        "modest texture resolution on mud, water, snow, grass, canvas, leather, and smoke haze",
+        "hard ambient occlusion under wagon wheels, hooves, ruts, creek stones, and brush",
+        "mixed cool runoff light and warm dry-slope haze",
+        "believable 1899 freight gear and trail clothing",
+        "playable route-choice composition where season changes the road"
+      ],
+      "palette": "runoff blue, mud umber, snow white, dry grass ochre, smoke gray, pine green, wagon brown, and pale sky gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, maps, calendars, papers, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "four-panel season collage",
+        "symbolic season wheel",
+        "modern weather map",
+        "cars",
+        "asphalt",
+        "tourist trail signs",
+        "readable labels",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean calendar illustration",
+        "copy of commercial game characters, missions, towns, or logos",
+        "abstract symbolic seasons"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The road, runoff, mud, dry grass, smoke haze, snow line, wagon, riders, and deer tracks are readable.",
+      "Every visible object belongs plausibly to rugged 1899 seasonal travel.",
+      "The image supports timing, detour, shortage, wildlife, and weather-pressure scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/seasonal-shifts.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

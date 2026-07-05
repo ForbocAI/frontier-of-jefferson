@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Mining claim stakes, paper notices, witness cuts, survey chains, and contested hillsides around French Gulch",
+    "rdr_clone_target": "RDR-clone western with land disputes, claim jumping, law papers, and armed intimidation",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/claim-stakes.md",
+    "paired_image_path": "regions/images/claim-stakes.png",
+    "issue_title": "Page: Claim Stakes",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining claims, settlement pressure, and changing land use in Whiskeytown country."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush legal and town context for claim-era disputes."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Claim Stakes region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Claim Stakes",
+      "H3 local marker line in the register of Split Cedar, Tin Notice, and Witness Cut",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: boundary object, weather or animal damage, plain table meaning",
+      "two compact paragraphs establishing claim stakes as legal tool, provocation, evidence trail, route marker, and scene fuse",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated claim-stake sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate claim stakes as fragile law in the dirt: split cedar posts, tacked notices, survey chain scars, cut brush, boot tracks, and someone watching from the trees.",
+      "Give the table hooks around claim jumping, forged notices, old Native use paths crossing new boundaries, displaced grazing, missing witnesses, and a paper nailed upside down after rain.",
+      "Let stakes be small objects with large consequences; the page should make boundaries feel uncertain, personal, and dangerous.",
+      "Use legal dust, not courtroom polish: county seal wax, tin tobacco boxes used for papers, pencil marks, damp signatures, and hard looks."
+    ],
+    "hand_cut_note": "A claim stake is just a stick until a man brings a rifle to read it.",
+    "table_spark": "A claim-stake scene should ask who drove the stake, who moved it, who saw it first, and who cannot afford the answer.",
+    "must_preserve": [
+      "Use 1899 western mining-claim and road language only.",
+      "The generated page must include image path regions/images/claim-stakes.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not turn boundary signs into sacred objects or invented ceremonial markings",
+      "do not use modern survey gear, printed barcodes, laminated notices, or GPS language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about claim boundaries as conflict tools and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/claim-stakes.md",
+    "image_reference": "regions/images/claim-stakes.png",
+    "do_not_write_page_now": true
+  }
+}

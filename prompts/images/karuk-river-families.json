@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Klamath River gravel bar and forested canyon country",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in river work, stewardship, and rugged travel",
+    "output_path": "cast/images/karuk-river-families.png",
+    "paired_page_path": "cast/karuk-river-families.md",
+    "issue_title": "Image: Karuk River Families",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "Karuk Tribe",
+      "url": "https://www.karuk.us/",
+      "use": "Klamath River homeland, salmon fishing, basketry, environmental stewardship, cultural burning, and self-governance."
+    },
+    {
+      "title": "Yurok Tribe",
+      "url": "https://www.yuroktribe.org/",
+      "use": "Land and water stewardship, self-governance, cultural preservation, reciprocity, and dignity."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "Karuk river families working near a Klamath River gravel bar with salmon gear, baskets, pack animals, and a traveler waiting respectfully at distance",
+    "scene": "clear river light in a forested canyon; smoke from a careful burn far above the water, practical 1899 work clothing, pack loads set down, children and elders included naturally, no ceremonial staging",
+    "composition": "square scene with the river curve leading through people, baskets, pack animals, and gear; the outsider is visibly a guest, not the center",
+    "camera": "mid-distance bank view with respectful spacing, early-HD environmental storytelling, and no trophy framing",
+    "material_cues": [
+      "river cobbles and clear water glare",
+      "salmon poles and cordage",
+      "basket texture and worn pack straps",
+      "pack saddle canvas",
+      "forest smoke haze far up slope",
+      "wool and cotton work clothes",
+      "wet stones and pine-shadowed bank"
+    ],
+    "hand_cut_note": "The outsider should look like the guest; the river families should look like the people who know the map.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD community/environment scene",
+      "render_traits": [
+        "slightly simplified but respectful human and animal silhouettes",
+        "modest texture resolution on water, baskets, cloth, leather, and stone",
+        "hard ambient occlusion under packs, baskets, animals, and river stones",
+        "clear river daylight with forest-shadow contrast",
+        "believable 1899 work clothing and river gear",
+        "community-life composition rather than posed spectacle"
+      ],
+      "palette": "river blue, gravel gray, basket tan, pine green, smoke gray, work-cloth brown, salmon dull silver, and late sun gold."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, writing, or invented Native text. Any paper or crate marks must be indistinct."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "invented ceremony",
+        "costume spectacle",
+        "modern clothing",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped faces or isolated trophy portrait"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The people, river, salmon gear, baskets, pack animals, and traveler are fully readable.",
+      "Native presence is ordinary, respectful, community-centered, and grounded in place.",
+      "No invented sacred detail, fake language, costume spectacle, or modern object appears.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/karuk-river-families.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

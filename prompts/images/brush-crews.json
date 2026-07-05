@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Brush-choked fire line above Clear Creek",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in labor, smoke, wildlife, and rugged travel",
+    "output_path": "cast/images/brush-crews.png",
+    "paired_page_path": "cast/brush-crews.md",
+    "issue_title": "Image: Brush Crews",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Fire stewardship context around Clear Creek and Wintu homeland."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Black Bear",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Black-Bear",
+      "use": "Black bear habitat and sign in brush, forest, and camp edges."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a mixed brush crew cutting a fire line through chaparral and pine slash, with smoke low on the ridge and a black bear track pressed into soft dirt near the foreground",
+    "scene": "hot afternoon; axes, crosscut saw, canteens, sweat-dark shirts, brush piles, orange light through smoke, one worker pausing to read the track before the crew advances",
+    "composition": "square work scene with a diagonal fire line dividing safer ground from brush-choked risk; tools and bear sign anchor the foreground, smoke and crew rhythm fill the middle",
+    "camera": "shoulder-height side angle with tools in motion, readable animal sign, and landscape pressure visible behind",
+    "material_cues": [
+      "fresh green brush cuts",
+      "axe heads nicked bright",
+      "crosscut saw teeth",
+      "ash dust on boots",
+      "tin canteens",
+      "sweaty cotton shirts",
+      "bear track in damp soil"
+    ],
+    "hand_cut_note": "Make the crew look skilled and tired, not heroic. Fire-line work is measured in blisters, and the bear track should feel like the hill adding its own opinion.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine labor and landscape scene",
+      "render_traits": [
+        "slightly simplified worker silhouettes and tool geometry",
+        "modest texture resolution on brush, ash, cloth, dirt, and metal",
+        "hard ambient occlusion under brush piles, boots, saws, and stones",
+        "smoky orange daylight with gritty visibility",
+        "believable 1899 hand tools and work clothing",
+        "labor-forward composition, not posed spectacle"
+      ],
+      "palette": "smoke orange, ash gray, brush green, dirt umber, sweat-dark blue, iron gray, canteen tin, and pine shadow."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, crew marks, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern chainsaw",
+        "modern firefighting gear",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped tools or cropped bear track"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The brush crew, tools, fire line, smoke, and bear sign are all fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 brush work.",
+      "Fire and wildlife are grounded pressure, not spectacle.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/brush-crews.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

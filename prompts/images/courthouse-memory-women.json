@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "County record room in a northern California mining town",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in records, testimony, and social pressure",
+    "output_path": "cast/images/courthouse-memory-women.png",
+    "paired_page_path": "cast/courthouse-memory-women.md",
+    "issue_title": "Image: Courthouse Memory Women",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Courthouse, old records, iron shutters, brick ruins, and mining-town civic texture."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Displacement and official-record pressure as context for contested memory."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "three courthouse memory women in an 1860s-style county room, sorting deeds, mourning ribbons, testimony notes, and a locked drawer while men argue outside the door",
+    "scene": "warm lamplight, iron shutter shadows, cracked plaster, paper stacks, shawls, a stove ticking low, and unreadable docket pages spread across a scarred table",
+    "composition": "square interior with the women centered but busy with different tasks; doorway tension behind them, records and ribbons in the foreground",
+    "camera": "calm eye-level tableau with game-cinematic lighting, still enough for the viewer to read posture and objects",
+    "material_cues": [
+      "aged paper with blurred ink",
+      "mourning ribbon",
+      "ink bottle and nib holder",
+      "wooden filing drawers",
+      "wool shawls",
+      "iron shutter shadows",
+      "stove-warmed cracked plaster"
+    ],
+    "hand_cut_note": "Make intelligence visible in posture and arrangement, not in dramatic pointing. The room should feel like it can outlast any man shouting outside it.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine civic interior",
+      "render_traits": [
+        "slightly simplified human silhouettes with grounded facial detail",
+        "modest texture resolution on paper, wool, iron, wood, and plaster",
+        "hard ambient occlusion under table edges, papers, drawers, and stove",
+        "warm lamp light with hard shutter shadows",
+        "believable 1899 record-room objects and clothing",
+        "quiet social-pressure composition rather than courtroom spectacle"
+      ],
+      "palette": "lamp amber, paper cream, ink blue-black, wool brown, iron gray, mourning black, brick red shadow, and stove soot."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable docket entries, labels, letters, names, or legal text. Papers must be visibly written but illegible."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern office gear",
+        "typewriter if not period-appropriate",
+        "computer",
+        "cars",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped hands or cropped table"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The women, record table, papers, ribbons, doorway, and room texture are fully readable.",
+      "Every visible prop and garment belongs plausibly to an 1899 county room.",
+      "The image shows memory, testimony, and social pressure without theatrical melodrama.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/courthouse-memory-women.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

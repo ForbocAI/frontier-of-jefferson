@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Trail junctions, cattle rails, campfires, claim roads, and work camps around French Gulch",
+    "rdr_clone_target": "RDR-clone western with practical marks, camp language, warnings, reputation, and hard choices",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "cast/brands-blazes-and-camp-calls.md",
+    "paired_image_path": "cast/images/brands-blazes-and-camp-calls.png",
+    "issue_title": "Page: Brands, Blazes, and Camp Calls",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional roads, mining communities, work camps, ranching, logging, and settlement context."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California commerce, roads, courthouse records, and old town material."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Clear Creek Native community context, used here mainly to avoid appropriating or inventing Native sign systems."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown cast-page writer",
+    "task": "Generate the Brands, Blazes, and Camp Calls cast/support page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Brands, Blazes, and Camp Calls",
+      "square image reference immediately after the title",
+      "opening blockquote with invented mark note, camp warning, or work saying generated later",
+      "H2 archetype subtitle in the register of Plain Marks of Road and Stock",
+      "one or two compact lore paragraphs introducing marks, brands, tree blazes, camp calls, and work sayings used to navigate, warn, claim, and remember",
+      "H3 Role with a short table-facing function phrase",
+      "H3 Traits with two to four terse signs or uses",
+      "H3 Marks and Calls",
+      "12 H4 headings, each followed later by a brief playable mark, warning, cost, edge, or complication",
+      "H3 Camp Say closing blockquote with plain meaning generated later"
+    ],
+    "generation_guidance": [
+      "Generate this as a marks-and-sayings page with western signs only: brands, blaze cuts, cairns, boot scrapes, knots, chalk, grease pencil, hand signals, and camp calls.",
+      "Twelve future entries should be practical table tools, not secret symbols or decorative lore.",
+      "Include caution around not turning Native signs into invented code; use settler work marks and fictional county conventions unless the future writer has direct source guidance.",
+      "Make every mark useful and a little suspicious.",
+      "Do not include final entries, final sayings, or final mark text in this JSON."
+    ],
+    "hand_cut_note": "This page should feel carved by pocketknife and smoked by campfire, but never mystical. A mark is a sentence left for somebody who may arrive too late.",
+    "table_spark": "A mark scene should ask who left it, who misunderstood it, who changed it, and who reached camp because of it.",
+    "must_preserve": [
+      "Use 1899 western work-mark and camp-call language only.",
+      "Do not invent Native signs, sacred systems, fake alphabets, or secret mystical marks.",
+      "The generated page must include image path cast/images/brands-blazes-and-camp-calls.png.",
+      "No finished page prose, final entries, or final sayings belong in this prompt file."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not include medieval, enchanted, sacred-invented, fake-tribal, or old-world alphabet framing",
+      "do not make the marks decorative only; each future entry must serve play",
+      "do not use modern trail signs, spray paint, vehicles, plastic props, or clean theme-park staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence and includes 12 future H4 mark/call slots.",
+      "The future page is about practical western marks, warnings, camp calls, and table action.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "cast/brands-blazes-and-camp-calls.md",
+    "image_reference": "cast/images/brands-blazes-and-camp-calls.png",
+    "do_not_write_page_now": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "French Gulch mining settlement, gulch road, stamp-mill noise, claims, saloons, cabins, and exhausted creek bottoms",
+    "rdr_clone_target": "RDR-clone western with mining-town pressure, road dust, debt, law trouble, and hard living",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/french-gulch.md",
+    "paired_image_path": "regions/images/french-gulch.png",
+    "issue_title": "Page: French Gulch",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Gold rush settlement, mining, logging, ranching, immigrant labor, and changing land use near Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California gold-rush town texture, courthouse commerce, and mining-era settlement pressure."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the French Gulch region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 French Gulch",
+      "H3 local marker line in the register of Stamp Mill, Creek Bed, and Main Street",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: hard object, road or weather detail, plain table meaning",
+      "two compact paragraphs establishing the gulch as settlement, job board, rumor mill, danger pocket, and moral pressure cooker",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated town sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate a working mining settlement, not a postcard: ore wagons, boarding rooms, stamp-mill thump, bad credit, claim arguments, saloon heat, and creek mud.",
+      "Give the table ways to start scenes from wages owed, ore missing, law papers, travelers passing through, Native families trading nearby, and animals nosing through refuse at night.",
+      "Keep the town useful as a hub but never comfortable; every service should carry a price, a witness, or a complication.",
+      "Let the place smell of wet timber, whiskey, mule sweat, hot iron, lamp smoke, and creek rot."
+    ],
+    "hand_cut_note": "The gulch should sound like a place where every board in the sidewalk knows who lied yesterday.",
+    "table_spark": "A French Gulch scene should ask who came to buy, who came to hide, who came to collect, and what the creek gave up after rain.",
+    "must_preserve": [
+      "Use 1899 western mining-settlement language only.",
+      "The generated page must include image path regions/images/french-gulch.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the settlement clean, cute, legendary, or theme-park tidy",
+      "do not copy names, locations, missions, or characters from any commercial western game"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about a rough 1899 mining settlement with scene hooks, not finished lore.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/french-gulch.md",
+    "image_reference": "regions/images/french-gulch.png",
+    "do_not_write_page_now": true
+  }
+}

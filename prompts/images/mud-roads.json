@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "rain-soaked wagon road below French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in muddy travel and freight pressure",
+    "output_path": "regions/images/mud-roads.png",
+    "paired_page_path": "regions/mud-roads.md",
+    "issue_title": "Image: Mud Roads",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road travel and extractive work in rugged Whiskeytown country."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-era freight and commerce context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a freight wagon sunk to the hubs in a mud road, mule team straining, riders arguing, broken axle timber nearby, and boot tracks filling with rainwater",
+    "scene": "cold rain break under gray sky; wet canvas sags over crates, a road crew watches with pry poles, no readable signs or labels",
+    "composition": "square road-hazard scene with deep wheel ruts leading from foreground to the stuck wagon and hills beyond",
+    "camera": "low road-level view close to the ruts, like a player approaching a blocked route",
+    "material_cues": [
+      "swollen clay",
+      "deep wheel ruts",
+      "wet wagon spokes",
+      "snapped trace leather",
+      "steaming mules",
+      "soaked canvas",
+      "muddy boot prints",
+      "gray rainwater"
+    ],
+    "hand_cut_note": "Make the mud look heavy enough to change the whole day.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine road obstacle scene",
+      "render_traits": [
+        "slightly simplified wagon team, riders, road crew, and muddy terrain",
+        "modest texture resolution on mud, wet wood, leather, canvas, cloth, and rainwater",
+        "hard ambient occlusion under wagon wheels, mule legs, crates, ruts, and people",
+        "flat gray post-rain light with wet highlights in the track",
+        "believable 1899 freight gear, clothing, and road tools",
+        "playable blocked-route composition with clear tracks and choices around the obstacle"
+      ],
+      "palette": "mud umber, rain gray, wet wood brown, mule black, canvas tan, leather dark red-brown, pine green, and cold sky blue."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable crate labels, road signs, wagon names, paper, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "automobiles",
+        "asphalt",
+        "concrete culvert",
+        "rubber tires",
+        "road grader",
+        "traffic signs",
+        "readable labels",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean movie-set mud",
+        "copy of commercial game characters, missions, towns, or logos",
+        "empty muddy road with no travel problem"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The mud road, stuck freight wagon, mule team, broken axle, riders, and water-filled tracks are readable.",
+      "Every object belongs plausibly to rugged 1899 freight travel.",
+      "The image supports road delay, tracking, ambush timing, bargaining, and detour scenes.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/mud-roads.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

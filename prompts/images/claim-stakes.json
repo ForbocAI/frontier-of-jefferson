@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "contested mining claim line on a brushy Jefferson hillside",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in claim-jump tension and rough legal evidence",
+    "output_path": "regions/images/claim-stakes.png",
+    "paired_page_path": "regions/claim-stakes.md",
+    "issue_title": "Image: Claim Stakes",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining claims and settlement pressure around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush material context and legal friction."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "split cedar claim stakes with tacked paper notices, a survey chain, cut brush, boot tracks, and two armed men arguing at the edge of frame",
+    "scene": "windy hillside after rain; one stake leans, the paper is wet and unreadable, mule ears show beyond brush, no legible text",
+    "composition": "square close landscape plate with the claim stakes large in foreground and disputing figures smaller beyond them",
+    "camera": "low ground-level view from beside the stakes, making the boundary feel immediate and dangerous",
+    "material_cues": [
+      "split cedar",
+      "rusty tack heads",
+      "wet paper",
+      "survey chain links",
+      "cut manzanita brush",
+      "muddy boot prints",
+      "dull rifle metal",
+      "rain-dark soil"
+    ],
+    "hand_cut_note": "Make a few sticks and scraps of paper carry the weight of a whole gunfight.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine evidence scene",
+      "render_traits": [
+        "slightly simplified men, mule, brush, stakes, and trail objects",
+        "modest texture resolution on wet paper, cedar, mud, cloth, metal, and brush",
+        "hard ambient occlusion under stakes, chain, boots, brush, and mule legs",
+        "cool post-rain light with exposed hillside wind",
+        "believable 1899 claim tools and clothing",
+        "foreground evidence composition with background confrontation"
+      ],
+      "palette": "rain-dark cedar, gray paper, iron black, buckskin tan, manzanita red-brown, wet soil umber, and pale overcast sky."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "Claim notices may exist but must be blurred, torn, or unreadable; no legible writing."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern survey tripod",
+        "GPS unit",
+        "plastic flagging",
+        "laminated paper",
+        "barcodes",
+        "readable legal text",
+        "brand logos",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "clean courtroom exhibit",
+        "copy of commercial game characters, missions, towns, or logos",
+        "decorative carved posts"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The claim stakes, wet notice, chain, boot tracks, brush, and confrontation are readable.",
+      "Every object belongs plausibly to an 1899 mining-claim dispute.",
+      "The image makes the boundary feel legally small and socially explosive.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/claim-stakes.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

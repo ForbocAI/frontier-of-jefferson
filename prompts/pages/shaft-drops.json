@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Vertical mine shaft drops, cribbed collars, rope ladders, windlass frames, bad air, and loose rock around hard-rock claims",
+    "rdr_clone_target": "RDR-clone western with mine hazard, rescue pressure, hidden evidence, labor negligence, and close-quarters fear",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/shaft-drops.md",
+    "paired_image_path": "regions/images/shaft-drops.png",
+    "issue_title": "Page: Shaft Drops",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, settlement labor, and extractive pressure in the Whiskeytown region."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush mining community context and period material culture."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Shaft Drops region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Shaft Drops",
+      "H3 local marker line in the register of Cribbed Collar, Rope Burn, and Bad Air",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: shaft object, sound or air detail, plain table meaning",
+      "two compact paragraphs establishing shaft drops as mine hazard, rescue site, evidence pocket, fear test, and labor-pressure scene",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated shaft-drop sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate shaft drops as dangerous working mine features: cribbed collars, windlass frame, rope ladder, bucket scars, loose rock, lamp smoke, bad air, and a dark bottom that changes every decision.",
+      "Give the table hooks around a missing miner, cut rope fibers, hidden papers below, unsafe bracing, a dropped payroll box, a rescue argument, or a foreman ordering work to continue.",
+      "Make vertical danger practical; the page should guide light, sound, time, rope handling, fall risk, air quality, and what evidence survives at the collar.",
+      "Let company neglect and worker knowledge matter without turning the page into finished backstory."
+    ],
+    "hand_cut_note": "The shaft should feel like a hole that charges interest on every mistake.",
+    "table_spark": "A shaft-drop scene should ask who tied the rope, who heard the fall, what is at the bottom, and who wants the rescue delayed.",
+    "must_preserve": [
+      "Use 1899 western mining and labor language only.",
+      "The generated page must include image path regions/images/shaft-drops.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the drop supernatural, heroic, or symbolic instead of physically dangerous",
+      "do not include modern mine safety gear, electric lamps, steel cage elevators, plastic helmets, warning tape, or clean museum staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about shaft drops as mine hazards, evidence sites, rescue problems, and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/shaft-drops.md",
+    "image_reference": "regions/images/shaft-drops.png",
+    "do_not_write_page_now": true
+  }
+}

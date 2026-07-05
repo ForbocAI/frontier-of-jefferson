@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "A pine switchback above French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in road scouting and open-world travel",
+    "output_path": "cast/images/road-scouts.png",
+    "paired_page_path": "cast/road-scouts.md",
+    "issue_title": "Image: Road Scouts",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek travel, mining communities, and road pressure."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining-town roads, stage movement, commerce, and material setting."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a road scout on a tired horse pausing above a switchback to study wagon tracks, fresh smoke, and a distant bridge before the freight team arrives",
+    "scene": "clear cold morning on a steep pine road; loose gravel, old rain ruts, a circling buzzard high above, town smoke far below, and a narrow road curling out of sight behind shale",
+    "composition": "square vista with horse and rider offset left, switchback road curling like a question mark through the frame, and small evidence details visible in the foreground dust",
+    "camera": "over-the-shoulder horseback view with early-HD open-world depth, readable trail signs, and a route-choice feel",
+    "material_cues": [
+      "powdery dust over older mud",
+      "sweat-dark saddle blanket",
+      "iron horseshoe edge at frame bottom",
+      "pine bark and resin cuts",
+      "sun-whitened stones",
+      "distant smoke smudge",
+      "shale gravel slipping under hooves"
+    ],
+    "hand_cut_note": "Give the scout a stillness that says the worst danger is the thing not moving. The image should make the next bend feel like a decision, not a backdrop.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine travel vista",
+      "render_traits": [
+        "slightly simplified horse and rider silhouette",
+        "modest texture resolution on dust, pine, leather, and shale",
+        "hard ambient occlusion under horse legs, saddle, rocks, and ruts",
+        "baked cold morning light",
+        "believable 1899 saddle gear, clothing, and road conditions",
+        "environmental storytelling through tracks, smoke, grade, and posture"
+      ],
+      "palette": "cold blue morning, pine green, dusty tan, shale gray, worn leather brown, smoke gray, and pale sun."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, or map text. Route information must come from landscape and tracks."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern road",
+        "guardrail",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped horse or cropped road"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The scout, horse, switchback, tracks, and distant route clues are fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 frontier travel.",
+      "The image suggests route choice and danger without modern UI.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/road-scouts.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Jefferson State frontier, beginning in French Gulch",
+    "output_path": "familiar/images/frontier-phrases-and-trail-marks.png",
+    "paired_page_path": "familiar/frontier-phrases-and-trail-marks.md",
+    "issue_title": "Image: Frontier Phrases and Trail Marks",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "image_prompt": {
+    "enabled": true,
+    "subject": "collection of trail blazes, brands, chalk marks, folded notices, and camp-call tokens arranged as reference objects",
+    "scene": "period tabletop or frontier scene that explains rules through physical objects, no modern UI",
+    "composition": "square instructional key art with clear focal objects and readable silhouettes, no readable text",
+    "boutique_direction": "Replace mystical phrasework with brands, blaze marks, chalk signs, courthouse shorthand, camp calls, and practical table phrases.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD promotional render crossed with in-engine screenshot composition",
+      "render_traits": [
+        "slightly simplified geometry",
+        "visible but intentional low-poly silhouettes",
+        "baked sunlight and hard-edged ambient occlusion",
+        "weathered texture maps with modest resolution",
+        "grounded 1899 clothing, props, architecture, and landscape",
+        "dust, mud, smoke, timber, canvas, iron, leather, and worn paint as tactile materials"
+      ],
+      "palette": "sun-bleached ochre, pine green, oxidized iron, charcoal shadow, muddy umber, faded calico, brass highlights, and cold mountain blue; avoid one-note sepia.",
+      "negative_prompt": [
+        "storybook fantasy art",
+        "watercolor illustration",
+        "cute fairy tale style",
+        "modern technology",
+        "cars",
+        "power lines unless telegraph-specific",
+        "neon",
+        "high fantasy armor",
+        "magic spell effects",
+        "dragons",
+        "elves",
+        "dwarves",
+        "text overlays",
+        "legible signage",
+        "logos",
+        "watermark",
+        "photorealistic modern DSLR look",
+        "next-gen ultra realistic rendering",
+        "smooth plastic skin",
+        "oversaturated concept art",
+        "cropped subject"
+      ]
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "Avoid readable words; any labels or notices should be indistinct period-appropriate shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "storybook fantasy art",
+        "watercolor illustration",
+        "cute fairy tale style",
+        "modern technology",
+        "cars",
+        "power lines unless telegraph-specific",
+        "neon",
+        "high fantasy armor",
+        "magic spell effects",
+        "dragons",
+        "elves",
+        "dwarves",
+        "text overlays",
+        "legible signage",
+        "logos",
+        "watermark",
+        "photorealistic modern DSLR look",
+        "next-gen ultra realistic rendering",
+        "smooth plastic skin",
+        "oversaturated concept art",
+        "cropped subject"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Looks like a PS3-era western game asset or promotional plate, not fantasy storybook art.",
+      "Square framing leaves the main subject fully readable at page-card scale.",
+      "Every prop and garment belongs plausibly to 1899 frontier life.",
+      "No source/reference project names, no logos, and no readable modern text."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "familiar/images/frontier-phrases-and-trail-marks.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

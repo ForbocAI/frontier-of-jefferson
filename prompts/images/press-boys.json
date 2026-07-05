@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Small print shop and muddy street in French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in rumor, public accusation, and town pressure",
+    "output_path": "cast/images/press-boys.png",
+    "paired_page_path": "cast/press-boys.md",
+    "issue_title": "Image: Press Boys",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Mining-town commerce, courthouse streets, and public town texture."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining community roads, settlement pressure, and public rumor context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "two ink-stained press boys running fresh newspaper sheets from a small print shop into a muddy street as adults turn to stare",
+    "scene": "windy afternoon; press clatter visible inside, stacks of unreadable papers, horse splashing mud nearby, courthouse steps beyond, and a sheet nearly lost in the wheel rut",
+    "composition": "square motion scene with papers flying as abstract shapes, boys cutting across the town line, and adult attention turning like a fuse catching",
+    "camera": "low street-level chase angle, game-like freeze of movement with early-HD silhouettes",
+    "material_cues": [
+      "wet ink on fingers",
+      "newsprint sheets with no readable text",
+      "mud splash",
+      "printer rollers and type cases",
+      "worn suspenders",
+      "wooden shop door",
+      "horse legs cutting through the street edge"
+    ],
+    "hand_cut_note": "Make them sharp, not adorable; they know the headline before the sheriff does.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine street motion scene",
+      "render_traits": [
+        "slightly simplified boys, adults, horse, and paper silhouettes",
+        "modest texture resolution on paper, mud, wood, cloth, and ink",
+        "hard ambient occlusion under feet, doorframe, horse legs, and paper stacks",
+        "windy afternoon light with mud shine",
+        "believable 1899 print-shop and street clothing",
+        "rumor-in-motion composition rather than cute newspaper poster"
+      ],
+      "palette": "newsprint gray, ink black, mud brown, faded shirt blue, courthouse stone gray, horsehide brown, and windy sky white."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable headlines, letters, labels, signs, or text. News sheets must show only blurred columns and dark shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern newspaper layout",
+        "camera flash",
+        "radio microphone",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped papers or cropped boys"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The press boys, print shop, papers, street, horse, and staring adults are readable.",
+      "Every visible prop belongs plausibly to an 1899 print-shop street.",
+      "The image shows news as fast social pressure without readable text.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/press-boys.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

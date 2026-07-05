@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Off the Trail - Frontier of Jefferson</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&family=Smokum&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #111714;
+      --bg-content: #181815;
+      --text: #f0ead8;
+      --text-muted: #a8a692;
+      --accent: #d0aa57;
+      --accent-dim: #486b57;
+      --border: #344137;
+      --font-body: 'Smokum', serif;
+      --font-heading: 'Rye', serif;
+    }
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    .page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: var(--bg-content);
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .lost {
+      max-width: 520px;
+    }
+    .lost h1 {
+      font-family: var(--font-heading);
+      font-size: 5em;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.15em;
+    }
+    .lost h2 {
+      font-family: var(--font-heading);
+      font-size: 1.4em;
+      color: var(--text);
+      margin-bottom: 0.6em;
+    }
+    .lost p {
+      color: var(--text-muted);
+      margin-bottom: 1.6em;
+    }
+    .lost a {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: 0.95em;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+      padding: 10px 28px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .lost a:hover {
+      background: rgba(158, 200, 184, 0.12);
+      border-color: var(--accent);
+    }
+    .lost hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.4em auto;
+      width: 60%;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="lost">
+      <h1>404</h1>
+      <h2>Off the Trail</h2>
+      <hr>
+      <p>The route you followed does not match a known page in the packet.</p>
+      <a href="/">Return to Frontier of Jefferson</a>
+    </div>
+  </div>
+</body>
+</html>

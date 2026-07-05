@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Back lots behind French Gulch storefronts",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in domestic labor, rumor, and back-door pressure",
+    "output_path": "regions/images/kitchen-lots.png",
+    "paired_page_path": "regions/kitchen-lots.md",
+    "issue_title": "Image: Kitchen Lots",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining-community family, work, and settlement context."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Old northern California buildings and town material."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "back-lot kitchens behind French Gulch buildings: wash lines, ash barrels, chickens, herb beds, and a child watching riders through fence slats",
+    "scene": "late afternoon; stove smoke, stacked firewood, muddy footpaths, cooks and washerwomen at work, a side door half-open, no sentimental gloss",
+    "composition": "square layered domestic exterior with fences and back doors creating secret sightlines; laundry and ash barrels frame the human work",
+    "camera": "waist-height alley view, quiet open-world side area with readable paths and hiding places",
+    "material_cues": [
+      "wet laundry",
+      "ash barrel iron",
+      "split firewood",
+      "garden soil",
+      "chicken feathers",
+      "tin basin water",
+      "muddy back-step boards"
+    ],
+    "hand_cut_note": "Make the lot feel private but not small; whole town politics pass through the back door.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine town-back scene",
+      "render_traits": [
+        "slightly simplified figures, chickens, fences, and laundry silhouettes",
+        "modest texture resolution on cloth, wood, mud, feathers, and smoke",
+        "hard ambient occlusion under fences, basins, ash barrels, and steps",
+        "late afternoon light with stove smoke haze",
+        "believable 1899 domestic tools and work clothing",
+        "lived-in social-pressure composition rather than tidy homestead scene"
+      ],
+      "palette": "laundry white, ash gray, mud umber, stove smoke blue, firewood brown, garden green, faded calico, and warm low sun."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, notices, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern appliance",
+        "electric light",
+        "plastic basin",
+        "cars",
+        "neon",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped wash line or cropped back door"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The wash lines, back doors, chickens, ash barrels, workers, and footpaths are readable.",
+      "Every visible prop belongs plausibly to 1899 back-lot domestic life.",
+      "The image shows work and hidden social routes rather than tidy decoration.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/kitchen-lots.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

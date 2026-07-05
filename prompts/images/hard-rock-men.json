@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Hard-rock mine mouth above French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining labor and underground risk",
+    "output_path": "cast/images/hard-rock-men.png",
+    "paired_page_path": "cast/hard-rock-men.md",
+    "issue_title": "Image: Hard-Rock Men",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek mining history and regional work conditions."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California mining commerce and material culture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "hard-rock miners at a timbered tunnel mouth, one holding a candle box while another sets drill steel beside a powder keg and ore cart rails",
+    "scene": "gray dawn outside a mine adit; damp timber, mule tracks, tailings, wet coats, one man coughing into a sleeve, and pine hillside scarred by work",
+    "composition": "square group scene with the black tunnel mouth as the heavy center, miners arranged by task instead of pose, and the ore cart rail pulling the viewer into darkness",
+    "camera": "waist-height frontal angle with slight low-poly stiffness in tools and hands, like a grounded in-engine mission plate",
+    "material_cues": [
+      "wet timber sets",
+      "drill steel rubbed bright at the grip",
+      "powder keg wood and iron hoops",
+      "soot on faces and shirt collars",
+      "ore cart iron and dull rails",
+      "quartz tailings under boot heels",
+      "candle wax and lamp soot"
+    ],
+    "hand_cut_note": "The tunnel should look like a job, not an adventure: dark, cold, and owned by somebody absent. Let the men look competent, tired, and already counting risks.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine labor scene",
+      "render_traits": [
+        "slightly simplified miner silhouettes and tool geometry",
+        "modest texture resolution on timber, stone, cloth, and soot",
+        "hard ambient occlusion inside tunnel mouth and under cart rails",
+        "baked gray dawn light with small warm lamp accents",
+        "believable 1899 mining clothing, tools, and powder equipment",
+        "worksite realism over cinematic heroism"
+      ],
+      "palette": "quartz gray, wet timber brown, soot black, faded denim, dull iron, candle amber, mule hide brown, and pine green."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable labels, notices, or crate markings. Any paper or keg marks must be indistinct."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern hardhat",
+        "electric lamp",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped tunnel mouth"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The miners, tunnel mouth, drill steel, powder keg, and ore rails are all fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 mining labor.",
+      "The image shows work danger and company pressure without modern equipment.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/hard-rock-men.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

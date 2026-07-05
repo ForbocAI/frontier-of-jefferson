@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "A cold fence-line camp outside French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in camp life and rootless travel",
+    "output_path": "cast/images/saddle-tramps.png",
+    "paired_page_path": "cast/saddle-tramps.md",
+    "issue_title": "Image: Saddle Tramps",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional mining roads, settlement movement, and work pressure."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California town-and-road material culture."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "two saddle tramps sharing bitter coffee beside a fence at dawn, bedrolls tied high and horses half-asleep behind them",
+    "scene": "frosted grass outside French Gulch, low fog, distant town smoke, patched coats, a tin cup passed without ceremony, a coil of rope used as a pillow, and no camp comfort beyond what fits in a roll",
+    "composition": "square intimate camp vignette with negative space around the figures to show rootlessness; horses and fence form the only boundary they can claim",
+    "camera": "low fire-level view through thin smoke, early-HD character silhouettes and tactile camp objects",
+    "material_cues": [
+      "patched canvas bedrolls",
+      "tin cup rims dulled by smoke",
+      "horsehair rope used hard",
+      "cold ash and one stubborn coal",
+      "worn boot leather cracked at the toe",
+      "frosted grass",
+      "mud on saddle skirts"
+    ],
+    "hand_cut_note": "Make the scene tender only by accident: nobody is performing hardship, they are just used to it. The coffee should look worse than the weather.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine camp scene",
+      "render_traits": [
+        "slightly simplified figures and horse silhouettes",
+        "modest texture resolution on canvas, wool, frost, leather, and smoke",
+        "hard ambient occlusion under bedrolls, boots, and fence rails",
+        "cold dawn light with one weak ember",
+        "believable 1899 clothing, tack, and road camp objects",
+        "quiet survival mood rather than heroic composition"
+      ],
+      "palette": "frost gray, ash black, saddle brown, faded wool blue, weak ember orange, fog white, and distant pine green."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable marks, labels, brands, or text. Any paper scrap should be indistinct."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern camping gear",
+        "nylon tent",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped horses or cropped figures"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The riders, horses, bedrolls, coffee, fence, and cold camp are fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 road life.",
+      "The image shows precarious camp survival without making poverty decorative.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/saddle-tramps.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

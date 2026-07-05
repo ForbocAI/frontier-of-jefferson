@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Seasonal pressure across Jefferson roads, claims, timber camps, creek bottoms, ranch edges, and high ridges",
+    "rdr_clone_target": "RDR-clone western with changing road access, animal movement, labor cycles, supply strain, and weather-timed scenes",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/seasonal-shifts.md",
+    "paired_image_path": "regions/images/seasonal-shifts.png",
+    "issue_title": "Page: Seasonal Shifts",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, logging, ranching, road travel, and changing working conditions around Whiskeytown."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Seasonal wildlife movement and sign across California habitats."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Seasonal Shifts region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Seasonal Shifts",
+      "H3 local marker line in the register of Snow Line, Runoff, Dust, and Smoke",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: seasonal object, weather or animal sign, plain table meaning",
+      "two compact paragraphs establishing seasons as travel clock, work calendar, wildlife movement, fire risk, shortage pressure, and rumor timer",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated seasonal sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate seasons as concrete pressure: spring runoff, winter snow line, summer dust, autumn smoke, swollen creeks, dry wells, deer movement, logging windows, and claims that only open when roads do.",
+      "Give the table hooks around a pass closing early, supply arriving late, a trail exposed after snowmelt, a fire-watch argument, a sick camp in heat, or animal sign shifting downhill.",
+      "Make the page useful for timing scenes and consequences; each season should change movement, prices, visibility, work, wildlife, and what evidence survives.",
+      "Keep the language grounded in road dirt, creek height, wind, hay, smoke, frost, dust, timber work, and freight schedules."
+    ],
+    "hand_cut_note": "The season should be a foreman nobody hired and everybody obeys.",
+    "table_spark": "A seasonal-shift scene should ask what just opened, what just closed, who misjudged the weather, and which sign moved with the animals.",
+    "must_preserve": [
+      "Use 1899 western weather, road, work, and wildlife language only.",
+      "The generated page must include image path regions/images/seasonal-shifts.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make seasons abstract, mystical, or purely poetic",
+      "do not use modern climate charts, forecasts, phones, vehicles, synthetic fabrics, or tourist-season language"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about seasons as timing pressure, resource pressure, and scene engine.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/seasonal-shifts.md",
+    "image_reference": "regions/images/seasonal-shifts.png",
+    "do_not_write_page_now": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Trail junction and camp edge outside French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in practical marks, trail warnings, and camp work",
+    "output_path": "cast/images/brands-blazes-and-camp-calls.png",
+    "paired_page_path": "cast/brands-blazes-and-camp-calls.md",
+    "issue_title": "Image: Brands, Blazes, and Camp Calls",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Roads, work camps, ranching, mining, and regional settlement context."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Native community context used to avoid invented or appropriated sign systems."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a close view of practical western trail marks: a cattle brand burned into a rail, axe blazes on pine, boot-scraped arrows, stacked stones, and a camp-call hand gesture near a fire",
+    "scene": "late dusk at a trail junction; saddles nearby, low coals, dust on boots, no readable writing, and marks visible as work language rather than secret code",
+    "composition": "square still-life-plus-landscape with marks arranged naturally across wood, stone, dirt, and firelight; a rider's hands demonstrate a plain camp call",
+    "camera": "close inspection angle like a game clue plate, with shallow camp background and readable materials",
+    "material_cues": [
+      "burned brand scar",
+      "fresh axe cuts on pine",
+      "dusty boot scrape",
+      "river stones in a small cairn",
+      "campfire ash",
+      "rough saddle leather",
+      "pine bark resin"
+    ],
+    "hand_cut_note": "Make the marks feel improvised by tired hands, each one useful and a little suspicious.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine clue still life",
+      "render_traits": [
+        "slightly simplified hands, rail, bark, stones, and saddle shapes",
+        "modest texture resolution on bark, dust, leather, ash, and burned wood",
+        "hard ambient occlusion under stones, rails, hands, and saddle straps",
+        "dusk firelight with cool trail shadow",
+        "believable 1899 camp and trail materials",
+        "practical clue composition rather than decorative symbol sheet"
+      ],
+      "palette": "campfire orange, pine bark brown, ash gray, dust tan, saddle leather dark brown, brand black, stone blue-gray, and dusk violet."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable letters, words, alphabets, labels, brands as text, or invented Native marks. All marks must be non-text practical shapes."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "secret alphabet",
+        "ancient glyphs",
+        "invented Native writing",
+        "modern trail sign",
+        "spray paint",
+        "cars",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped marks"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The brand scar, blazes, boot scrape, cairn, hands, and camp edge are readable.",
+      "Every visible prop belongs plausibly to 1899 trail and camp life.",
+      "The marks are practical and not a fake sacred or secret symbol system.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/brands-blazes-and-camp-calls.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

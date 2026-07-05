@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Clear Creek crossing near French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hard travel and practical labor",
+    "output_path": "cast/images/ford-men.png",
+    "paired_page_path": "cast/ford-men.md",
+    "issue_title": "Image: Ford Men",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Clear Creek mining travel and frontier settlement pressure."
+    },
+    {
+      "title": "NPS The Wintu",
+      "url": "https://www.nps.gov/whis/learn/historyculture/the-wintu.htm",
+      "use": "Clear Creek as homeland and life-giving water context; avoid turning water knowledge into spectacle."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "three ford men waist-deep at a cold Clear Creek crossing, guiding a frightened wagon team through brown water while riders wait on both banks",
+    "scene": "overcast morning after snowmelt; a rope line tied to a cottonwood, wet horses snorting, muddy banks chewed by wagon wheels, pine slopes beyond, and a toll box kept above the water on a stump",
+    "composition": "square image with diagonal creek current cutting the frame; the wagon is the central hazard, the ford men form a working triangle around the lead team, and waiting riders create social pressure at both edges",
+    "camera": "low bank-level angle just above the waterline, early-HD spray, chunky silhouettes, and readable hand signals",
+    "material_cues": [
+      "cold creek water against wool trousers",
+      "mud-slick boots searching for stones",
+      "frayed rope line under strain",
+      "wet horse foam and dark harness leather",
+      "oak wagon spokes half-submerged",
+      "cottonwood bark and pine-shadowed bank",
+      "dull iron toll box with no readable markings"
+    ],
+    "hand_cut_note": "Let the water look heavier than the people. The drama is in small hand signals, one wrong hoof placement, and the fact that everybody waiting has an opinion.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine action plate",
+      "render_traits": [
+        "slightly simplified geometry with strong silhouettes",
+        "modest texture resolution on water, mud, wool, wood, and tack",
+        "hard ambient occlusion under wagon frame and horse bodies",
+        "baked gray daylight and cold creek reflection",
+        "believable 1899 clothing, wagon, harness, and tools",
+        "practical labor pose instead of heroic posing"
+      ],
+      "palette": "cold creek blue, muddy umber, wet wool gray, pine green, raw wood tan, horsehide brown, and dull iron."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signage, labels, brands, or text. Any marks on the toll box should be indistinct scratches."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "modern bridge",
+        "concrete road",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped wagon team"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The ford men, wagon, horses, rope line, and current are all fully readable.",
+      "Every visible prop and garment belongs plausibly to 1899 frontier travel.",
+      "The image shows labor, danger, and negotiation rather than decorative scenery.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/ford-men.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

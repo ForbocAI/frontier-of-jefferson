@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Timber wagon bridges over creeks, cuts, and gulches in the northern California mining country",
+    "rdr_clone_target": "RDR-clone western with crossing trouble, toll pressure, repair work, and armed road control",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/wagon-bridges.md",
+    "paired_image_path": "regions/images/wagon-bridges.png",
+    "issue_title": "Page: Wagon Bridges",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road, mining, logging, and settlement movement through rugged Whiskeytown country."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Wildlife presence along creek corridors and brushy crossings."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Wagon Bridges region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Wagon Bridges",
+      "H3 local marker line in the register of Planks, Toll Chain, and Creek Noise",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: bridge object, water or animal sign, plain table meaning",
+      "two compact paragraphs establishing bridges as road chokepoints, repair sites, toll disputes, ambush stages, and uneasy meeting ground",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated bridge sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate bridges as working timber structures that decide who can pass: wagons, riders, pack animals, Native families, cattle, freight, and law papers all bottleneck here.",
+      "Give the table reasons to stop: broken planks, rising water, toll claims, sabotaged bolts, a wagon blocking the deck, animal tracks under the bank, or a guard who knows too much.",
+      "Use splintered fir, iron spikes, wet rope, mud, creek foam, deer sign, and old repair patches as the language of the page.",
+      "A bridge should never be only scenery; it should hold a choice, a witness, or a bill."
+    ],
+    "hand_cut_note": "Make the bridge sound like a handshake between two bad roads.",
+    "table_spark": "A wagon-bridge scene should ask who owns the crossing today, what broke overnight, and what waits below the deck.",
+    "must_preserve": [
+      "Use 1899 western road and freight language only.",
+      "The generated page must include image path regions/images/wagon-bridges.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make crossings symbolic instead of practical",
+      "do not include modern bridge engineering, pavement, guardrails, vehicles, or signage"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about bridges as active road chokepoints and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/wagon-bridges.md",
+    "image_reference": "regions/images/wagon-bridges.png",
+    "do_not_write_page_now": true
+  }
+}

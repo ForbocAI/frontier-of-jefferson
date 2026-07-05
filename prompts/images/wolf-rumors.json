@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Snow-dusted Klamath mountain ridge above stock country",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in rare predator sign and rumor pressure",
+    "output_path": "cast/images/wolf-rumors.png",
+    "paired_page_path": "cast/wolf-rumors.md",
+    "issue_title": "Image: Wolf Rumors",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California Department of Fish and Wildlife Gray Wolf",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Gray-Wolf",
+      "use": "Gray wolves as native but rare/disappearing by the early 20th century, suitable for uncertain 1899 sign."
+    },
+    {
+      "title": "California Department of Fish and Wildlife Deer",
+      "url": "https://wildlife.ca.gov/Conservation/Mammals/Deer",
+      "use": "Deer sign as prey and track comparison."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a snow-dusted ridge trail with possible wolf tracks crossing deer sign while ranch riders argue in the distance under a hard gray sky",
+    "scene": "winter edge of the Klamath mountains; thin snow, pine shadows, nervous cattle far below, a ranch dog sniffing the tracks, and no clear pack attack",
+    "composition": "square quiet landscape with tracks in sharp foreground and human dispute small in background; evidence first, people second",
+    "camera": "low track-level angle, early-HD ground texture, with riders framed far enough away to feel uncertain",
+    "material_cues": [
+      "thin snow over dark dirt",
+      "possible wolf paw prints",
+      "deer tracks crossing at an angle",
+      "frozen grass",
+      "wool coats on distant riders",
+      "rifle stocks held low",
+      "gray pine bark and cold sky"
+    ],
+    "hand_cut_note": "Make the uncertainty the center: nobody in the image should fully agree what they are seeing.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine tracking and rumor scene",
+      "render_traits": [
+        "slightly simplified rider, dog, cattle, and track silhouettes",
+        "modest texture resolution on snow, dirt, wool, wood, and pine",
+        "hard ambient occlusion in track depressions and under horse legs",
+        "cold gray winter light with low contrast",
+        "believable 1899 ranch clothing and gear",
+        "quiet evidence-forward composition rather than attack spectacle"
+      ],
+      "palette": "snow gray, frozen dirt umber, pine black-green, wool brown, rifle wood, dog tan, cold sky blue, and distant cattle dark."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable signs, labels, tracking overlays, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "monster wolf",
+        "oversized creature",
+        "wolf pack attack",
+        "modern wildlife collar",
+        "cars",
+        "neon",
+        "plastic gear",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped tracks"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The possible wolf tracks, deer sign, riders, dog, and winter ridge are fully readable.",
+      "Every visible prop belongs plausibly to 1899 ranch and trail life.",
+      "The image centers uncertainty rather than a clear predator attack.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "cast/images/wolf-rumors.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}

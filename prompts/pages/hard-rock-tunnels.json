@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Hard-rock mine tunnels, timber sets, powder smoke, ore cars, seep water, and shift crews under the Jefferson hills",
+    "rdr_clone_target": "RDR-clone western with mine danger, labor pressure, bad air, and close-quarters trouble",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/hard-rock-tunnels.md",
+    "paired_image_path": "regions/images/hard-rock-tunnels.png",
+    "issue_title": "Page: Hard-Rock Tunnels",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Mining, settlement labor, and extractive pressure in the Whiskeytown region."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Gold-rush mining community context and period material culture."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the Hard-Rock Tunnels region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 Hard-Rock Tunnels",
+      "H3 local marker line in the register of Timber Sets, Powder Smoke, and Dripping Stone",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: tunnel object, air or sound detail, plain table meaning",
+      "two compact paragraphs establishing tunnels as worksite, hazard maze, hiding place, evidence trail, and class-pressure chamber",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated tunnel sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate hard-rock tunnels as practical work spaces: timber sets, ore cars, powder boxes, hand drills, candles, seep water, bad air, and men counting minutes to shift change.",
+      "Give the table scene starts around missing workers, unpaid wages, a blocked drift, stolen ore, unsafe bracing, hidden papers, or an animal spooked at the portal.",
+      "Keep the danger physical and playable; darkness should change decisions, footing, sound, smoke, and who can see whom.",
+      "Let labor politics and company neglect sit in the tunnel walls without turning the page into finished backstory."
+    ],
+    "hand_cut_note": "The tunnel should feel like it is listening through wet wood.",
+    "table_spark": "A hard-rock tunnel scene should ask what the crew heard, what the foreman concealed, and which timber is ready to complain.",
+    "must_preserve": [
+      "Use 1899 western mining and labor language only.",
+      "The generated page must include image path regions/images/hard-rock-tunnels.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the underground space mystical or heroic",
+      "do not use modern mine machinery, electric safety gear, plastic helmets, or clean industrial staging"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about 1899 hard-rock mining tunnels as hazards and scene engines.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/hard-rock-tunnels.md",
+    "image_reference": "regions/images/hard-rock-tunnels.png",
+    "do_not_write_page_now": true
+  }
+}

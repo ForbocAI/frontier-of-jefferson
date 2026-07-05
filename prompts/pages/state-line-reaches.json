@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "prompt_kind": "page_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "State-line reaches, county-edge roads, ferry landings, border posts, deputy habits, and disputed warrants north of French Gulch",
+    "rdr_clone_target": "RDR-clone western with jurisdiction pressure, fugitive routes, freight papers, border gossip, and thin law",
+    "content_policy": "shape_and_generation_guidance_only",
+    "output_path": "regions/state-line-reaches.md",
+    "paired_image_path": "regions/images/state-line-reaches.png",
+    "issue_title": "Page: State-Line Reaches",
+    "quality_bar": "hand-cut, grounded, table-useful, western-only language"
+  },
+  "research_grounding": [
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Road movement, mining communities, ranching, logging, and settlement pressure around Whiskeytown."
+    },
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Northern California courthouse, town, and commerce texture for law and papers."
+    }
+  ],
+  "generation_prompt": {
+    "enabled": true,
+    "role": "markdown region-page writer",
+    "task": "Generate the State-Line Reaches region page for the 1899 Jefferson State western packet. This JSON contains shape and guidance only.",
+    "page_shape": [
+      "H2 State-Line Reaches",
+      "H3 local marker line in the register of Border Post, Ferry Mud, and Folded Warrant",
+      "square image reference immediately after the marker line",
+      "opening blockquote built as three short generated lines: border object, road or paper detail, plain table meaning",
+      "two compact paragraphs establishing the reaches as jurisdiction gap, fugitive route, freight-paper checkpoint, deputy boundary, and rumor filter",
+      "H3 Field Mark",
+      "closing blockquote that gives a generated state-line sign and practical table meaning"
+    ],
+    "generation_guidance": [
+      "Generate state-line reaches as practical border country: leaning posts, ferry mud, county papers, deputy habits, freight ledgers, old road forks, and men who know which sheriff stops where.",
+      "Give the table hooks around a warrant that loses force, a wagon with wrong papers, a fugitive waiting for dusk, a deputy asking for help he cannot command, or a toll man selling route news.",
+      "Make the law uneven and playable; the page should guide who can act, who hesitates, what papers matter, and how news changes when it crosses a line.",
+      "Keep the border physical: dust, ferry rope, wet boots, road forks, axle ruts, courthouse wax, and a post that nobody trusts to be in the right place."
+    ],
+    "hand_cut_note": "A line on paper should turn into mud, delay, and somebody pretending not to know a name.",
+    "table_spark": "A state-line scene should ask whose law reaches this far, who crossed first, what paper is missing, and who profits from confusion.",
+    "must_preserve": [
+      "Use 1899 western road, law, freight, and border language only.",
+      "The generated page must include image path regions/images/state-line-reaches.png.",
+      "The prompt must not contain final prose, final blockquotes, or finished field marks."
+    ],
+    "avoid": [
+      "do not mention any prior packet, inherited taxonomy, or non-western source language",
+      "do not make the border abstract, mystical, or symbolic without practical effect",
+      "do not include modern border patrol equipment, automobiles, paved highways, reflective signs, passports, radios, or barcode paperwork"
+    ],
+    "self_check": [
+      "The future markdown follows the exact heading sequence.",
+      "The future page is about state-line reaches as jurisdiction pressure, route choice, papers, and scene engine.",
+      "The prompt contains no finished page prose.",
+      "All language belongs to grounded 1899 Jefferson State western play."
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "path": "regions/state-line-reaches.md",
+    "image_reference": "regions/images/state-line-reaches.png",
+    "do_not_write_page_now": true
+  }
+}

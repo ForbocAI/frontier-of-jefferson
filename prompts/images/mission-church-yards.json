@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "prompt_kind": "image_prompt",
+    "project": "Frontier of Jefferson",
+    "game_year": 1899,
+    "setting": "Small churchyard outside French Gulch",
+    "rdr_clone_target": "PS3-era RDR-clone western art, grounded in refuge, mourning, and town memory",
+    "output_path": "regions/images/mission-church-yards.png",
+    "paired_page_path": "regions/mission-church-yards.md",
+    "issue_title": "Image: Mission-Church Yards",
+    "aspect_ratio": "1:1",
+    "quality": "ps3_era_open_world_western_game_art"
+  },
+  "research_grounding": [
+    {
+      "title": "California State Parks Shasta State Historic Park",
+      "url": "https://www.parks.ca.gov/?page_id=456",
+      "use": "Old town buildings, courthouse memory, and northern California civic texture."
+    },
+    {
+      "title": "NPS Whiskeytown History and Culture",
+      "url": "https://www.nps.gov/whis/learn/historyculture/index.htm",
+      "use": "Regional family, road, and mining-community context."
+    }
+  ],
+  "image_prompt": {
+    "enabled": true,
+    "subject": "a small 1899 churchyard with a weathered bell frame, grave fence, muddy path, and riders waiting respectfully outside",
+    "scene": "cool gray morning; pine hills, plain wooden grave boards with no readable names, a wagon with a covered load, borrowed blankets near the door, and a bell rope moving slightly in wind",
+    "composition": "square solemn exterior with the fence line separating road and yard; shelter and accusation held in the same quiet frame",
+    "camera": "eye-level from just outside the gate, restrained and respectful, with no theatrical beam of light",
+    "material_cues": [
+      "weathered white paint",
+      "muddy path",
+      "rope fibers",
+      "rough grave boards",
+      "wool black coats",
+      "wet grass",
+      "plain wagon canvas"
+    ],
+    "hand_cut_note": "Let stillness do the work; the yard should hold shelter and accusation at once.",
+    "style_modifiers": {
+      "medium": "PS3-era open-world western game art, early-HD in-engine town-edge scene",
+      "render_traits": [
+        "slightly simplified riders, fence, wagon, and church silhouettes",
+        "modest texture resolution on paint, rope, mud, wool, and grass",
+        "hard ambient occlusion under fence rails, wagon wheels, grave boards, and doorway",
+        "cool overcast daylight",
+        "believable 1899 churchyard, road, and clothing materials",
+        "restrained mourning composition rather than sentimental postcard"
+      ],
+      "palette": "wet grass green, weathered white paint, mud brown, wool black, gray sky, pine green, rope tan, and wagon canvas beige."
+    },
+    "text_rendering": {
+      "enabled": false,
+      "instructions": "No readable grave names, signs, notices, labels, or text."
+    },
+    "advanced": {
+      "negative_prompt": [
+        "medieval armor",
+        "glowing symbols",
+        "spell effects",
+        "cathedral",
+        "modern church sign",
+        "electric lights",
+        "cars",
+        "neon",
+        "plastic props",
+        "science fiction objects",
+        "readable brand logos",
+        "legible signage",
+        "text overlays",
+        "watermark",
+        "anime proportions",
+        "next-gen ultra realistic rendering",
+        "theme-park western cleanliness",
+        "copy of commercial game characters, missions, towns, or logos",
+        "cropped bell frame or cropped grave fence"
+      ],
+      "magic_prompt_enhancer": false
+    },
+    "self_check": [
+      "Reads as PS3-era western game art at square page-card scale.",
+      "The churchyard, bell frame, grave fence, wagon, riders, and muddy path are readable.",
+      "Every visible prop belongs plausibly to 1899 town-edge life.",
+      "The image is restrained and grounded rather than sentimental or theatrical.",
+      "No copied game characters, readable modern text, or inherited non-western symbols."
+    ]
+  },
+  "output": {
+    "format": "png",
+    "path": "regions/images/mission-church-yards.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "do_not_generate_now": true
+  }
+}
