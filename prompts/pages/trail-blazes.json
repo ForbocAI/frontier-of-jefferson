@@ -46,7 +46,7 @@
     "table_spark": "A trail-blaze scene should ask who cut the mark, who changed it, what weather hid it, and what road it wants people to take.",
     "must_preserve": [
       "Use 1899 western trail, timber, road, and tracking language only.",
-      "The generated page must include image path regions/images/trail-blazes.jpg.",
+      "The generated page must include image path images/trail-blazes.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/trail-blazes.md",
-    "image_reference": "regions/images/trail-blazes.jpg",
+    "image_reference": "images/trail-blazes.jpg",
     "do_not_write_page_now": true
   }
 }

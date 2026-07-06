@@ -1,6 +1,6 @@
 ## Prologue
 
-![Prologue](prologue/images/prologue.jpg)
+![Prologue](images/prologue.jpg)
 
 > The road book for Shasta County, 1899, page forty-one: "French Gulch payroll delayed — weather, or worse. Rider sent. No word back."
 

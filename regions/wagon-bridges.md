@@ -2,7 +2,7 @@
 
 ### In the Register of Planks, Toll Chain, and Creek Noise
 
-![Wagon Bridges](regions/images/wagon-bridges.jpg)
+![Wagon Bridges](images/wagon-bridges.jpg)
 
 > A splintered fir plank bowed under the last load, and the iron spike that held it stands bent at the rail.
 > Creek foam collects against the pilings where deer tracks press into the mud bank below.

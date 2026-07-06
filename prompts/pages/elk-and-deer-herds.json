@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western animal-sign, hunting, and food language only.",
       "Keep deer and elk naturalistic and ecologically grounded.",
-      "The generated page must include image path cast/images/elk-and-deer-herds.jpg.",
+      "The generated page must include image path images/elk-and-deer-herds.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/elk-and-deer-herds.md",
-    "image_reference": "cast/images/elk-and-deer-herds.jpg",
+    "image_reference": "images/elk-and-deer-herds.jpg",
     "do_not_write_page_now": true
   }
 }

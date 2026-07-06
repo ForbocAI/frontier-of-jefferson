@@ -57,7 +57,7 @@
       "Use respectful 1899 western and regional language only.",
       "Do not invent sacred practices, fake words, or mystical traits.",
       "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
-      "The generated page must include image path cast/images/hoopa-valley-packers.jpg.",
+      "The generated page must include image path images/hoopa-valley-packers.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -76,7 +76,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/hoopa-valley-packers.md",
-    "image_reference": "cast/images/hoopa-valley-packers.jpg",
+    "image_reference": "images/hoopa-valley-packers.jpg",
     "do_not_write_page_now": true
   }
 }

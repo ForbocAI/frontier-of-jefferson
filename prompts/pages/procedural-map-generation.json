@@ -72,7 +72,7 @@
       "The generated page is a procedure, not a setting gazetteer.",
       "French Gulch remains the first anchor point.",
       "Every map element should become playable pressure.",
-      "The page must include the image reference path exactly: play/images/procedural-map-generation.jpg."
+      "The page must include the image reference path exactly: images/procedural-map-generation.jpg."
     ],
     "style_constraints": {
       "era": "Everything generated from this prompt belongs to 1899: horses, ore wagons, soot-black lamps, telegraph where appropriate, hand tools, rifles, ledgers, canvas, iron, mud, pine, and courthouse paper.",
@@ -101,7 +101,7 @@
   "output": {
     "format": "markdown",
     "path": "play/procedural-map-generation.md",
-    "image_reference": "play/images/procedural-map-generation.jpg",
+    "image_reference": "images/procedural-map-generation.jpg",
     "do_not_write_page_now": true
   }
 }

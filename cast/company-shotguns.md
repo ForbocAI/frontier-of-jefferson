@@ -1,6 +1,6 @@
 ## Company Shotguns
 
-![Company Shotguns](cast/images/company-shotguns.jpg)
+![Company Shotguns](images/company-shotguns.jpg)
 
 > *"Any man drawing company wages and carrying company iron is advised that his conduct reflects upon the Harshaw Consolidated Mining & Timber concern. Damage to company property, including yourself, will be deducted from final pay. Discharge of firearms within the bunkhouse is grounds for dismissal without settlement of accounts."*
 > — Posted notice, Guard Quarters, Harshaw Mine No. 3

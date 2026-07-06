@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/questioning-tutorial.md",
-    "paired_image_path": "images/questioning-tutorial.jpg",
+    "paired_image_path": "rules/images/questioning-tutorial.jpg",
     "issue_title": "Page: Questioning Tutorial",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },

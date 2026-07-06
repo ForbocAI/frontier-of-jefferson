@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western road-camp language only.",
       "Keep rootlessness practical, human, and morally complicated.",
-      "The generated page must include image path cast/images/saddle-tramps.jpg.",
+      "The generated page must include image path images/saddle-tramps.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/saddle-tramps.md",
-    "image_reference": "cast/images/saddle-tramps.jpg",
+    "image_reference": "images/saddle-tramps.jpg",
     "do_not_write_page_now": true
   }
 }

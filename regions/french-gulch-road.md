@@ -2,7 +2,7 @@
 
 ### In the Register of Ruts, Grades, and Return Smoke
 
-![French Gulch Road](regions/images/french-gulch-road.jpg)
+![French Gulch Road](images/french-gulch-road.jpg)
 
 > A broken spoke lodged upright in the mud like a marker nobody asked for.
 > Fog sits in the ruts from Clear Creek to the first bridge, and the grade never forgives a short team.

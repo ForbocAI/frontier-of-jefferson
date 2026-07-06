@@ -1,6 +1,6 @@
 ## Courthouse Memory Women
 
-![Courthouse Memory Women](cast/images/courthouse-memory-women.jpg)
+![Courthouse Memory Women](images/courthouse-memory-women.jpg)
 
 > *"Docket 411, November term, 1899—Petition to quiet title denied on grounds the widow could not produce the original deed. She produced it from her apron pocket before the clerk finished speaking. The court did not record her remarks."*
 

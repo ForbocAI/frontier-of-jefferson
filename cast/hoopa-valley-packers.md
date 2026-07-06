@@ -1,6 +1,6 @@
 ## Hoopa Valley Packers
 
-![Hoopa Valley Packers](cast/images/hoopa-valley-packers.jpg)
+![Hoopa Valley Packers](images/hoopa-valley-packers.jpg)
 
 > "The trail doesn't care about a man's warrant. The mule doesn't either. You want this load moved, you pay the asking price."
 

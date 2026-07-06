@@ -1,6 +1,6 @@
 ## Press Boys
 
-![Press Boys](cast/images/press-boys.jpg)
+![Press Boys](images/press-boys.jpg)
 
 > *"Wet ink don't wait for nobody's permission. You fold it, you run it, and whatever name's on that front page — well, that name belongs to the street now."*
 

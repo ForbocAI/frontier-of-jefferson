@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western kitchen, lodging, and work-camp language only.",
       "Keep food practical, social, and powerful.",
-      "The generated page must include image path cast/images/boardinghouse-cooks.jpg.",
+      "The generated page must include image path images/boardinghouse-cooks.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/boardinghouse-cooks.md",
-    "image_reference": "cast/images/boardinghouse-cooks.jpg",
+    "image_reference": "images/boardinghouse-cooks.jpg",
     "do_not_write_page_now": true
   }
 }

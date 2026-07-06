@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western store and ledger language only.",
       "Keep debt practical, personal, and playable.",
-      "The generated page must include image path cast/images/company-store-clerks.jpg.",
+      "The generated page must include image path images/company-store-clerks.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/company-store-clerks.md",
-    "image_reference": "cast/images/company-store-clerks.jpg",
+    "image_reference": "images/company-store-clerks.jpg",
     "do_not_write_page_now": true
   }
 }

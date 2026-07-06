@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western print-shop and street language only.",
       "Keep news practical, social, and dangerous.",
-      "The generated page must include image path cast/images/press-boys.jpg.",
+      "The generated page must include image path images/press-boys.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/press-boys.md",
-    "image_reference": "cast/images/press-boys.jpg",
+    "image_reference": "images/press-boys.jpg",
     "do_not_write_page_now": true
   }
 }

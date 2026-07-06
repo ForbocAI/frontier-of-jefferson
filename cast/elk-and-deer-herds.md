@@ -1,6 +1,6 @@
 ## Elk and Deer Herds
 
-![Elk and Deer Herds](cast/images/elk-and-deer-herds.jpg)
+![Elk and Deer Herds](images/elk-and-deer-herds.jpg)
 
 > *"Count the beds in the meadow grass before you count the antlers. The number that slept there tells you more than the number still standing."*
 

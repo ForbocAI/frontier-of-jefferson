@@ -52,7 +52,7 @@
       "Use respectful 1899 western and regional language only.",
       "Do not invent sacred practices, fake words, or mystical traits.",
       "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
-      "The generated page must include image path cast/images/karuk-river-families.jpg.",
+      "The generated page must include image path images/karuk-river-families.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -71,7 +71,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/karuk-river-families.md",
-    "image_reference": "cast/images/karuk-river-families.jpg",
+    "image_reference": "images/karuk-river-families.jpg",
     "do_not_write_page_now": true
   }
 }

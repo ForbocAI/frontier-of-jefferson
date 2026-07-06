@@ -2,7 +2,7 @@
 
 ### In the Register of Bell Rope, Grave Fence, and Borrowed Shelter
 
-![Mission-Church Yards](regions/images/mission-church-yards.jpg)
+![Mission-Church Yards](images/mission-church-yards.jpg)
 
 > A bell rope worn smooth where hands have pulled it for reasons the congregation does not discuss.
 > Rain pools against the newest grave fence, and the mud has not yet settled.

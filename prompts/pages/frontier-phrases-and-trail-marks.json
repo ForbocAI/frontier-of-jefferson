@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/frontier-phrases-and-trail-marks.md",
-    "paired_image_path": "images/frontier-phrases-and-trail-marks.jpg",
+    "paired_image_path": "rules/images/frontier-phrases-and-trail-marks.jpg",
     "issue_title": "Page: Frontier Phrases and Trail Marks",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },

@@ -1,6 +1,6 @@
 ## Ridge Lookouts
 
-![Ridge Lookouts](cast/images/ridge-lookouts.jpg)
+![Ridge Lookouts](images/ridge-lookouts.jpg)
 
 > "Smoke don't lie, but it don't explain itself neither. A column that leans east could be a cookfire, a signal, or the start of something that'll eat three valleys by Thursday."
 

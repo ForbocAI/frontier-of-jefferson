@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western town-patrol language only.",
       "Keep authority human, paid, tired, and fallible.",
-      "The generated page must include image path cast/images/night-watchmen.jpg.",
+      "The generated page must include image path images/night-watchmen.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/night-watchmen.md",
-    "image_reference": "cast/images/night-watchmen.jpg",
+    "image_reference": "images/night-watchmen.jpg",
     "do_not_write_page_now": true
   }
 }

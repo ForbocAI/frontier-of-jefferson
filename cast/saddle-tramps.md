@@ -1,6 +1,6 @@
 ## Saddle Tramps
 
-![Saddle Tramps](cast/images/saddle-tramps.jpg)
+![Saddle Tramps](images/saddle-tramps.jpg)
 
 > "Never trust a man who offers you his full name before you've even poured the coffee. He's either selling something, or running from it."
 

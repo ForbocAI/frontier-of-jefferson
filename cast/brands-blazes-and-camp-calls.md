@@ -1,6 +1,6 @@
 ## Brands, Blazes, and Camp Calls
 
-![Brands, Blazes, and Camp Calls](cast/images/brands-blazes-and-camp-calls.jpg)
+![Brands, Blazes, and Camp Calls](images/brands-blazes-and-camp-calls.jpg)
 
 > "A blaze don't lie, but it don't explain itself neither. You read what the knife left, not what the man meant."
 

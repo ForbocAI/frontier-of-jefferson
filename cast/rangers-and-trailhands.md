@@ -1,6 +1,6 @@
 ## Rangers and Trailhands
 
-![Rangers and Trailhands](cast/images/rangers-and-trailhands.jpg)
+![Rangers and Trailhands](images/rangers-and-trailhands.jpg)
 
 > *"Packed the mule wrong this morning and lost a hundred pounds of flour to the Applegate crossing. Country don't forgive arithmetic mistakes."*
 > — Trail note found in a tin box, Siskiyou freight camp, 1897

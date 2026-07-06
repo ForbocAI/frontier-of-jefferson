@@ -1,6 +1,6 @@
 ## Company Store Clerks
 
-![Company Store Clerks](cast/images/company-store-clerks.jpg)
+![Company Store Clerks](images/company-store-clerks.jpg)
 
 > *"Account carried forward. Interest noted. Balance due at company discretion. —Stamp on every third page of the Jefferson Mercantile ledger, 1897"*
 

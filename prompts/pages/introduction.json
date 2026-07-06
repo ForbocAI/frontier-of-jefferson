@@ -65,7 +65,7 @@
       "French Gulch is the first playable place.",
       "The tone is grounded 1899 western, not medieval, not alternate-modern, not clean nostalgia.",
       "Native communities are living peoples with land, families, rights, work, memory, and political presence.",
-      "The generated markdown must include the image reference path exactly: introduction/images/frontier-of-jefferson.jpg."
+      "The generated markdown must include the image reference path exactly: images/frontier-of-jefferson.jpg."
     ],
     "style_constraints": {
       "era": "Everything generated from this prompt belongs to 1899: horses, ore wagons, soot-black lamps, telegraph where appropriate, hand tools, rifles, ledgers, canvas, iron, mud, pine, and courthouse paper.",
@@ -94,7 +94,7 @@
   "output": {
     "format": "markdown",
     "path": "introduction/introduction.md",
-    "image_reference": "introduction/images/frontier-of-jefferson.jpg",
+    "image_reference": "images/frontier-of-jefferson.jpg",
     "do_not_write_page_now": true
   }
 }

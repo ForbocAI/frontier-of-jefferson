@@ -2,7 +2,7 @@
 
 ### In the Register of Dead Ash, Bedroll Mark, and Scattered Tin
 
-![Cold Camps](regions/images/cold-camps.jpg)
+![Cold Camps](images/cold-camps.jpg)
 
 > A coffee pot kicked onto its side, grounds spilled in a line the rain has not yet washed.
 > Boot scuffs circle the ash pile, and one set leads into the brush without a return track.

@@ -1,6 +1,6 @@
 ## Stage Drivers
 
-![Stage Drivers](cast/images/stage-drivers.jpg)
+![Stage Drivers](images/stage-drivers.jpg)
 
 > "Westbound departs at seven sharp or not at all. Grade ice above Siskiyou summit — loss of brake iron probable. Passengers ride at own risk past the Applegate fork. No refunds issued for acts of weather, road agents, or the Lord."
 

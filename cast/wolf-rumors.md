@@ -1,6 +1,6 @@
 ## Wolf Rumors
 
-![Wolf Rumors](cast/images/wolf-rumors.jpg)
+![Wolf Rumors](images/wolf-rumors.jpg)
 
 > "Found three prints in the crusted snow below Hayden's fence line this morning. Could be a large dog. Could be something else. Either way, Hayden's moved his calves to the lower pen and he ain't saying why."
 

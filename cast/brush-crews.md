@@ -1,6 +1,6 @@
 ## Brush Crews
 
-![Brush Crews](cast/images/brush-crews.jpg)
+![Brush Crews](images/brush-crews.jpg)
 
 > "A dull axe costs you skin. A sharp one costs you judgment. Either way the brush don't care—it grew back thicker while you were arguing about the road."
 

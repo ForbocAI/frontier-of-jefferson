@@ -2,7 +2,7 @@
 
 ### In the Register of Loose Shale, Pack Rope, and Long Drop
 
-![Knife-Edge Trails](regions/images/knife-edge-trails.jpg)
+![Knife-Edge Trails](images/knife-edge-trails.jpg)
 
 > A mule bell clanking somewhere below the switchback, its sound bouncing wrong off the rock face.
 > Wind pulls at the scrub oak where cougar tracks press into the dust between the shale slides.

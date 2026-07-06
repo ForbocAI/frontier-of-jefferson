@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/bookkeeping.md",
-    "paired_image_path": "images/bookkeeping.jpg",
+    "paired_image_path": "rules/images/bookkeeping.jpg",
     "issue_title": "Page: Bookkeeping",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },

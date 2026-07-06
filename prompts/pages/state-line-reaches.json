@@ -46,7 +46,7 @@
     "table_spark": "A state-line scene should ask whose law reaches this far, who crossed first, what paper is missing, and who profits from confusion.",
     "must_preserve": [
       "Use 1899 western road, law, freight, and border language only.",
-      "The generated page must include image path regions/images/state-line-reaches.jpg.",
+      "The generated page must include image path images/state-line-reaches.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/state-line-reaches.md",
-    "image_reference": "regions/images/state-line-reaches.jpg",
+    "image_reference": "images/state-line-reaches.jpg",
     "do_not_write_page_now": true
   }
 }

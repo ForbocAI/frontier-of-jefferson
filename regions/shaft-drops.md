@@ -2,7 +2,7 @@
 
 ### In the Register of Cribbed Collar, Rope Burn, and Bad Air
 
-![Shaft Drops](regions/images/shaft-drops.jpg)
+![Shaft Drops](images/shaft-drops.jpg)
 
 > A square-cut collar of notched timber at the mouth, the cribbing dark with water stain and the windlass rope frayed where it bends over the roller.
 > The air rising from the shaft smells of lamp smoke and wet rock, and a pebble kicked over the edge takes long enough to hit bottom that a man stops breathing while he counts.

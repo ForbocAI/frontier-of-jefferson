@@ -1,6 +1,6 @@
 ## Night Watchmen
 
-![Night Watchmen](cast/images/night-watchmen.jpg)
+![Night Watchmen](images/night-watchmen.jpg)
 
 > *"Three taps on the post means the alley is clear. No taps means somebody paid for quiet."*
 > — chalk mark found inside the lid of a patrol lantern, Jefferson, 1899

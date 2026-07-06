@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western labor and fire-line language only.",
       "Keep fire stewardship respectful, grounded, and not invented as ceremony.",
-      "The generated page must include image path cast/images/brush-crews.jpg.",
+      "The generated page must include image path images/brush-crews.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/brush-crews.md",
-    "image_reference": "cast/images/brush-crews.jpg",
+    "image_reference": "images/brush-crews.jpg",
     "do_not_write_page_now": true
   }
 }

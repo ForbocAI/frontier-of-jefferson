@@ -2,7 +2,7 @@
 
 ### In the Register of Dead Coals, Coffee Grounds, and Bedroll Dents
 
-![Campfire Rings](regions/images/campfire-rings.jpg)
+![Campfire Rings](images/campfire-rings.jpg)
 
 > A circle of fire-blackened stones on a pine flat, the ash still warm enough to feel through a boot sole.
 > Coffee grounds scattered at the edge of the ring, and the grass pressed flat in three bedroll shapes pointing away from the smoke.

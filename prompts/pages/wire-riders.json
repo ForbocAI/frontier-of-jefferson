@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 telegraph and western road language only.",
       "Keep communication fragile, physical, and socially dangerous.",
-      "The generated page must include image path cast/images/wire-riders.jpg.",
+      "The generated page must include image path images/wire-riders.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/wire-riders.md",
-    "image_reference": "cast/images/wire-riders.jpg",
+    "image_reference": "images/wire-riders.jpg",
     "do_not_write_page_now": true
   }
 }

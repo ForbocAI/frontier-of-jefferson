@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western animal-sign and trail language only.",
       "Keep mountain lions naturalistic, solitary, and ecologically grounded.",
-      "The generated page must include image path cast/images/cougar-trails.jpg.",
+      "The generated page must include image path images/cougar-trails.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/cougar-trails.md",
-    "image_reference": "cast/images/cougar-trails.jpg",
+    "image_reference": "images/cougar-trails.jpg",
     "do_not_write_page_now": true
   }
 }

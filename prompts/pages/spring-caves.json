@@ -46,7 +46,7 @@
     "table_spark": "A spring-cave scene should ask who knows the water, who controls the entrance, what was lowered by rope, and what the wet stone kept from showing.",
     "must_preserve": [
       "Use 1899 western water, cave, claim, and trail language only.",
-      "The generated page must include image path regions/images/spring-caves.jpg.",
+      "The generated page must include image path images/spring-caves.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -65,7 +65,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/spring-caves.md",
-    "image_reference": "regions/images/spring-caves.jpg",
+    "image_reference": "images/spring-caves.jpg",
     "do_not_write_page_now": true
   }
 }

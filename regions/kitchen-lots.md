@@ -2,7 +2,7 @@
 
 ### In the Register of Back Doors, Wash Lines, and Scrap Gardens
 
-![Kitchen Lots](regions/images/kitchen-lots.jpg)
+![Kitchen Lots](images/kitchen-lots.jpg)
 
 > A cracked basin set upside-down on a fence post, catching nothing but frost.
 > Bootprints cross the ash pit toward the side door, and one set does not come back.

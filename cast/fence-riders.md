@@ -1,6 +1,6 @@
 ## Fence Riders
 
-![Fence Riders](cast/images/fence-riders.jpg)
+![Fence Riders](images/fence-riders.jpg)
 
 > *"A staple tells you who drove it. A cut wire tells you who paid for it. The dirt underneath tells you who lied about both."*
 

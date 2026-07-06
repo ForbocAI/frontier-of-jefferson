@@ -2,7 +2,7 @@
 
 ### In the Register of Snow Line, Runoff, Dust, and Smoke
 
-![Seasonal Shifts](regions/images/seasonal-shifts.jpg)
+![Seasonal Shifts](images/seasonal-shifts.jpg)
 
 > The snow line dropping a hundred feet overnight, closing the high trail and pushing deer down into the creek bottoms.
 > Dust rising off the Shasta road in August, thick enough to taste, and the wells drawing low enough to count.

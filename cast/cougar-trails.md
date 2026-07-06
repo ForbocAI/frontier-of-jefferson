@@ -1,6 +1,6 @@
 ## Cougar Trails
 
-![Cougar Trails](cast/images/cougar-trails.jpg)
+![Cougar Trails](images/cougar-trails.jpg)
 
 > "If the deer quit feeding before dark and your horse won't cross the draw, the brush already has a tenant. Walk soft or walk somewhere else."
 

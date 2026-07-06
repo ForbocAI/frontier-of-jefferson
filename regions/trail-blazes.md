@@ -2,7 +2,7 @@
 
 ### In the Register of Axe Cut, Bent Nail, and Chalk Smear
 
-![Trail Blazes](regions/images/trail-blazes.jpg)
+![Trail Blazes](images/trail-blazes.jpg)
 
 > A pine trunk scarred with a hatchet blaze, the cut face weathered gray at the edges and still pale where someone freshened it last season.
 > A bent nail driven into a fence post at a fork, pointing left, and a chalk arrow on the rock below it already half-washed by rain.

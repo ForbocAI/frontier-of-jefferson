@@ -1,6 +1,6 @@
 ## Wire Riders
 
-![Wire Riders](cast/images/wire-riders.jpg)
+![Wire Riders](images/wire-riders.jpg)
 
 > *Line break reported between Relay 7 and the Sawyer Creek crossing. Cause unknown. No traffic south of the divide since Tuesday last. Rider dispatched. — Field note, Jefferson Telegraph & Signal Co., March 1899*
 

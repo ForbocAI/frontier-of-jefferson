@@ -1,6 +1,6 @@
 ## Pit River Hands
 
-![Pit River Hands](cast/images/pit-river-hands.jpg)
+![Pit River Hands](images/pit-river-hands.jpg)
 
 > "They fix the axles and mend the harness, and all the while they listen. A quiet man in the yard knows more than the loud man with the warrant."
 

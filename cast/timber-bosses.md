@@ -1,6 +1,6 @@
 ## Timber Bosses
 
-![Timber Bosses](cast/images/timber-bosses.jpg)
+![Timber Bosses](images/timber-bosses.jpg)
 
 > *"Any man who signs on with my crew will be paid what I promised, fed what I can afford, and buried where he falls. That's the contract. You want better terms, go clerk for a dry-goods store."*
 > — Stump notice nailed to a sugar pine, Camp Redtail, spring 1899

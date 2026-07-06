@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western trail, camp, horse, and ranger language only.",
       "Keep capability practical, fallible, and tied to supply and weather.",
-      "The generated page must include image path cast/images/rangers-and-trailhands.jpg.",
+      "The generated page must include image path images/rangers-and-trailhands.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/rangers-and-trailhands.md",
-    "image_reference": "cast/images/rangers-and-trailhands.jpg",
+    "image_reference": "images/rangers-and-trailhands.jpg",
     "do_not_write_page_now": true
   }
 }

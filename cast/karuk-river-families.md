@@ -1,6 +1,6 @@
 ## Karuk River Families
 
-![Karuk River Families](cast/images/karuk-river-families.jpg)
+![Karuk River Families](images/karuk-river-families.jpg)
 
 > "A stranger might see only water and rapids, but to us, the river is the road, the pantry, and the law."
 

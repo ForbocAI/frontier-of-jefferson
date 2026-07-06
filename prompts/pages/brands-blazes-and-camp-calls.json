@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western work-mark and camp-call language only.",
       "Do not invent Native signs, sacred systems, fake alphabets, or secret mystical marks.",
-      "The generated page must include image path cast/images/brands-blazes-and-camp-calls.jpg.",
+      "The generated page must include image path images/brands-blazes-and-camp-calls.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/brands-blazes-and-camp-calls.md",
-    "image_reference": "cast/images/brands-blazes-and-camp-calls.jpg",
+    "image_reference": "images/brands-blazes-and-camp-calls.jpg",
     "do_not_write_page_now": true
   }
 }

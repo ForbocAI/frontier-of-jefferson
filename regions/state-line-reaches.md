@@ -2,7 +2,7 @@
 
 ### In the Register of Border Post, Ferry Mud, and Folded Warrant
 
-![State-Line Reaches](regions/images/state-line-reaches.jpg)
+![State-Line Reaches](images/state-line-reaches.jpg)
 
 > A leaning post at a road fork, the paint weathered past reading and the county line it marks disputed by everyone who lives on either side.
 > Ferry mud on the landing boards, boot prints overlapping in wet clay, and a folded warrant in a deputy's coat pocket that loses its force in another two miles.

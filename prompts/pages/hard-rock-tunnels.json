@@ -46,7 +46,7 @@
     "table_spark": "A hard-rock tunnel scene should ask what the crew heard, what the foreman concealed, and which timber is ready to complain.",
     "must_preserve": [
       "Use 1899 western mining and labor language only.",
-      "The generated page must include image path regions/images/hard-rock-tunnels.jpg.",
+      "The generated page must include image path images/hard-rock-tunnels.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/hard-rock-tunnels.md",
-    "image_reference": "regions/images/hard-rock-tunnels.jpg",
+    "image_reference": "images/hard-rock-tunnels.jpg",
     "do_not_write_page_now": true
   }
 }

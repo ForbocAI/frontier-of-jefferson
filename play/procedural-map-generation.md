@@ -1,6 +1,6 @@
 ## Procedural Map Generation
 
-![Procedural Map Generation](play/images/procedural-map-generation.jpg)
+![Procedural Map Generation](images/procedural-map-generation.jpg)
 
 > *From a surveyor's notebook found in a French Gulch boarding house, the binding cracked and the margins full of arithmetic:*
 >

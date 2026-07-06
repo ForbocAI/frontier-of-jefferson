@@ -2,7 +2,7 @@
 
 ### In the Register of High Timber, Chute Dust, and Loose Bolt
 
-![Ore Trestles](regions/images/ore-trestles.jpg)
+![Ore Trestles](images/ore-trestles.jpg)
 
 > A green-timber brace bowed under a loaded car, iron bolts weeping rust down the crossbeam.
 > Ore dust hangs in the chute throat like fog that never lifts, and every board talks when a man steps wrong.

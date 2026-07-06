@@ -46,7 +46,7 @@
     "table_spark": "A French Gulch Road scene should ask what the riders bring in, what follows them, and who sees them before the town admits it.",
     "must_preserve": [
       "Use 1899 western road language only.",
-      "The generated page must include image path regions/images/french-gulch-road.jpg.",
+      "The generated page must include image path images/french-gulch-road.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/french-gulch-road.md",
-    "image_reference": "regions/images/french-gulch-road.jpg",
+    "image_reference": "images/french-gulch-road.jpg",
     "do_not_write_page_now": true
   }
 }

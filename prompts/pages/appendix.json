@@ -64,7 +64,7 @@
     "must_preserve": [
       "This is a reference page, not a lore chapter.",
       "The generated page may include future table headings, but this JSON must not contain finished table entries.",
-      "The page must include the image reference path exactly: appendix/images/appendix.jpg.",
+      "The page must include the image reference path exactly: images/appendix.jpg.",
       "Native community guidance must be careful, grounded, and source-aware."
     ],
     "style_constraints": {
@@ -94,7 +94,7 @@
   "output": {
     "format": "markdown",
     "path": "appendix/appendix.md",
-    "image_reference": "appendix/images/appendix.jpg",
+    "image_reference": "images/appendix.jpg",
     "do_not_write_page_now": true
   }
 }

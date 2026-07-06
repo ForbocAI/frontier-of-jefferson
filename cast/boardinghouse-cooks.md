@@ -1,6 +1,6 @@
 ## Boardinghouse Cooks
 
-![Boardinghouse Cooks](cast/images/boardinghouse-cooks.jpg)
+![Boardinghouse Cooks](images/boardinghouse-cooks.jpg)
 
 > *"Stove lit at four. Coffee by five. If you ain't seated by six, you eat what the dog left. — posted inside the kitchen door, Mrs. Ketcham's, Yreka, 1897"*
 

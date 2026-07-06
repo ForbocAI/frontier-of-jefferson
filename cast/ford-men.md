@@ -1,6 +1,6 @@
 ## Ford Men
 
-![Ford Men](cast/images/ford-men.jpg)
+![Ford Men](images/ford-men.jpg)
 
 > *"Three feet of clear water and a calm horse will kill you quicker than six feet of roar — because you stop paying attention."*
 

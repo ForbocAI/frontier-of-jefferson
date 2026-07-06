@@ -1,6 +1,6 @@
 ## Appendix
 
-![Appendix](appendix/images/appendix.jpg)
+![Appendix](images/appendix.jpg)
 
 > *Found tucked inside the back cover of a Shasta County land register, in a hand that favored pencil over ink:*
 >

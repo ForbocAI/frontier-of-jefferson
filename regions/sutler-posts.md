@@ -2,7 +2,7 @@
 
 ### In the Register of Counter, Crates, and Road Credit
 
-![Sutler Posts](regions/images/sutler-posts.jpg)
+![Sutler Posts](images/sutler-posts.jpg)
 
 > A flour sack split at the seam, dusting the counter where the scale sits crooked.
 > Mule tracks pool with rainwater beside the loading step, and the price board has been wiped and rewritten twice since morning.

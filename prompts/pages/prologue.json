@@ -58,7 +58,7 @@
     "must_preserve": [
       "French Gulch is the opening settlement.",
       "The prologue creates playable pressure but does not solve the mystery.",
-      "The page must include the image reference path exactly: prologue/images/prologue.jpg.",
+      "The page must include the image reference path exactly: images/prologue.jpg.",
       "The future prose should leave room for Native families, workers, law, wildlife, and company money as active forces."
     ],
     "style_constraints": {
@@ -88,7 +88,7 @@
   "output": {
     "format": "markdown",
     "path": "prologue/prologue.md",
-    "image_reference": "prologue/images/prologue.jpg",
+    "image_reference": "images/prologue.jpg",
     "do_not_write_page_now": true
   }
 }

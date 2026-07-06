@@ -2,7 +2,7 @@
 
 ### In the Register of Split Cedar, Tin Notice, and Witness Cut
 
-![Claim Stakes](regions/images/claim-stakes.jpg)
+![Claim Stakes](images/claim-stakes.jpg)
 
 > A split cedar post driven into red dirt, its tin notice curled at one corner where the rain got behind the nail.
 > Deer have rubbed the bark from the witness tree, and the pencil marks on the paper are running toward illegible.

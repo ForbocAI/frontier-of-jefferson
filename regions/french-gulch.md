@@ -2,7 +2,7 @@
 
 ### In the Register of Stamp Mill, Creek Bed, and Main Street
 
-![French Gulch](regions/images/french-gulch.jpg)
+![French Gulch](images/french-gulch.jpg)
 
 > An ore cart wheel rusted to its axle beside the mill steps, too heavy to steal and too broken to use.
 > Creek mud climbs the boardwalk pilings after every rain, and the stamp mill answers with a thump that shakes dust from the rafters.

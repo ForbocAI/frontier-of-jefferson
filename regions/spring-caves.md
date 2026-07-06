@@ -2,7 +2,7 @@
 
 ### In the Register of Seep Stone, Bucket Rope, and Cold Breath
 
-![Spring Caves](regions/images/spring-caves.jpg)
+![Spring Caves](images/spring-caves.jpg)
 
 > A limestone hollow breathing cold air from a crack no wider than a man's hand, the stone face stained green with mineral seep.
 > A frayed rope hangs into the dark, the bucket at the bottom knocking against rock every time the wind shifts.

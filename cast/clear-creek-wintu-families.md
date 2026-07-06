@@ -1,6 +1,6 @@
 ## Clear Creek Wintu Families
 
-![Clear Creek Wintu Families](cast/images/clear-creek-wintu-families.jpg)
+![Clear Creek Wintu Families](images/clear-creek-wintu-families.jpg)
 
 > "They watch the salmon runs and read the autumn fire lines long before the county cuts a paper claim."
 

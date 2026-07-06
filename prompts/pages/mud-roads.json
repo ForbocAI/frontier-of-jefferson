@@ -46,7 +46,7 @@
     "table_spark": "A mud-road scene should ask what is stuck, who cannot wait, what tracks will wash out, and who benefits from the delay.",
     "must_preserve": [
       "Use 1899 western road, freight, weather, and tracking language only.",
-      "The generated page must include image path regions/images/mud-roads.jpg.",
+      "The generated page must include image path images/mud-roads.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/mud-roads.md",
-    "image_reference": "regions/images/mud-roads.jpg",
+    "image_reference": "images/mud-roads.jpg",
     "do_not_write_page_now": true
   }
 }

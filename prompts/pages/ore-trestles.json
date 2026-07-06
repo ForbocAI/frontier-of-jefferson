@@ -46,7 +46,7 @@
     "table_spark": "An ore-trestle scene should ask what is moving, what is loose, who is below, and who profits if the structure fails.",
     "must_preserve": [
       "Use 1899 western mining, freight, and timber language only.",
-      "The generated page must include image path regions/images/ore-trestles.jpg.",
+      "The generated page must include image path images/ore-trestles.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/ore-trestles.md",
-    "image_reference": "regions/images/ore-trestles.jpg",
+    "image_reference": "images/ore-trestles.jpg",
     "do_not_write_page_now": true
   }
 }

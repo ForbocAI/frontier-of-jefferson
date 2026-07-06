@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western labor-conflict and guard language only.",
       "Keep private force human, paid, dangerous, and morally pressured.",
-      "The generated page must include image path cast/images/company-shotguns.jpg.",
+      "The generated page must include image path images/company-shotguns.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/company-shotguns.md",
-    "image_reference": "cast/images/company-shotguns.jpg",
+    "image_reference": "images/company-shotguns.jpg",
     "do_not_write_page_now": true
   }
 }

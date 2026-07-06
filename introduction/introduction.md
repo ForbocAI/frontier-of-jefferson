@@ -1,6 +1,6 @@
 # Frontier of Jefferson — A Western Tabletop Packet
 
-![Frontier of Jefferson](introduction/images/frontier-of-jefferson.jpg)
+![Frontier of Jefferson](images/frontier-of-jefferson.jpg)
 
 > The road north from Shasta forks at Clear Creek, and whichever branch you ride, someone already wrote your name in a ledger before you arrived. This is how the frontier keeps its books.
 

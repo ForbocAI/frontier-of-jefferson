@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western road and travel language only.",
       "Keep route knowledge physical and social, not supernatural.",
-      "The generated page must include image path cast/images/road-scouts.jpg.",
+      "The generated page must include image path images/road-scouts.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/road-scouts.md",
-    "image_reference": "cast/images/road-scouts.jpg",
+    "image_reference": "images/road-scouts.jpg",
     "do_not_write_page_now": true
   }
 }

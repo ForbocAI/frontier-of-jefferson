@@ -1,6 +1,6 @@
 ## Hard-Rock Men
 
-![Hard-Rock Men](cast/images/hard-rock-men.jpg)
+![Hard-Rock Men](images/hard-rock-men.jpg)
 
 > *"When the candle flickers sideways and the timber stops creaking, you have about ten breaths to decide whether you trust the rock or your legs."*
 

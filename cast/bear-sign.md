@@ -1,6 +1,6 @@
 ## Bear Sign
 
-![Bear Sign](cast/images/bear-sign.jpg)
+![Bear Sign](images/bear-sign.jpg)
 
 > "Flour barrel split clean open and the lid six yards off. No axe did that. You want to know who visited, look at the claw marks on the sugar box and count yourself lucky you weren't in the tent."
 

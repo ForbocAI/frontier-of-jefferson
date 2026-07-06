@@ -2,7 +2,7 @@
 
 ### In the Register of Timber Sets, Powder Smoke, and Dripping Stone
 
-![Hard-Rock Tunnels](regions/images/hard-rock-tunnels.jpg)
+![Hard-Rock Tunnels](images/hard-rock-tunnels.jpg)
 
 > A candle stub pressed into a wall crack, its wax pooled on the timber set below like a small clock melting.
 > The air moves wrong past the second drift, and the drip from the ceiling keeps time that nobody trusts.

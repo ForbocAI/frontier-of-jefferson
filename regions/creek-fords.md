@@ -2,7 +2,7 @@
 
 ### In the Register of Gravel Bar, Wheel Rut, and Cold Water
 
-![Creek Fords](regions/images/creek-fords.jpg)
+![Creek Fords](images/creek-fords.jpg)
 
 > A gravel bar worn flat by iron rims, the ruts filled with creek water still running cold from the ridge.
 > Downstream the current braids around deadfall, and the mud between the wheel tracks holds boot prints from before last night's rain.

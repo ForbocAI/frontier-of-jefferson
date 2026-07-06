@@ -1,6 +1,6 @@
 ## Claim Kings and Combine Men
 
-![Claim Kings and Combine Men](cast/images/claim-kings-and-combine-men.jpg)
+![Claim Kings and Combine Men](images/claim-kings-and-combine-men.jpg)
 
 > *"Office of the Recorder, Yreka District — Let it be noted that disputed filings received after the twentieth of November shall be held in trust until survey is complete. Parties presenting counter-claim without bonded witness will forfeit standing. The Recorder assumes no liability for verbal agreements made at elevation." — posted notice, torn at the corners, November 1899*
 

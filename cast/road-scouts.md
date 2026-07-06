@@ -1,6 +1,6 @@
 ## Road Scouts
 
-![Road Scouts](cast/images/road-scouts.jpg)
+![Road Scouts](images/road-scouts.jpg)
 
 > *"If the jays go quiet and the dust hangs wrong, turn your horse. You will not outrun what shut the birds up."*
 

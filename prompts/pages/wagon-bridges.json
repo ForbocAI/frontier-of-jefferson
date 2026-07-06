@@ -46,7 +46,7 @@
     "table_spark": "A wagon-bridge scene should ask who owns the crossing today, what broke overnight, and what waits below the deck.",
     "must_preserve": [
       "Use 1899 western road and freight language only.",
-      "The generated page must include image path regions/images/wagon-bridges.jpg.",
+      "The generated page must include image path images/wagon-bridges.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/wagon-bridges.md",
-    "image_reference": "regions/images/wagon-bridges.jpg",
+    "image_reference": "images/wagon-bridges.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western mining labor language only.",
       "Keep underground knowledge practical and human.",
-      "The generated page must include image path cast/images/hard-rock-men.jpg.",
+      "The generated page must include image path images/hard-rock-men.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/hard-rock-men.md",
-    "image_reference": "cast/images/hard-rock-men.jpg",
+    "image_reference": "images/hard-rock-men.jpg",
     "do_not_write_page_now": true
   }
 }

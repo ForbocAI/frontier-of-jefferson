@@ -2,7 +2,7 @@
 
 ### In the Register of Wheel Rut, Swollen Clay, and Axle Groan
 
-![Mud Roads](regions/images/mud-roads.jpg)
+![Mud Roads](images/mud-roads.jpg)
 
 > A wagon road cut through red clay, the ruts filled with standing water and the center ridge scraped raw by dragging axles.
 > A mule team stands blowing in the traces, steam rising off their backs, and the freight behind them has not moved in an hour.

@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western courthouse and domestic labor language only.",
       "Keep memory practical, social, and politically useful.",
-      "The generated page must include image path cast/images/courthouse-memory-women.jpg.",
+      "The generated page must include image path images/courthouse-memory-women.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/courthouse-memory-women.md",
-    "image_reference": "cast/images/courthouse-memory-women.jpg",
+    "image_reference": "images/courthouse-memory-women.jpg",
     "do_not_write_page_now": true
   }
 }

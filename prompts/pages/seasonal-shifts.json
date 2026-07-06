@@ -46,7 +46,7 @@
     "table_spark": "A seasonal-shift scene should ask what just opened, what just closed, who misjudged the weather, and which sign moved with the animals.",
     "must_preserve": [
       "Use 1899 western weather, road, work, and wildlife language only.",
-      "The generated page must include image path regions/images/seasonal-shifts.jpg.",
+      "The generated page must include image path images/seasonal-shifts.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/seasonal-shifts.md",
-    "image_reference": "regions/images/seasonal-shifts.jpg",
+    "image_reference": "images/seasonal-shifts.jpg",
     "do_not_write_page_now": true
   }
 }
