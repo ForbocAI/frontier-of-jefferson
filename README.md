@@ -9,14 +9,14 @@ This folder is a self-contained design packet and browser viewer for **Frontier 
 - `index.css`: styling for the viewer.
 - `index.js`: sidebar parsing, hash routing, markdown loading, and rendering.
 - `fp.js`: browser functional-programming helpers used by the viewer.
-- `introduction/`, `folk/`, `environments/`, `prologue/`, `familiar/`, `play/`, `appendix/`: the source markdown content organized by topic.
+- `introduction/`, `cast/`, `regions/`, `prologue/`, `appendix/`, `rules/`, `play/`: the source markdown content organized by topic, each with a paired `images/` folder.
 
 ## How To Preview
 
 The viewer uses `fetch()` to load markdown files, so it should be served over a local HTTP server rather than opened directly with `file://`.
 
 ```bash
-cd /mnt/c/users/sean\ dinwiddie/github/Forboc.AI/frontier-of-jefferson
+cd frontier-of-jefferson
 ```
 
 ```bash
@@ -33,7 +33,7 @@ Then open `http://localhost:4173/index.html`.
 
 ## Cloudflare Deploy
 
-Pushes to GitHub can deploy this repo to Cloudflare Pages through [deploy-cloudflare-pages.yml](/mnt/c/users/sean\ dinwiddie/github/Forboc.AI/frontier-of-jefferson/.github/workflows/deploy-cloudflare-pages.yml).
+Pushes to GitHub can deploy this repo to Cloudflare Pages through [deploy-cloudflare-pages.yml](.github/workflows/deploy-cloudflare-pages.yml).
 
 Set these repository settings before relying on the workflow:
 
@@ -56,15 +56,15 @@ The workflow uses direct upload with `wrangler pages deploy`, after staging a cl
 - Prefer focused documents over one oversized lore file.
 - Keep links and image references relative to this directory so the viewer continues to work when served locally.
 - The renderer is intentionally lightweight. It supports headings, lists, links, emphasis, inline code, horizontal rules, and images. More advanced markdown features may require renderer updates.
-- `ReadMe.md` is the maintenance guide for this bundle, not the main in-world index. `index.md` remains the canonical table of contents for readers.
+- `README.md` is the maintenance guide for this bundle, not the main in-world index. `index.md` remains the canonical table of contents for readers.
 
 ## Current Scope
 
 The packet currently covers:
 
 - introduction and world framing
-- folk and faction notes
-- environment and traversal material
+- the cast of Jefferson: work crews, company men, lawmen, outlaws, and the Native families of Clear Creek and the Klamath
+- regions: French Gulch, mining roads, camps, fords, tunnels, and contested routes
 - prologue and appendix content
-- familiar/question-driven play guidance
+- rules for the table: outfitting, trail-boss guidance, asking the deck, tutorials, and contests
 - frontier map generation notes
