@@ -15,6 +15,7 @@
   --scrollbar-thumb: #71836a;
   --font-body: 'Rye', serif;
   --font-heading: 'Smokum', serif;
+  --font-heading-letter-spacing: 0.045em;
   --header-height: 92px;
 }
 
@@ -47,6 +48,7 @@ html, body {
   justify-content: space-between;
   padding: 0 40px;
   font-family: var(--font-heading);
+  letter-spacing: var(--font-heading-letter-spacing);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   z-index: 1000;
 }
@@ -56,7 +58,7 @@ html, body {
   align-items: center;
   font-size: 1.5em;
   color: var(--accent);
-  letter-spacing: 0;
+  letter-spacing: var(--font-heading-letter-spacing);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -119,7 +121,7 @@ html, body {
 .footer-copyright {
   font-family: var(--font-heading);
   font-size: 0.8em;
-  letter-spacing: 0;
+  letter-spacing: var(--font-heading-letter-spacing);
 }
 
 a.footer-copyright,
@@ -352,6 +354,13 @@ a.footer-copyright:focus-visible {
   padding-bottom: 0.3em;
   border-bottom: 1px solid var(--border);
   line-height: 1.3;
+}
+
+#content-inner h1,
+#content-inner h2,
+#content-inner h3,
+#content-inner h4 {
+  letter-spacing: var(--font-heading-letter-spacing);
 }
 
 #content-inner h2 {
