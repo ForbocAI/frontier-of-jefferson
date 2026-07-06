@@ -1,5 +1,3 @@
-# Familiar
-
 ## Initialization
 
 ![Initialization](images/initialization.jpg)

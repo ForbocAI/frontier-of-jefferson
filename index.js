@@ -59,7 +59,7 @@
   }
 
   function toMdPath(cleanPath) {
-    const p = cleanPath.replace(/^\//, '');
+    const p = cleanPath.replace(/^\//, '').replace(/\/$/, '');
     return p ? p + '.md' : '';
   }
 

@@ -20,16 +20,12 @@ cd frontier-of-jefferson
 ```
 
 ```bash
-python3 -m http.server 4173
+node scripts/serve-local.js 4173
 ```
 
-or
+Then open `http://127.0.0.1:4173/`.
 
-```bash
-npx serve -p 4173
-```
-
-Then open `http://localhost:4173/index.html`.
+This local server mirrors the Cloudflare Pages route behavior: Markdown and image assets are served directly, while clean reader routes such as `/cast/bear-sign` fall back to the app shell.
 
 ## Cloudflare Deploy
 
@@ -41,7 +37,7 @@ Set these repository settings before relying on the workflow:
 - GitHub variable `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account ID that owns the Pages project.
 - GitHub variable `CLOUDFLARE_PAGES_PROJECT_NAME`: existing Cloudflare Pages project name for Frontier of Jefferson.
 
-The workflow uses direct upload with `wrangler pages deploy`, after staging a clean deploy directory that excludes repo-only files such as `.git`, `.github`, `scripts/`, and `README.md`.
+The workflow uses direct upload with `wrangler pages deploy`, after staging a clean deploy directory that excludes repo-only files such as `.git`, `.github`, `scripts/`, and `README.md`. The staged `functions/[[path]].js` Function serves static assets first and falls back clean reader routes to `index.html`.
 
 ## Editing Workflow
 
