@@ -1,4 +1,4 @@
-const INDEX_PATH = '/index.html';
+const APP_SHELL_PATH = '/';
 
 function isAppRouteRequest(request, url) {
   const method = request.method.toUpperCase();
@@ -29,5 +29,5 @@ export async function onRequest(context) {
     return assetResponse;
   }
 
-  return env.ASSETS.fetch(requestForPath(request, INDEX_PATH));
+  return env.ASSETS.fetch(requestForPath(request, APP_SHELL_PATH));
 }
