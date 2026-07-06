@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with law heat, town stealth, reputation, paid authority, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/night-watchmen.md",
-    "paired_image_path": "cast/images/night-watchmen.png",
+    "paired_image_path": "cast/images/night-watchmen.jpg",
     "issue_title": "Page: Night Watchmen",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western town-patrol language only.",
       "Keep authority human, paid, tired, and fallible.",
-      "The generated page must include image path cast/images/night-watchmen.png.",
+      "The generated page must include image path cast/images/night-watchmen.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/night-watchmen.md",
-    "image_reference": "cast/images/night-watchmen.png",
+    "image_reference": "cast/images/night-watchmen.jpg",
     "do_not_write_page_now": true
   }
 }

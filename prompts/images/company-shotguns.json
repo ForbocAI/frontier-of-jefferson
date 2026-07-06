@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Mine store street in French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hired force and labor pressure",
-    "output_path": "cast/images/company-shotguns.png",
+    "output_path": "cast/images/company-shotguns.jpg",
     "paired_page_path": "cast/company-shotguns.md",
     "issue_title": "Image: Company Shotguns",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/company-shotguns.png",
+    "format": "jpeg",
+    "path": "cast/images/company-shotguns.jpg",
     "size": [
       1024,
       1024

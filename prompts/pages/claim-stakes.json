@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with land disputes, claim jumping, law papers, and armed intimidation",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/claim-stakes.md",
-    "paired_image_path": "regions/images/claim-stakes.png",
+    "paired_image_path": "regions/images/claim-stakes.jpg",
     "issue_title": "Page: Claim Stakes",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A claim-stake scene should ask who drove the stake, who moved it, who saw it first, and who cannot afford the answer.",
     "must_preserve": [
       "Use 1899 western mining-claim and road language only.",
-      "The generated page must include image path regions/images/claim-stakes.png.",
+      "The generated page must include image path regions/images/claim-stakes.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/claim-stakes.md",
-    "image_reference": "regions/images/claim-stakes.png",
+    "image_reference": "regions/images/claim-stakes.jpg",
     "do_not_write_page_now": true
   }
 }

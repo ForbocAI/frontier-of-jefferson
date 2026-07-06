@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "cast/images/the-rumor-road.png",
+    "output_path": "cast/images/the-rumor-road.jpg",
     "paired_page_path": "cast/the-rumor-road.md",
     "issue_title": "Image: The Rumor Road",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/the-rumor-road.png",
+    "format": "jpeg",
+    "path": "cast/images/the-rumor-road.jpg",
     "size": [
       1024,
       1024

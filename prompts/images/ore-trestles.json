@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "raised ore trestle and chute deck over a rocky creek cut",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining logistics and height danger",
-    "output_path": "regions/images/ore-trestles.png",
+    "output_path": "regions/images/ore-trestles.jpg",
     "paired_page_path": "regions/ore-trestles.md",
     "issue_title": "Image: Ore Trestles",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/ore-trestles.png",
+    "format": "jpeg",
+    "path": "regions/images/ore-trestles.jpg",
     "size": [
       1024,
       1024

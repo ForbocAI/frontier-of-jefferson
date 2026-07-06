@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with hunting, camp survival, animal pressure, scarcity, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/bear-sign.md",
-    "paired_image_path": "cast/images/bear-sign.png",
+    "paired_image_path": "cast/images/bear-sign.jpg",
     "issue_title": "Page: Bear Sign",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western animal-sign and camp language only.",
       "Keep bears naturalistic, dangerous, and ecologically grounded.",
-      "The generated page must include image path cast/images/bear-sign.png.",
+      "The generated page must include image path cast/images/bear-sign.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/bear-sign.md",
-    "image_reference": "cast/images/bear-sign.png",
+    "image_reference": "cast/images/bear-sign.jpg",
     "do_not_write_page_now": true
   }
 }

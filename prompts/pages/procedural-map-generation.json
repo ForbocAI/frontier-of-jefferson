@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "play/procedural-map-generation.md",
-    "paired_image_path": "play/images/procedural-map-generation.png",
+    "paired_image_path": "play/images/procedural-map-generation.jpg",
     "issue_title": "Page: Procedural Map Generation",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -72,7 +72,7 @@
       "The generated page is a procedure, not a setting gazetteer.",
       "French Gulch remains the first anchor point.",
       "Every map element should become playable pressure.",
-      "The page must include the image reference path exactly: play/images/procedural-map-generation.png."
+      "The page must include the image reference path exactly: play/images/procedural-map-generation.jpg."
     ],
     "style_constraints": {
       "era": "Everything generated from this prompt belongs to 1899: horses, ore wagons, soot-black lamps, telegraph where appropriate, hand tools, rifles, ledgers, canvas, iron, mud, pine, and courthouse paper.",
@@ -101,7 +101,7 @@
   "output": {
     "format": "markdown",
     "path": "play/procedural-map-generation.md",
-    "image_reference": "play/images/procedural-map-generation.png",
+    "image_reference": "play/images/procedural-map-generation.jpg",
     "do_not_write_page_now": true
   }
 }

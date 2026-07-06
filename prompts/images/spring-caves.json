@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "spring cave beside a worked mining gulch in Jefferson country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hidden water and cave danger",
-    "output_path": "regions/images/spring-caves.png",
+    "output_path": "regions/images/spring-caves.jpg",
     "paired_page_path": "regions/spring-caves.md",
     "issue_title": "Image: Spring Caves",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/spring-caves.png",
+    "format": "jpeg",
+    "path": "regions/images/spring-caves.jpg",
     "size": [
       1024,
       1024

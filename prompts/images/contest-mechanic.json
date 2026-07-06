@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/contest-mechanic.png",
+    "output_path": "rules/images/contest-mechanic.jpg",
     "paired_page_path": "rules/contest-mechanic.md",
     "issue_title": "Image: Contest Mechanic",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/contest-mechanic.png",
+    "format": "jpeg",
+    "path": "rules/images/contest-mechanic.jpg",
     "size": [
       1024,
       1024

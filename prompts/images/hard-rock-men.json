@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Hard-rock mine mouth above French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining labor and underground risk",
-    "output_path": "cast/images/hard-rock-men.png",
+    "output_path": "cast/images/hard-rock-men.jpg",
     "paired_page_path": "cast/hard-rock-men.md",
     "issue_title": "Image: Hard-Rock Men",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/hard-rock-men.png",
+    "format": "jpeg",
+    "path": "cast/images/hard-rock-men.jpg",
     "size": [
       1024,
       1024

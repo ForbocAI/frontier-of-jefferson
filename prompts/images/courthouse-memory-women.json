@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "County record room in a northern California mining town",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in records, testimony, and social pressure",
-    "output_path": "cast/images/courthouse-memory-women.png",
+    "output_path": "cast/images/courthouse-memory-women.jpg",
     "paired_page_path": "cast/courthouse-memory-women.md",
     "issue_title": "Image: Courthouse Memory Women",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/courthouse-memory-women.png",
+    "format": "jpeg",
+    "path": "cast/images/courthouse-memory-women.jpg",
     "size": [
       1024,
       1024

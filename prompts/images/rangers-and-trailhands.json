@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Pine pass and long trail out of French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in travel, camp craft, and animal handling",
-    "output_path": "cast/images/rangers-and-trailhands.png",
+    "output_path": "cast/images/rangers-and-trailhands.jpg",
     "paired_page_path": "cast/rangers-and-trailhands.md",
     "issue_title": "Image: Rangers and Trailhands",
     "aspect_ratio": "1:1",
@@ -92,8 +92,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/rangers-and-trailhands.png",
+    "format": "jpeg",
+    "path": "cast/images/rangers-and-trailhands.jpg",
     "size": [
       1024,
       1024

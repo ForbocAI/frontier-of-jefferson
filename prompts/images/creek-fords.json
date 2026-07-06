@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "cold creek ford on a gravel bar below wooded Jefferson hills",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in crossing risk and track reading",
-    "output_path": "regions/images/creek-fords.png",
+    "output_path": "regions/images/creek-fords.jpg",
     "paired_page_path": "regions/creek-fords.md",
     "issue_title": "Image: Creek Fords",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/creek-fords.png",
+    "format": "jpeg",
+    "path": "regions/images/creek-fords.jpg",
     "size": [
       1024,
       1024

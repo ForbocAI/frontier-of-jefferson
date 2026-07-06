@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/questioning-examples.md",
-    "paired_image_path": "images/questioning-examples.png",
+    "paired_image_path": "images/questioning-examples.jpg",
     "issue_title": "Page: Questioning Examples",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -61,7 +61,7 @@
   "output": {
     "format": "markdown",
     "path": "rules/questioning-examples.md",
-    "image_reference": "images/questioning-examples.png",
+    "image_reference": "images/questioning-examples.jpg",
     "do_not_write_now": true
   }
 }

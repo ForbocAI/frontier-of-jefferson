@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with open-country travel, route choice, camp friction, and reputation pressure",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/road-scouts.md",
-    "paired_image_path": "cast/images/road-scouts.png",
+    "paired_image_path": "cast/images/road-scouts.jpg",
     "issue_title": "Page: Road Scouts",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western road and travel language only.",
       "Keep route knowledge physical and social, not supernatural.",
-      "The generated page must include image path cast/images/road-scouts.png.",
+      "The generated page must include image path cast/images/road-scouts.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/road-scouts.md",
-    "image_reference": "cast/images/road-scouts.png",
+    "image_reference": "cast/images/road-scouts.jpg",
     "do_not_write_page_now": true
   }
 }

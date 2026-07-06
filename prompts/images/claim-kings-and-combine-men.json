@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Private mine office above French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in claim ownership and quiet pressure",
-    "output_path": "cast/images/claim-kings-and-combine-men.png",
+    "output_path": "cast/images/claim-kings-and-combine-men.jpg",
     "paired_page_path": "cast/claim-kings-and-combine-men.md",
     "issue_title": "Image: Claim Kings and Combine Men",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/claim-kings-and-combine-men.png",
+    "format": "jpeg",
+    "path": "cast/images/claim-kings-and-combine-men.jpg",
     "size": [
       1024,
       1024

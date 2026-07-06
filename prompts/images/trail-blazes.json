@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "back-road trail-mark cluster near pine timber and mining-country brush",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in navigation evidence and false-route tension",
-    "output_path": "regions/images/trail-blazes.png",
+    "output_path": "regions/images/trail-blazes.jpg",
     "paired_page_path": "regions/trail-blazes.md",
     "issue_title": "Image: Trail Blazes",
     "aspect_ratio": "1:1",
@@ -90,8 +90,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/trail-blazes.png",
+    "format": "jpeg",
+    "path": "regions/images/trail-blazes.jpg",
     "size": [
       1024,
       1024

@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with mining-town pressure, road dust, debt, law trouble, and hard living",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/french-gulch.md",
-    "paired_image_path": "regions/images/french-gulch.png",
+    "paired_image_path": "regions/images/french-gulch.jpg",
     "issue_title": "Page: French Gulch",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A French Gulch scene should ask who came to buy, who came to hide, who came to collect, and what the creek gave up after rain.",
     "must_preserve": [
       "Use 1899 western mining-settlement language only.",
-      "The generated page must include image path regions/images/french-gulch.png.",
+      "The generated page must include image path regions/images/french-gulch.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/french-gulch.md",
-    "image_reference": "regions/images/french-gulch.png",
+    "image_reference": "regions/images/french-gulch.jpg",
     "do_not_write_page_now": true
   }
 }

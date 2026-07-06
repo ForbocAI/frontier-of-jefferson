@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with horseback travel, camp pressure, law heat, debt, and rough moral choice",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/ford-men.md",
-    "paired_image_path": "cast/images/ford-men.png",
+    "paired_image_path": "cast/images/ford-men.jpg",
     "issue_title": "Page: Ford Men",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western labor language only.",
       "Keep the group practical, human, and socially useful.",
-      "The generated page must include image path cast/images/ford-men.png.",
+      "The generated page must include image path cast/images/ford-men.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/ford-men.md",
-    "image_reference": "cast/images/ford-men.png",
+    "image_reference": "cast/images/ford-men.jpg",
     "do_not_write_page_now": true
   }
 }

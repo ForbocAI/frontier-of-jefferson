@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with practical marks, camp language, warnings, reputation, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/brands-blazes-and-camp-calls.md",
-    "paired_image_path": "cast/images/brands-blazes-and-camp-calls.png",
+    "paired_image_path": "cast/images/brands-blazes-and-camp-calls.jpg",
     "issue_title": "Page: Brands, Blazes, and Camp Calls",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western work-mark and camp-call language only.",
       "Do not invent Native signs, sacred systems, fake alphabets, or secret mystical marks.",
-      "The generated page must include image path cast/images/brands-blazes-and-camp-calls.png.",
+      "The generated page must include image path cast/images/brands-blazes-and-camp-calls.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/brands-blazes-and-camp-calls.md",
-    "image_reference": "cast/images/brands-blazes-and-camp-calls.png",
+    "image_reference": "cast/images/brands-blazes-and-camp-calls.jpg",
     "do_not_write_page_now": true
   }
 }

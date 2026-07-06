@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Telegraph pole on a windy ridge road near French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in telegraph repair, storm travel, and fragile news",
-    "output_path": "cast/images/wire-riders.png",
+    "output_path": "cast/images/wire-riders.jpg",
     "paired_page_path": "cast/wire-riders.md",
     "issue_title": "Image: Wire Riders",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/wire-riders.png",
+    "format": "jpeg",
+    "path": "cast/images/wire-riders.jpg",
     "size": [
       1024,
       1024

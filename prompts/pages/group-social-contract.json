@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/group-social-contract.md",
-    "paired_image_path": "images/group-social-contract.png",
+    "paired_image_path": "images/group-social-contract.jpg",
     "issue_title": "Page: Group Social Contract",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -61,7 +61,7 @@
   "output": {
     "format": "markdown",
     "path": "rules/group-social-contract.md",
-    "image_reference": "images/group-social-contract.png",
+    "image_reference": "images/group-social-contract.jpg",
     "do_not_write_now": true
   }
 }

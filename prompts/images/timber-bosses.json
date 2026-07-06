@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Saw camp in mixed conifer forest above French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in logging labor and resource pressure",
-    "output_path": "cast/images/timber-bosses.png",
+    "output_path": "cast/images/timber-bosses.jpg",
     "paired_page_path": "cast/timber-bosses.md",
     "issue_title": "Image: Timber Bosses",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/timber-bosses.png",
+    "format": "jpeg",
+    "path": "cast/images/timber-bosses.jpg",
     "size": [
       1024,
       1024

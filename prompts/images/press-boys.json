@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Small print shop and muddy street in French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in rumor, public accusation, and town pressure",
-    "output_path": "cast/images/press-boys.png",
+    "output_path": "cast/images/press-boys.jpg",
     "paired_page_path": "cast/press-boys.md",
     "issue_title": "Image: Press Boys",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/press-boys.png",
+    "format": "jpeg",
+    "path": "cast/images/press-boys.jpg",
     "size": [
       1024,
       1024

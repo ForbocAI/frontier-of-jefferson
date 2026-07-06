@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Brushy oak slope above a deer trail near French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in predator sign, tracking, and livestock pressure",
-    "output_path": "cast/images/cougar-trails.png",
+    "output_path": "cast/images/cougar-trails.jpg",
     "paired_page_path": "cast/cougar-trails.md",
     "issue_title": "Image: Cougar Trails",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/cougar-trails.png",
+    "format": "jpeg",
+    "path": "cast/images/cougar-trails.jpg",
     "size": [
       1024,
       1024

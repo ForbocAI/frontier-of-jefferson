@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "A cold fence-line camp outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in camp life and rootless travel",
-    "output_path": "cast/images/saddle-tramps.png",
+    "output_path": "cast/images/saddle-tramps.jpg",
     "paired_page_path": "cast/saddle-tramps.md",
     "issue_title": "Image: Saddle Tramps",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/saddle-tramps.png",
+    "format": "jpeg",
+    "path": "cast/images/saddle-tramps.jpg",
     "size": [
       1024,
       1024

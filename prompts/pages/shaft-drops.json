@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with mine hazard, rescue pressure, hidden evidence, labor negligence, and close-quarters fear",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/shaft-drops.md",
-    "paired_image_path": "regions/images/shaft-drops.png",
+    "paired_image_path": "regions/images/shaft-drops.jpg",
     "issue_title": "Page: Shaft Drops",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A shaft-drop scene should ask who tied the rope, who heard the fall, what is at the bottom, and who wants the rescue delayed.",
     "must_preserve": [
       "Use 1899 western mining and labor language only.",
-      "The generated page must include image path regions/images/shaft-drops.png.",
+      "The generated page must include image path regions/images/shaft-drops.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/shaft-drops.md",
-    "image_reference": "regions/images/shaft-drops.png",
+    "image_reference": "regions/images/shaft-drops.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/vignette-tutorial.png",
+    "output_path": "rules/images/vignette-tutorial.jpg",
     "paired_page_path": "rules/vignette-tutorial.md",
     "issue_title": "Image: Vignette Tutorial",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/vignette-tutorial.png",
+    "format": "jpeg",
+    "path": "rules/images/vignette-tutorial.jpg",
     "size": [
       1024,
       1024

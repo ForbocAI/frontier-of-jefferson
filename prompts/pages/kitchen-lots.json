@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with domestic labor, rumor, scarcity, back-door deals, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/kitchen-lots.md",
-    "paired_image_path": "regions/images/kitchen-lots.png",
+    "paired_image_path": "regions/images/kitchen-lots.jpg",
     "issue_title": "Page: Kitchen Lots",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A kitchen-lot scene should ask who saw the rider leave by the back door, who is hiding in the wash, and what hunger made negotiable.",
     "must_preserve": [
       "Use 1899 western domestic and town-back language only.",
-      "The generated page must include image path regions/images/kitchen-lots.png.",
+      "The generated page must include image path regions/images/kitchen-lots.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/kitchen-lots.md",
-    "image_reference": "regions/images/kitchen-lots.png",
+    "image_reference": "regions/images/kitchen-lots.jpg",
     "do_not_write_page_now": true
   }
 }

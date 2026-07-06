@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/the-claim-king.md",
-    "paired_image_path": "images/claim-king.png",
+    "paired_image_path": "images/the-claim-king.jpg",
     "issue_title": "Page: The Claim King",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -66,7 +66,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/the-claim-king.md",
-    "image_reference": "images/claim-king.png",
+    "image_reference": "images/the-claim-king.jpg",
     "do_not_write_now": true
   }
 }

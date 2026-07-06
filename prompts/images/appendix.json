@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
-    "output_path": "appendix/images/appendix.png",
+    "output_path": "appendix/images/appendix.jpg",
     "paired_page_path": "appendix/appendix.md",
     "issue_title": "Image: Appendix",
     "aspect_ratio": "1:1",
@@ -92,8 +92,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "appendix/images/appendix.png",
+    "format": "jpeg",
+    "path": "appendix/images/appendix.jpg",
     "size": [
       1024,
       1024

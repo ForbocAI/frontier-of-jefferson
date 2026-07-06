@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/vignette-tutorial.md",
-    "paired_image_path": "images/vignette-tutorial.png",
+    "paired_image_path": "images/vignette-tutorial.jpg",
     "issue_title": "Page: Vignette Tutorial",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -61,7 +61,7 @@
   "output": {
     "format": "markdown",
     "path": "rules/vignette-tutorial.md",
-    "image_reference": "images/vignette-tutorial.png",
+    "image_reference": "images/vignette-tutorial.jpg",
     "do_not_write_now": true
   }
 }

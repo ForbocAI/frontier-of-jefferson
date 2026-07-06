@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/the-rumor-road.md",
-    "paired_image_path": "images/rumor-road.png",
+    "paired_image_path": "images/the-rumor-road.jpg",
     "issue_title": "Page: The Rumor Road",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -66,7 +66,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/the-rumor-road.md",
-    "image_reference": "images/rumor-road.png",
+    "image_reference": "images/the-rumor-road.jpg",
     "do_not_write_now": true
   }
 }

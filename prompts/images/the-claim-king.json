@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "cast/images/the-claim-king.png",
+    "output_path": "cast/images/the-claim-king.jpg",
     "paired_page_path": "cast/the-claim-king.md",
     "issue_title": "Image: The Claim King",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/the-claim-king.png",
+    "format": "jpeg",
+    "path": "cast/images/the-claim-king.jpg",
     "size": [
       1024,
       1024

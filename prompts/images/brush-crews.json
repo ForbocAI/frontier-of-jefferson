@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Brush-choked fire line above Clear Creek",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in labor, smoke, wildlife, and rugged travel",
-    "output_path": "cast/images/brush-crews.png",
+    "output_path": "cast/images/brush-crews.jpg",
     "paired_page_path": "cast/brush-crews.md",
     "issue_title": "Image: Brush Crews",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/brush-crews.png",
+    "format": "jpeg",
+    "path": "cast/images/brush-crews.jpg",
     "size": [
       1024,
       1024

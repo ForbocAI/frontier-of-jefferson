@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "French Gulch mining settlement at the foot of dry hills and worked creek ground",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mining-town grit and public tension",
-    "output_path": "regions/images/french-gulch.png",
+    "output_path": "regions/images/french-gulch.jpg",
     "paired_page_path": "regions/french-gulch.md",
     "issue_title": "Image: French Gulch",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/french-gulch.png",
+    "format": "jpeg",
+    "path": "regions/images/french-gulch.jpg",
     "size": [
       1024,
       1024

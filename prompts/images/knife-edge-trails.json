@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "knife-edge ridge trail above creek and mining road country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hazardous horseback travel",
-    "output_path": "regions/images/knife-edge-trails.png",
+    "output_path": "regions/images/knife-edge-trails.jpg",
     "paired_page_path": "regions/knife-edge-trails.md",
     "issue_title": "Image: Knife-Edge Trails",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/knife-edge-trails.png",
+    "format": "jpeg",
+    "path": "regions/images/knife-edge-trails.jpg",
     "size": [
       1024,
       1024

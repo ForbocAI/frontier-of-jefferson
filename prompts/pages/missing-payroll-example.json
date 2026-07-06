@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/missing-payroll-example.md",
-    "paired_image_path": "images/missing-payroll-example.png",
+    "paired_image_path": "images/missing-payroll-example.jpg",
     "issue_title": "Page: Missing Payroll Example",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -61,7 +61,7 @@
   "output": {
     "format": "markdown",
     "path": "rules/missing-payroll-example.md",
-    "image_reference": "images/missing-payroll-example.png",
+    "image_reference": "images/missing-payroll-example.jpg",
     "do_not_write_now": true
   }
 }

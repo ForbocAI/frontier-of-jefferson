@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Snow-dusted Klamath mountain ridge above stock country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in rare predator sign and rumor pressure",
-    "output_path": "cast/images/wolf-rumors.png",
+    "output_path": "cast/images/wolf-rumors.jpg",
     "paired_page_path": "cast/wolf-rumors.md",
     "issue_title": "Image: Wolf Rumors",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/wolf-rumors.png",
+    "format": "jpeg",
+    "path": "cast/images/wolf-rumors.jpg",
     "size": [
       1024,
       1024

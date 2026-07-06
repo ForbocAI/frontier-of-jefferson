@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with travel risk, water judgment, tracking pressure, and local route knowledge",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/creek-fords.md",
-    "paired_image_path": "regions/images/creek-fords.png",
+    "paired_image_path": "regions/images/creek-fords.jpg",
     "issue_title": "Page: Creek Fords",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A creek-ford scene should ask who knows the bottom, what the water erased, and which bank is safer to leave from.",
     "must_preserve": [
       "Use 1899 western road, water, and tracking language only.",
-      "The generated page must include image path regions/images/creek-fords.png.",
+      "The generated page must include image path regions/images/creek-fords.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/creek-fords.md",
-    "image_reference": "regions/images/creek-fords.png",
+    "image_reference": "regions/images/creek-fords.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Klamath River gravel bar and forested canyon country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in river work, stewardship, and rugged travel",
-    "output_path": "cast/images/karuk-river-families.png",
+    "output_path": "cast/images/karuk-river-families.jpg",
     "paired_page_path": "cast/karuk-river-families.md",
     "issue_title": "Image: Karuk River Families",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/karuk-river-families.png",
+    "format": "jpeg",
+    "path": "cast/images/karuk-river-families.jpg",
     "size": [
       1024,
       1024

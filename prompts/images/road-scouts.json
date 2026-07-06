@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "A pine switchback above French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in road scouting and open-world travel",
-    "output_path": "cast/images/road-scouts.png",
+    "output_path": "cast/images/road-scouts.jpg",
     "paired_page_path": "cast/road-scouts.md",
     "issue_title": "Image: Road Scouts",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/road-scouts.png",
+    "format": "jpeg",
+    "path": "cast/images/road-scouts.jpg",
     "size": [
       1024,
       1024

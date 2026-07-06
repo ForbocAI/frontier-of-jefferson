@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with labor, weather, animal pressure, road access, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/brush-crews.md",
-    "paired_image_path": "cast/images/brush-crews.png",
+    "paired_image_path": "cast/images/brush-crews.jpg",
     "issue_title": "Page: Brush Crews",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western labor and fire-line language only.",
       "Keep fire stewardship respectful, grounded, and not invented as ceremony.",
-      "The generated page must include image path cast/images/brush-crews.png.",
+      "The generated page must include image path cast/images/brush-crews.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/brush-crews.md",
-    "image_reference": "cast/images/brush-crews.png",
+    "image_reference": "cast/images/brush-crews.jpg",
     "do_not_write_page_now": true
   }
 }

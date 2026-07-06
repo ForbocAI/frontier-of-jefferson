@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/frontier-phrases-and-trail-marks.png",
+    "output_path": "rules/images/frontier-phrases-and-trail-marks.jpg",
     "paired_page_path": "rules/frontier-phrases-and-trail-marks.md",
     "issue_title": "Image: Frontier Phrases and Trail Marks",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/frontier-phrases-and-trail-marks.png",
+    "format": "jpeg",
+    "path": "rules/images/frontier-phrases-and-trail-marks.jpg",
     "size": [
       1024,
       1024

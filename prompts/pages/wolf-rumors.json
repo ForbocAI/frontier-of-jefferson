@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with rumor, livestock fear, disputed sign, hunting pressure, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/wolf-rumors.md",
-    "paired_image_path": "cast/images/wolf-rumors.png",
+    "paired_image_path": "cast/images/wolf-rumors.jpg",
     "issue_title": "Page: Wolf Rumors",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western animal-sign and rumor language only.",
       "Keep wolves rare, naturalistic, disputed, and historically plausible for 1899.",
-      "The generated page must include image path cast/images/wolf-rumors.png.",
+      "The generated page must include image path cast/images/wolf-rumors.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/wolf-rumors.md",
-    "image_reference": "cast/images/wolf-rumors.png",
+    "image_reference": "cast/images/wolf-rumors.jpg",
     "do_not_write_page_now": true
   }
 }

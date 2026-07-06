@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "contested mining claim line on a brushy Jefferson hillside",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in claim-jump tension and rough legal evidence",
-    "output_path": "regions/images/claim-stakes.png",
+    "output_path": "regions/images/claim-stakes.jpg",
     "paired_page_path": "regions/claim-stakes.md",
     "issue_title": "Image: Claim Stakes",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/claim-stakes.png",
+    "format": "jpeg",
+    "path": "regions/images/claim-stakes.jpg",
     "size": [
       1024,
       1024

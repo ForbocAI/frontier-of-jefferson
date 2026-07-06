@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "weathered timber wagon bridge spanning a cold creek in rugged Jefferson country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in crossing tension and road travel",
-    "output_path": "regions/images/wagon-bridges.png",
+    "output_path": "regions/images/wagon-bridges.jpg",
     "paired_page_path": "regions/wagon-bridges.md",
     "issue_title": "Image: Wagon Bridges",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/wagon-bridges.png",
+    "format": "jpeg",
+    "path": "regions/images/wagon-bridges.jpg",
     "size": [
       1024,
       1024

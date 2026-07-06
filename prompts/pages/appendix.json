@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "appendix/appendix.md",
-    "paired_image_path": "appendix/images/appendix.png",
+    "paired_image_path": "appendix/images/appendix.jpg",
     "issue_title": "Page: Appendix",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -64,7 +64,7 @@
     "must_preserve": [
       "This is a reference page, not a lore chapter.",
       "The generated page may include future table headings, but this JSON must not contain finished table entries.",
-      "The page must include the image reference path exactly: appendix/images/appendix.png.",
+      "The page must include the image reference path exactly: appendix/images/appendix.jpg.",
       "Native community guidance must be careful, grounded, and source-aware."
     ],
     "style_constraints": {
@@ -94,7 +94,7 @@
   "output": {
     "format": "markdown",
     "path": "appendix/appendix.md",
-    "image_reference": "appendix/images/appendix.png",
+    "image_reference": "appendix/images/appendix.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "vertical mine shaft drop at a hard-rock claim outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in mine hazard and rescue pressure",
-    "output_path": "regions/images/shaft-drops.png",
+    "output_path": "regions/images/shaft-drops.jpg",
     "paired_page_path": "regions/shaft-drops.md",
     "issue_title": "Image: Shaft Drops",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/shaft-drops.png",
+    "format": "jpeg",
+    "path": "regions/images/shaft-drops.jpg",
     "size": [
       1024,
       1024

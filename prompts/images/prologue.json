@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
-    "output_path": "prologue/images/prologue.png",
+    "output_path": "prologue/images/prologue.jpg",
     "paired_page_path": "prologue/prologue.md",
     "issue_title": "Image: Prologue",
     "aspect_ratio": "1:1",
@@ -86,8 +86,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "prologue/images/prologue.png",
+    "format": "jpeg",
+    "path": "prologue/images/prologue.jpg",
     "size": [
       1024,
       1024

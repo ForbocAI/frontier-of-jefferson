@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with testimony, land papers, public shame, law heat, family pressure, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/courthouse-memory-women.md",
-    "paired_image_path": "cast/images/courthouse-memory-women.png",
+    "paired_image_path": "cast/images/courthouse-memory-women.jpg",
     "issue_title": "Page: Courthouse Memory Women",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western courthouse and domestic labor language only.",
       "Keep memory practical, social, and politically useful.",
-      "The generated page must include image path cast/images/courthouse-memory-women.png.",
+      "The generated page must include image path cast/images/courthouse-memory-women.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/courthouse-memory-women.md",
-    "image_reference": "cast/images/courthouse-memory-women.png",
+    "image_reference": "cast/images/courthouse-memory-women.jpg",
     "do_not_write_page_now": true
   }
 }

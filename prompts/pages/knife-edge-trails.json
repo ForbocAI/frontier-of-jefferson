@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with dangerous travel, animal handling, ambush lines, and weather exposure",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/knife-edge-trails.md",
-    "paired_image_path": "regions/images/knife-edge-trails.png",
+    "paired_image_path": "regions/images/knife-edge-trails.jpg",
     "issue_title": "Page: Knife-Edge Trails",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A knife-edge trail scene should ask what is too heavy, who is blocking the line, and what sound came from above or below.",
     "must_preserve": [
       "Use 1899 western trail, pack-animal, and weather language only.",
-      "The generated page must include image path regions/images/knife-edge-trails.png.",
+      "The generated page must include image path regions/images/knife-edge-trails.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/knife-edge-trails.md",
-    "image_reference": "regions/images/knife-edge-trails.png",
+    "image_reference": "regions/images/knife-edge-trails.jpg",
     "do_not_write_page_now": true
   }
 }

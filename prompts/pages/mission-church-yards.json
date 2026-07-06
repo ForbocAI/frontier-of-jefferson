@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with refuge, mourning, public memory, charity, rumor, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/mission-church-yards.md",
-    "paired_image_path": "regions/images/mission-church-yards.png",
+    "paired_image_path": "regions/images/mission-church-yards.jpg",
     "issue_title": "Page: Mission-Church Yards",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "table_spark": "A churchyard scene should ask who gets shelter, who is mourned publicly, who is buried quietly, and who hears confession without being asked.",
     "must_preserve": [
       "Use 1899 western churchyard and shelter language only.",
-      "The generated page must include image path regions/images/mission-church-yards.png.",
+      "The generated page must include image path regions/images/mission-church-yards.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/mission-church-yards.md",
-    "image_reference": "regions/images/mission-church-yards.png",
+    "image_reference": "regions/images/mission-church-yards.jpg",
     "do_not_write_page_now": true
   }
 }

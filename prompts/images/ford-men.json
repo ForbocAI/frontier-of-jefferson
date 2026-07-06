@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Clear Creek crossing near French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hard travel and practical labor",
-    "output_path": "cast/images/ford-men.png",
+    "output_path": "cast/images/ford-men.jpg",
     "paired_page_path": "cast/ford-men.md",
     "issue_title": "Image: Ford Men",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/ford-men.png",
+    "format": "jpeg",
+    "path": "cast/images/ford-men.jpg",
     "size": [
       1024,
       1024

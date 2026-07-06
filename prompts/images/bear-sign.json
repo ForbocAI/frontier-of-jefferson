@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Pine camp above Clear Creek",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in wildlife pressure and camp consequence",
-    "output_path": "cast/images/bear-sign.png",
+    "output_path": "cast/images/bear-sign.jpg",
     "paired_page_path": "cast/bear-sign.md",
     "issue_title": "Image: Bear Sign",
     "aspect_ratio": "1:1",
@@ -83,8 +83,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/bear-sign.png",
+    "format": "jpeg",
+    "path": "cast/images/bear-sign.jpg",
     "size": [
       1024,
       1024

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Frosted hay meadow at the edge of cougar country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in hunting restraint, food pressure, and wildlife sign",
-    "output_path": "cast/images/elk-and-deer-herds.png",
+    "output_path": "cast/images/elk-and-deer-herds.jpg",
     "paired_page_path": "cast/elk-and-deer-herds.md",
     "issue_title": "Image: Elk and Deer Herds",
     "aspect_ratio": "1:1",
@@ -94,8 +94,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/elk-and-deer-herds.png",
+    "format": "jpeg",
+    "path": "cast/images/elk-and-deer-herds.jpg",
     "size": [
       1024,
       1024

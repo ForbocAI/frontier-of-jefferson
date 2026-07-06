@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Wet mountain pack trail on a Hoopa Valley approach",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in pack freight, animal handling, and rugged Native community work",
-    "output_path": "cast/images/hoopa-valley-packers.png",
+    "output_path": "cast/images/hoopa-valley-packers.jpg",
     "paired_page_path": "cast/hoopa-valley-packers.md",
     "issue_title": "Image: Hoopa Valley Packers",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/hoopa-valley-packers.png",
+    "format": "jpeg",
+    "path": "cast/images/hoopa-valley-packers.jpg",
     "size": [
       1024,
       1024

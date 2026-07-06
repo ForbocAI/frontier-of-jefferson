@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "High pine ridge above French Gulch roads",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in smoke, distance, and signal pressure",
-    "output_path": "cast/images/ridge-lookouts.png",
+    "output_path": "cast/images/ridge-lookouts.jpg",
     "paired_page_path": "cast/ridge-lookouts.md",
     "issue_title": "Image: Ridge Lookouts",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/ridge-lookouts.png",
+    "format": "jpeg",
+    "path": "cast/images/ridge-lookouts.jpg",
     "size": [
       1024,
       1024

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Back lots behind French Gulch storefronts",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in domestic labor, rumor, and back-door pressure",
-    "output_path": "regions/images/kitchen-lots.png",
+    "output_path": "regions/images/kitchen-lots.jpg",
     "paired_page_path": "regions/kitchen-lots.md",
     "issue_title": "Image: Kitchen Lots",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/kitchen-lots.png",
+    "format": "jpeg",
+    "path": "regions/images/kitchen-lots.jpg",
     "size": [
       1024,
       1024

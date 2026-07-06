@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "prologue/prologue.md",
-    "paired_image_path": "prologue/images/prologue.png",
+    "paired_image_path": "prologue/images/prologue.jpg",
     "issue_title": "Page: Prologue",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -58,7 +58,7 @@
     "must_preserve": [
       "French Gulch is the opening settlement.",
       "The prologue creates playable pressure but does not solve the mystery.",
-      "The page must include the image reference path exactly: prologue/images/prologue.png.",
+      "The page must include the image reference path exactly: prologue/images/prologue.jpg.",
       "The future prose should leave room for Native families, workers, law, wildlife, and company money as active forces."
     ],
     "style_constraints": {
@@ -88,7 +88,7 @@
   "output": {
     "format": "markdown",
     "path": "prologue/prologue.md",
-    "image_reference": "prologue/images/prologue.png",
+    "image_reference": "prologue/images/prologue.jpg",
     "do_not_write_page_now": true
   }
 }

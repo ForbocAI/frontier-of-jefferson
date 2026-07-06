@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/threads-and-scenes.png",
+    "output_path": "rules/images/threads-and-scenes.jpg",
     "paired_page_path": "rules/threads-and-scenes.md",
     "issue_title": "Image: Threads and Scenes",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/threads-and-scenes.png",
+    "format": "jpeg",
+    "path": "rules/images/threads-and-scenes.jpg",
     "size": [
       1024,
       1024

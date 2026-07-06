@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Company store counter in French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in debt, supplies, and company pressure",
-    "output_path": "cast/images/company-store-clerks.png",
+    "output_path": "cast/images/company-store-clerks.jpg",
     "paired_page_path": "cast/company-store-clerks.md",
     "issue_title": "Image: Company Store Clerks",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/company-store-clerks.png",
+    "format": "jpeg",
+    "path": "cast/images/company-store-clerks.jpg",
     "size": [
       1024,
       1024

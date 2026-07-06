@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Ranch boundary country near French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in range work and boundary conflict",
-    "output_path": "cast/images/fence-riders.png",
+    "output_path": "cast/images/fence-riders.jpg",
     "paired_page_path": "cast/fence-riders.md",
     "issue_title": "Image: Fence Riders",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/fence-riders.png",
+    "format": "jpeg",
+    "path": "cast/images/fence-riders.jpg",
     "size": [
       1024,
       1024

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, opening around French Gulch, Clear Creek, Shasta, and the Klamath mountains",
     "rdr_clone_target": "RDR-clone western: horseback travel, camp life, hunting, debt, law pressure, outlaw choice, and a hard 1899 frontier tone",
-    "output_path": "play/images/procedural-map-generation.png",
+    "output_path": "play/images/procedural-map-generation.jpg",
     "paired_page_path": "play/procedural-map-generation.md",
     "issue_title": "Image: Procedural Map Generation",
     "aspect_ratio": "1:1",
@@ -92,8 +92,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "play/images/procedural-map-generation.png",
+    "format": "jpeg",
+    "path": "play/images/procedural-map-generation.jpg",
     "size": [
       1024,
       1024

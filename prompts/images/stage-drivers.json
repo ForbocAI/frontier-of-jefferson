@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Mountain stage road outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in stage travel and road danger",
-    "output_path": "cast/images/stage-drivers.png",
+    "output_path": "cast/images/stage-drivers.jpg",
     "paired_page_path": "cast/stage-drivers.md",
     "issue_title": "Image: Stage Drivers",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/stage-drivers.png",
+    "format": "jpeg",
+    "path": "cast/images/stage-drivers.jpg",
     "size": [
       1024,
       1024

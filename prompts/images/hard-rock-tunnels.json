@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "timbered hard-rock mine tunnel under the Jefferson hills",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in underground mining danger",
-    "output_path": "regions/images/hard-rock-tunnels.png",
+    "output_path": "regions/images/hard-rock-tunnels.jpg",
     "paired_page_path": "regions/hard-rock-tunnels.md",
     "issue_title": "Image: Hard-Rock Tunnels",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/hard-rock-tunnels.png",
+    "format": "jpeg",
+    "path": "regions/images/hard-rock-tunnels.jpg",
     "size": [
       1024,
       1024

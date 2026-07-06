@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/guidance.png",
+    "output_path": "rules/images/guidance.jpg",
     "paired_page_path": "rules/guidance.md",
     "issue_title": "Image: Guidance",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/guidance.png",
+    "format": "jpeg",
+    "path": "rules/images/guidance.jpg",
     "size": [
       1024,
       1024

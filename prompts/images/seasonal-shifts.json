@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson wagon road where snowmelt, mud, dry grass, and smoke haze meet across elevation",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in seasonal travel and work pressure",
-    "output_path": "regions/images/seasonal-shifts.png",
+    "output_path": "regions/images/seasonal-shifts.jpg",
     "paired_page_path": "regions/seasonal-shifts.md",
     "issue_title": "Image: Seasonal Shifts",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/seasonal-shifts.png",
+    "format": "jpeg",
+    "path": "regions/images/seasonal-shifts.jpg",
     "size": [
       1024,
       1024

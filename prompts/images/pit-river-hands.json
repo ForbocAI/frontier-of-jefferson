@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "A dusty wagon yard near a Shasta road junction",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in Native community labor and road pressure",
-    "output_path": "cast/images/pit-river-hands.png",
+    "output_path": "cast/images/pit-river-hands.jpg",
     "paired_page_path": "cast/pit-river-hands.md",
     "issue_title": "Image: Pit River Hands",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/pit-river-hands.png",
+    "format": "jpeg",
+    "path": "cast/images/pit-river-hands.jpg",
     "size": [
       1024,
       1024

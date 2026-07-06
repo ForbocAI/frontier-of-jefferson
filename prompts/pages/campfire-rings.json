@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with trail evidence, rest pressure, overheard lies, night danger, and hard choices around shared fire",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/campfire-rings.md",
-    "paired_image_path": "regions/images/campfire-rings.png",
+    "paired_image_path": "regions/images/campfire-rings.jpg",
     "issue_title": "Page: Campfire Rings",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A campfire-ring scene should ask who sat close, who slept apart, what was burned, and which track avoided the light.",
     "must_preserve": [
       "Use 1899 western trail, camp, and tracking language only.",
-      "The generated page must include image path regions/images/campfire-rings.png.",
+      "The generated page must include image path regions/images/campfire-rings.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/campfire-rings.md",
-    "image_reference": "regions/images/campfire-rings.png",
+    "image_reference": "regions/images/campfire-rings.jpg",
     "do_not_write_page_now": true
   }
 }

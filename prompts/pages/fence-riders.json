@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with range travel, reputation, animal handling, local law, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/fence-riders.md",
-    "paired_image_path": "cast/images/fence-riders.png",
+    "paired_image_path": "cast/images/fence-riders.jpg",
     "issue_title": "Page: Fence Riders",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western range language only.",
       "Keep boundary conflict practical and social, not symbolic only.",
-      "The generated page must include image path cast/images/fence-riders.png.",
+      "The generated page must include image path cast/images/fence-riders.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/fence-riders.md",
-    "image_reference": "cast/images/fence-riders.png",
+    "image_reference": "cast/images/fence-riders.jpg",
     "do_not_write_page_now": true
   }
 }

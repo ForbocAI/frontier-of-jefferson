@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with supply pressure, credit, trade, road news, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/sutler-posts.md",
-    "paired_image_path": "regions/images/sutler-posts.png",
+    "paired_image_path": "regions/images/sutler-posts.jpg",
     "issue_title": "Page: Sutler Posts",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A sutler-post scene should ask what supply is missing, who can pay, who must bargain, and what road news comes with the sale.",
     "must_preserve": [
       "Use 1899 western supply and trade language only.",
-      "The generated page must include image path regions/images/sutler-posts.png.",
+      "The generated page must include image path regions/images/sutler-posts.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/sutler-posts.md",
-    "image_reference": "regions/images/sutler-posts.png",
+    "image_reference": "regions/images/sutler-posts.jpg",
     "do_not_write_page_now": true
   }
 }

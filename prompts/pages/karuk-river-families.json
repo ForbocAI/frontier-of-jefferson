@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with river travel, land pressure, family work, negotiation, and hard frontier choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/karuk-river-families.md",
-    "paired_image_path": "cast/images/karuk-river-families.png",
+    "paired_image_path": "cast/images/karuk-river-families.jpg",
     "issue_title": "Page: Karuk River Families",
     "quality_bar": "hand-cut, grounded, respectful, table-useful, western-only language"
   },
@@ -52,7 +52,7 @@
       "Use respectful 1899 western and regional language only.",
       "Do not invent sacred practices, fake words, or mystical traits.",
       "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
-      "The generated page must include image path cast/images/karuk-river-families.png.",
+      "The generated page must include image path cast/images/karuk-river-families.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -71,7 +71,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/karuk-river-families.md",
-    "image_reference": "cast/images/karuk-river-families.png",
+    "image_reference": "cast/images/karuk-river-families.jpg",
     "do_not_write_page_now": true
   }
 }

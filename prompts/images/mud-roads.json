@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "rain-soaked wagon road below French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in muddy travel and freight pressure",
-    "output_path": "regions/images/mud-roads.png",
+    "output_path": "regions/images/mud-roads.jpg",
     "paired_page_path": "regions/mud-roads.md",
     "issue_title": "Image: Mud Roads",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/mud-roads.png",
+    "format": "jpeg",
+    "path": "regions/images/mud-roads.jpg",
     "size": [
       1024,
       1024

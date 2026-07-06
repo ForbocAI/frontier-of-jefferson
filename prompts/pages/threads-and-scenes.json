@@ -6,7 +6,7 @@
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "rules/threads-and-scenes.md",
-    "paired_image_path": "images/threads-and-scenes.png",
+    "paired_image_path": "images/threads-and-scenes.jpg",
     "issue_title": "Page: Threads and Scenes",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
   },
@@ -72,7 +72,7 @@
   "output": {
     "format": "markdown",
     "path": "rules/threads-and-scenes.md",
-    "image_reference": "images/threads-and-scenes.png",
+    "image_reference": "images/threads-and-scenes.jpg",
     "do_not_write_now": true
   }
 }

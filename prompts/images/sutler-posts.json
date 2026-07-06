@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Road sutler post at a dusty junction outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in supply pressure and road commerce",
-    "output_path": "regions/images/sutler-posts.png",
+    "output_path": "regions/images/sutler-posts.jpg",
     "paired_page_path": "regions/sutler-posts.md",
     "issue_title": "Image: Sutler Posts",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/sutler-posts.png",
+    "format": "jpeg",
+    "path": "regions/images/sutler-posts.jpg",
     "size": [
       1024,
       1024

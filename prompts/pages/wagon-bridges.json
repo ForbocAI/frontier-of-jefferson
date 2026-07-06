@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with crossing trouble, toll pressure, repair work, and armed road control",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/wagon-bridges.md",
-    "paired_image_path": "regions/images/wagon-bridges.png",
+    "paired_image_path": "regions/images/wagon-bridges.jpg",
     "issue_title": "Page: Wagon Bridges",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A wagon-bridge scene should ask who owns the crossing today, what broke overnight, and what waits below the deck.",
     "must_preserve": [
       "Use 1899 western road and freight language only.",
-      "The generated page must include image path regions/images/wagon-bridges.png.",
+      "The generated page must include image path regions/images/wagon-bridges.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/wagon-bridges.md",
-    "image_reference": "regions/images/wagon-bridges.png",
+    "image_reference": "regions/images/wagon-bridges.jpg",
     "do_not_write_page_now": true
   }
 }

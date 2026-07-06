@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Trail junction and camp edge outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in practical marks, trail warnings, and camp work",
-    "output_path": "cast/images/brands-blazes-and-camp-calls.png",
+    "output_path": "cast/images/brands-blazes-and-camp-calls.jpg",
     "paired_page_path": "cast/brands-blazes-and-camp-calls.md",
     "issue_title": "Image: Brands, Blazes, and Camp Calls",
     "aspect_ratio": "1:1",
@@ -90,8 +90,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/brands-blazes-and-camp-calls.png",
+    "format": "jpeg",
+    "path": "cast/images/brands-blazes-and-camp-calls.jpg",
     "size": [
       1024,
       1024

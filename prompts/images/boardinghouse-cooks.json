@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Boardinghouse kitchen in French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in food, rumor, shelter, and work-camp pressure",
-    "output_path": "cast/images/boardinghouse-cooks.png",
+    "output_path": "cast/images/boardinghouse-cooks.jpg",
     "paired_page_path": "cast/boardinghouse-cooks.md",
     "issue_title": "Image: Boardinghouse Cooks",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/boardinghouse-cooks.png",
+    "format": "jpeg",
+    "path": "cast/images/boardinghouse-cooks.jpg",
     "size": [
       1024,
       1024

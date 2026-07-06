@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "windy state-line reach where wagon road, ferry mud, and law papers meet",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in border-country law and road pressure",
-    "output_path": "regions/images/state-line-reaches.png",
+    "output_path": "regions/images/state-line-reaches.jpg",
     "paired_page_path": "regions/state-line-reaches.md",
     "issue_title": "Image: State-Line Reaches",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/state-line-reaches.png",
+    "format": "jpeg",
+    "path": "regions/images/state-line-reaches.jpg",
     "size": [
       1024,
       1024

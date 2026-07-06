@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Small churchyard outside French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in refuge, mourning, and town memory",
-    "output_path": "regions/images/mission-church-yards.png",
+    "output_path": "regions/images/mission-church-yards.jpg",
     "paired_page_path": "regions/mission-church-yards.md",
     "issue_title": "Image: Mission-Church Yards",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/mission-church-yards.png",
+    "format": "jpeg",
+    "path": "regions/images/mission-church-yards.jpg",
     "size": [
       1024,
       1024

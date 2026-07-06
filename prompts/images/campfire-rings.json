@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "old campfire ring beside a wagon track and pine duff in Jefferson country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in trail evidence and night-camp pressure",
-    "output_path": "regions/images/campfire-rings.png",
+    "output_path": "regions/images/campfire-rings.jpg",
     "paired_page_path": "regions/campfire-rings.md",
     "issue_title": "Image: Campfire Rings",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/campfire-rings.png",
+    "format": "jpeg",
+    "path": "regions/images/campfire-rings.jpg",
     "size": [
       1024,
       1024

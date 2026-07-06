@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with labor pressure, road knowledge, kin networks, land rights, prejudice, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/pit-river-hands.md",
-    "paired_image_path": "cast/images/pit-river-hands.png",
+    "paired_image_path": "cast/images/pit-river-hands.jpg",
     "issue_title": "Page: Pit River Hands",
     "quality_bar": "hand-cut, grounded, respectful, table-useful, western-only language"
   },
@@ -57,7 +57,7 @@
       "Use respectful 1899 western and regional language only.",
       "Do not invent sacred practices, fake words, or mystical traits.",
       "Represent Native people as living families, workers, stewards, negotiators, and political actors.",
-      "The generated page must include image path cast/images/pit-river-hands.png.",
+      "The generated page must include image path cast/images/pit-river-hands.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -76,7 +76,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/pit-river-hands.md",
-    "image_reference": "cast/images/pit-river-hands.png",
+    "image_reference": "cast/images/pit-river-hands.jpg",
     "do_not_write_page_now": true
   }
 }

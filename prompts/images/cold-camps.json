@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "cold trail camp near a creek bar and pine brush in Jefferson country",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in track reading and survival evidence",
-    "output_path": "regions/images/cold-camps.png",
+    "output_path": "regions/images/cold-camps.jpg",
     "paired_page_path": "regions/cold-camps.md",
     "issue_title": "Image: Cold Camps",
     "aspect_ratio": "1:1",
@@ -87,8 +87,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "regions/images/cold-camps.png",
+    "format": "jpeg",
+    "path": "regions/images/cold-camps.jpg",
     "size": [
       1024,
       1024

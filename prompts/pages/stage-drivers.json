@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with travel, payroll risk, passenger trouble, law heat, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/stage-drivers.md",
-    "paired_image_path": "cast/images/stage-drivers.png",
+    "paired_image_path": "cast/images/stage-drivers.jpg",
     "issue_title": "Page: Stage Drivers",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -51,7 +51,7 @@
     "must_preserve": [
       "Use 1899 western stage and road language only.",
       "Keep travel danger physical, social, and schedule-driven.",
-      "The generated page must include image path cast/images/stage-drivers.png.",
+      "The generated page must include image path cast/images/stage-drivers.jpg.",
       "No finished page prose, final moves, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -70,7 +70,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/stage-drivers.md",
-    "image_reference": "cast/images/stage-drivers.png",
+    "image_reference": "cast/images/stage-drivers.jpg",
     "do_not_write_page_now": true
   }
 }

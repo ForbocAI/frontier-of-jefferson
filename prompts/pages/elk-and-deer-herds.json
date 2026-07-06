@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with hunting, food scarcity, predator draw, restraint, land claims, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "cast/elk-and-deer-herds.md",
-    "paired_image_path": "cast/images/elk-and-deer-herds.png",
+    "paired_image_path": "cast/images/elk-and-deer-herds.jpg",
     "issue_title": "Page: Elk and Deer Herds",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -56,7 +56,7 @@
     "must_preserve": [
       "Use 1899 western animal-sign, hunting, and food language only.",
       "Keep deer and elk naturalistic and ecologically grounded.",
-      "The generated page must include image path cast/images/elk-and-deer-herds.png.",
+      "The generated page must include image path cast/images/elk-and-deer-herds.jpg.",
       "No finished page prose, final entries, or final sayings belong in this prompt file."
     ],
     "avoid": [
@@ -75,7 +75,7 @@
   "output": {
     "format": "markdown",
     "path": "cast/elk-and-deer-herds.md",
-    "image_reference": "cast/images/elk-and-deer-herds.png",
+    "image_reference": "cast/images/elk-and-deer-herds.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Clear Creek within Wintu homeland near French Gulch",
     "rdr_clone_target": "PS3-era RDR-clone western art, grounded in community life, land pressure, and rugged 1899 work",
-    "output_path": "cast/images/clear-creek-wintu-families.png",
+    "output_path": "cast/images/clear-creek-wintu-families.jpg",
     "paired_page_path": "cast/clear-creek-wintu-families.md",
     "issue_title": "Image: Clear Creek Wintu Families",
     "aspect_ratio": "1:1",
@@ -88,8 +88,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "cast/images/clear-creek-wintu-families.png",
+    "format": "jpeg",
+    "path": "cast/images/clear-creek-wintu-families.jpg",
     "size": [
       1024,
       1024

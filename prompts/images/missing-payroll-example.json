@@ -4,7 +4,7 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "rules/images/missing-payroll-example.png",
+    "output_path": "rules/images/missing-payroll-example.jpg",
     "paired_page_path": "rules/missing-payroll-example.md",
     "issue_title": "Image: Missing Payroll Example",
     "aspect_ratio": "1:1",
@@ -89,8 +89,8 @@
     ]
   },
   "output": {
-    "format": "png",
-    "path": "rules/images/missing-payroll-example.png",
+    "format": "jpeg",
+    "path": "rules/images/missing-payroll-example.jpg",
     "size": [
       1024,
       1024

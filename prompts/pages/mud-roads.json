@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with road delay, wagon trouble, weather pressure, ambush timing, and hard travel choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/mud-roads.md",
-    "paired_image_path": "regions/images/mud-roads.png",
+    "paired_image_path": "regions/images/mud-roads.jpg",
     "issue_title": "Page: Mud Roads",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A mud-road scene should ask what is stuck, who cannot wait, what tracks will wash out, and who benefits from the delay.",
     "must_preserve": [
       "Use 1899 western road, freight, weather, and tracking language only.",
-      "The generated page must include image path regions/images/mud-roads.png.",
+      "The generated page must include image path regions/images/mud-roads.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/mud-roads.md",
-    "image_reference": "regions/images/mud-roads.png",
+    "image_reference": "regions/images/mud-roads.jpg",
     "do_not_write_page_now": true
   }
 }

@@ -7,7 +7,7 @@
     "rdr_clone_target": "RDR-clone western with road friction, freight, witnesses, mud, law heat, and hard choices",
     "content_policy": "shape_and_generation_guidance_only",
     "output_path": "regions/french-gulch-road.md",
-    "paired_image_path": "regions/images/french-gulch-road.png",
+    "paired_image_path": "regions/images/french-gulch-road.jpg",
     "issue_title": "Page: French Gulch Road",
     "quality_bar": "hand-cut, grounded, table-useful, western-only language"
   },
@@ -46,7 +46,7 @@
     "table_spark": "A French Gulch Road scene should ask what the riders bring in, what follows them, and who sees them before the town admits it.",
     "must_preserve": [
       "Use 1899 western road language only.",
-      "The generated page must include image path regions/images/french-gulch-road.png.",
+      "The generated page must include image path regions/images/french-gulch-road.jpg.",
       "The prompt must not contain final prose, final blockquotes, or finished field marks."
     ],
     "avoid": [
@@ -64,7 +64,7 @@
   "output": {
     "format": "markdown",
     "path": "regions/french-gulch-road.md",
-    "image_reference": "regions/images/french-gulch-road.png",
+    "image_reference": "regions/images/french-gulch-road.jpg",
     "do_not_write_page_now": true
   }
 }
