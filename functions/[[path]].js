@@ -17,15 +17,16 @@ function requestForPath(request, pathname) {
 
 export async function onRequest(context) {
   const { request, env } = context;
+  const url = new URL(request.url);
+  const appRouteRequest = isAppRouteRequest(request, url);
   const assetResponse = await env.ASSETS.fetch(request);
 
-  if (assetResponse.status !== 404) {
+  if (assetResponse.status !== 404
+    && !(appRouteRequest && assetResponse.status >= 300 && assetResponse.status < 400)) {
     return assetResponse;
   }
 
-  const url = new URL(request.url);
-
-  if (!isAppRouteRequest(request, url)) {
+  if (!appRouteRequest) {
     return assetResponse;
   }
 
