@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
-    "output_path": "folk/the-claim-king.md",
+    "output_path": "cast/the-claim-king.md",
     "paired_image_path": "images/claim-king.png",
     "issue_title": "Page: The Claim King",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
@@ -65,7 +65,7 @@
   },
   "output": {
     "format": "markdown",
-    "path": "folk/the-claim-king.md",
+    "path": "cast/the-claim-king.md",
     "image_reference": "images/claim-king.png",
     "do_not_write_now": true
   }

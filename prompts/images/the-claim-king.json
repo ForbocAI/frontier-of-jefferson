@@ -4,8 +4,8 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "folk/images/the-claim-king.png",
-    "paired_page_path": "folk/the-claim-king.md",
+    "output_path": "cast/images/the-claim-king.png",
+    "paired_page_path": "cast/the-claim-king.md",
     "issue_title": "Image: The Claim King",
     "aspect_ratio": "1:1",
     "quality": "ps3_era_open_world_western_game_art"
@@ -90,7 +90,7 @@
   },
   "output": {
     "format": "png",
-    "path": "folk/images/the-claim-king.png",
+    "path": "cast/images/the-claim-king.png",
     "size": [
       1024,
       1024

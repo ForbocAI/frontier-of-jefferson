@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
-    "output_path": "familiar/contest-mechanic.md",
+    "output_path": "rules/contest-mechanic.md",
     "paired_image_path": "images/contest-mechanic.png",
     "issue_title": "Page: Contest Mechanic",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
@@ -62,7 +62,7 @@
   },
   "output": {
     "format": "markdown",
-    "path": "familiar/contest-mechanic.md",
+    "path": "rules/contest-mechanic.md",
     "image_reference": "images/contest-mechanic.png",
     "do_not_write_now": true
   }

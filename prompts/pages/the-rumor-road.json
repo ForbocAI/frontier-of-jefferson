@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
-    "output_path": "folk/the-rumor-road.md",
+    "output_path": "cast/the-rumor-road.md",
     "paired_image_path": "images/rumor-road.png",
     "issue_title": "Page: The Rumor Road",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
@@ -65,7 +65,7 @@
   },
   "output": {
     "format": "markdown",
-    "path": "folk/the-rumor-road.md",
+    "path": "cast/the-rumor-road.md",
     "image_reference": "images/rumor-road.png",
     "do_not_write_now": true
   }

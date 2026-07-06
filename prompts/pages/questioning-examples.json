@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
-    "output_path": "familiar/questioning-examples.md",
+    "output_path": "rules/questioning-examples.md",
     "paired_image_path": "images/questioning-examples.png",
     "issue_title": "Page: Questioning Examples",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
@@ -60,7 +60,7 @@
   },
   "output": {
     "format": "markdown",
-    "path": "familiar/questioning-examples.md",
+    "path": "rules/questioning-examples.md",
     "image_reference": "images/questioning-examples.png",
     "do_not_write_now": true
   }

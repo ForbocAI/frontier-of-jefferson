@@ -174,6 +174,14 @@
         [
           "Brands, Blazes, and Camp Calls",
           "cast/brands-blazes-and-camp-calls.md"
+        ],
+        [
+          "The Claim King",
+          "cast/the-claim-king.md"
+        ],
+        [
+          "The Rumor Road",
+          "cast/the-rumor-road.md"
         ]
       ],
       "regions": [
@@ -230,32 +238,28 @@
           "regions/spring-caves.md"
         ],
         [
-          "Shaft Mouths",
-          "regions/shaft-mouths.md"
+          "Campfire Rings",
+          "regions/campfire-rings.md"
         ],
         [
-          "Gumbo Roads",
-          "regions/gumbo-roads.md"
+          "Mud Roads",
+          "regions/mud-roads.md"
         ],
         [
-          "Hay Meadows",
-          "regions/hay-meadows.md"
+          "Seasonal Shifts",
+          "regions/seasonal-shifts.md"
         ],
         [
-          "Fire Rings",
-          "regions/fire-rings.md"
+          "Shaft Drops",
+          "regions/shaft-drops.md"
         ],
         [
-          "Weather Turns",
-          "regions/weather-turns.md"
+          "State-Line Reaches",
+          "regions/state-line-reaches.md"
         ],
         [
-          "Border Reaches",
-          "regions/border-reaches.md"
-        ],
-        [
-          "Blazes and Cairns",
-          "regions/blazes-and-cairns.md"
+          "Trail Blazes",
+          "regions/trail-blazes.md"
         ]
       ],
       "prologue": [
@@ -272,60 +276,56 @@
       ],
       "rules": [
         [
-          "Outfitting the Table",
-          "rules/outfitting-the-table.md"
+          "Initialization",
+          "rules/initialization.md"
         ],
         [
-          "Trail Boss Guidance",
-          "rules/trail-boss-guidance.md"
+          "Guidance",
+          "rules/guidance.md"
         ],
         [
-          "Asking the Deck",
-          "rules/asking-the-deck.md"
+          "Questioning",
+          "rules/questioning.md"
         ],
         [
-          "Asking the Deck Examples",
-          "rules/asking-the-deck-examples.md"
+          "Questioning Examples",
+          "rules/questioning-examples.md"
         ],
         [
-          "First Ride Tutorial",
-          "rules/first-ride-tutorial.md"
+          "Questioning Tutorial",
+          "rules/questioning-tutorial.md"
         ],
         [
-          "Troubles and Scenes",
-          "rules/troubles-and-scenes.md"
+          "Threads and Scenes",
+          "rules/threads-and-scenes.md"
         ],
         [
-          "Turning Rumors",
-          "rules/turning-rumors.md"
+          "Storyspinning",
+          "rules/storyspinning.md"
         ],
         [
-          "Short Ride Tutorial",
-          "rules/short-ride-tutorial.md"
+          "Vignette Tutorial",
+          "rules/vignette-tutorial.md"
         ],
         [
-          "Ledger Work",
-          "rules/ledger-work.md"
+          "Bookkeeping",
+          "rules/bookkeeping.md"
         ],
         [
-          "Table Compact",
-          "rules/table-compact.md"
-        ],
-        [
-          "Posse Play",
-          "rules/posse-play.md"
+          "Group Social Contract",
+          "rules/group-social-contract.md"
         ],
         [
           "Missing Payroll Example",
           "rules/missing-payroll-example.md"
         ],
         [
-          "Contest Rules",
-          "rules/contest-rules.md"
+          "Contest Mechanic",
+          "rules/contest-mechanic.md"
         ],
         [
-          "Camp Talk and Trail Sign",
-          "rules/camp-talk-and-trail-sign.md"
+          "Frontier Phrases and Trail Marks",
+          "rules/frontier-phrases-and-trail-marks.md"
         ]
       ],
       "play": [

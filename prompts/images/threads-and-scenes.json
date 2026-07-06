@@ -4,8 +4,8 @@
     "project": "Frontier of Jefferson",
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
-    "output_path": "familiar/images/threads-and-scenes.png",
-    "paired_page_path": "familiar/threads-and-scenes.md",
+    "output_path": "rules/images/threads-and-scenes.png",
+    "paired_page_path": "rules/threads-and-scenes.md",
     "issue_title": "Image: Threads and Scenes",
     "aspect_ratio": "1:1",
     "quality": "ps3_era_open_world_western_game_art"
@@ -90,7 +90,7 @@
   },
   "output": {
     "format": "png",
-    "path": "familiar/images/threads-and-scenes.png",
+    "path": "rules/images/threads-and-scenes.png",
     "size": [
       1024,
       1024

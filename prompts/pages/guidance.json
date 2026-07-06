@@ -5,7 +5,7 @@
     "game_year": 1899,
     "setting": "Jefferson State frontier, beginning in French Gulch",
     "content_policy": "shape_and_generation_guidance_only",
-    "output_path": "familiar/guidance.md",
+    "output_path": "rules/guidance.md",
     "paired_image_path": "images/guidance.png",
     "issue_title": "Page: Guidance",
     "quality_bar": "boutique, hand-directed, source-agnostic, structurally strict"
@@ -60,7 +60,7 @@
   },
   "output": {
     "format": "markdown",
-    "path": "familiar/guidance.md",
+    "path": "rules/guidance.md",
     "image_reference": "images/guidance.png",
     "do_not_write_now": true
   }
